@@ -13,7 +13,7 @@ It is of great surprise to (almost) everyone when a person can precisely name th
 
 Perfect pitch or absolute pitch refers to the ability of any person who can figure out the name of the corresponding note for any given sound. This can go from identifying any note on a piano o guitar, to even hitting a glass with a spoon, the claxon of a car and maybe even a snap from your fingers. It also varies in precision, since some can just barely say it is a G, while others can hone down to cents of semitones.
 
-> This remarkable ability exists in a small fraction of the population and appears to be the result of an innate predisposition, combined with musical exposure and training, probably within a critical period during childhood. $^1$
+> This remarkable ability exists in a small fraction of the population and appears to be the result of an innate predisposition, combined with musical exposure and training, probably within a critical period during childhood. [1]
 
 This rare skill (1 in 10.000 people), while it is quite flashy and makes for a very good showcase at parties and events alike, is not of much use. This opinion, however, is polarizing in the musicians community. 
 
@@ -83,4 +83,4 @@ Maybe we've been sleeping on this concept (synesthesia) too much when it is real
 
 ## Bibliography
 
-1. —Drayna, D.T. (2007) Absolute pitch: A special group of ears. Proceedings of the National Academy of Sciences of the United States of America, 104 (37):14549-50.
+[1]: —Drayna, D.T. (2007) Absolute pitch: A special group of ears. Proceedings of the National Academy of Sciences of the United States of America, 104 (37):14549-50.

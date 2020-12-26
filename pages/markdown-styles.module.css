@@ -1,0 +1,55 @@
+.markdown {
+    @apply text-lg leading-relaxed;
+}
+  
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+    @apply my-8 text-2xl;
+    color: #d6d6d6;
+    font-family: Avenir;
+}
+
+.markdown blockquote p {
+    @apply italic font-serif text-lg;
+    color: #1e1e1e;
+    background-color: #c1eee5;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding: 10px;
+
+}
+
+.markdown p {
+    text-align: justify;
+}
+  
+.markdown h1 {
+    @apply text-7xl text-white font-bold mt-12 mb-4 leading-snug;
+}
+
+.markdown h2 {
+    color: white;
+    background-color: #1abc9c;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 15px;
+    @apply text-3xl mt-12 font-bold mb-4 leading-snug;
+}
+  
+.markdown h3 {
+    @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown em {
+    color: #d2e4ff;
+}
+
+.markdown code {
+    margin-bottom: 30px;
+    color: rgb(243, 54, 54);
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 7px;
+}

@@ -5,6 +5,7 @@ import matter from "gray-matter";
 import Head from "next/head";
 import marked from "marked";
 import Layout from "../../components/Layout";
+import PostBody from "../post-body";
 
 const Post = ({ htmlString, data }) => {
   return (
@@ -14,16 +15,16 @@ const Post = ({ htmlString, data }) => {
         <meta title="description" content={data.description} />
       </Head>
       <Layout>
-        <div
-          className="article"
-          dangerouslySetInnerHTML={{ __html: htmlString }}
-        />
+        <PostBody content={htmlString} />
         <style jsx>
           {`
             .article {
               color: #eeeeee;
               min-height: 25vh;
-              padding: 0 10rem;
+
+              margin: 0 3em;
+              margin: 0 auto;
+              padding: 0 1em;
               display: grid;
 
               justify-content: baseline;
