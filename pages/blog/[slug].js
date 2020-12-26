@@ -4,6 +4,7 @@ import path, { parse } from "path";
 import matter from "gray-matter";
 import Head from "next/head";
 import marked from "marked";
+import Layout from "../../components/Layout";
 
 const Post = ({ htmlString, data }) => {
   return (
@@ -12,7 +13,26 @@ const Post = ({ htmlString, data }) => {
         <title>{data.title}</title>
         <meta title="description" content={data.description} />
       </Head>
-      <div dangerouslySetInnerHTML={{ __html: htmlString }} />
+      <Layout>
+        <div
+          className="article"
+          dangerouslySetInnerHTML={{ __html: htmlString }}
+        />
+        <style jsx>
+          {`
+            .article {
+              color: #444444;
+              min-height: 25vh;
+              padding: 0 10rem;
+
+              justify-content: left;
+              align-items: center;
+
+              word-break: break-word;
+            }
+          `}
+        </style>
+      </Layout>
     </>
   );
 };

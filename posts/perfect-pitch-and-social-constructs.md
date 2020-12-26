@@ -3,7 +3,7 @@ title: Perfect pitch and social constructs
 description: A brief thought syntesis on how we like to name things
 ---
 
-# Perfect pitch and social constructs
+# 👂🏻 Perfect pitch and social constructs
 
 *December 23rd, 2020*
 
