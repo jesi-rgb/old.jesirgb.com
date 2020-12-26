@@ -21,11 +21,13 @@ const Post = ({ htmlString, data }) => {
         <style jsx>
           {`
             .article {
-              color: #444444;
+              color: #eeeeee;
               min-height: 25vh;
               padding: 0 10rem;
+              display: grid;
 
-              justify-content: left;
+              justify-content: baseline;
+              text-align: justify;
               align-items: center;
 
               word-break: break-word;

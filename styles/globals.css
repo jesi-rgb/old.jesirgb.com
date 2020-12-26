@@ -1,11 +1,12 @@
 html,
 body {
-  padding: 1em;
-  margin: 1em;
+  /* padding: 1em; */
+  /* margin: 1em; */
   font-family: Avenir, Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  
+  background-color: #333333;
+  font-size: 30px;
 }
 
 h1 {
@@ -13,18 +14,26 @@ h1 {
 }
 
 h2 {
-  color: #120D31;
+  color: white;
+  background-color: #1abc9c;
+  border-radius: 20px;
+  padding: 9px;
+  padding-left: 20px;
+  margin-top: 3em;
 }
 
 a {
   color: inherit;
-  text-decoration: dashed;
+  text-decoration: none;
 }
+
+
+
 
 * {
   box-sizing: border-box;
 }
 
 em {
-  color: #777777;
+  color: #c5f2e9;
 }

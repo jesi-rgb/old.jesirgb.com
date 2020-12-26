@@ -1,19 +1,20 @@
 export const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       jesús rascón | 2020
       <style jsx>{`
-        .footer {
-          position: fixed;
-          padding: 1em;
-          left: 0;
+        footer {
+          position: static;
           bottom: 0;
           width: 100%;
-          background-color: #5d737e;
-          color: white;
+
+          margin: 0;
+          padding: 1em;
+          background-color: white;
+          color: #1e1e1e;
           text-align: center;
         }
       `}</style>
-    </div>
+    </footer>
   );
 };
