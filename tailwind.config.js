@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         "accent-1": "#1abc9c",
-        "accent-2": "#EAEAEA",
+        "accent-2": "#725ac1",
         "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1",

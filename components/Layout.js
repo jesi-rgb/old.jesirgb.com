@@ -1,13 +1,17 @@
 import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { HeaderTW } from "./HeaderTW";
+import Meta from "../components/meta";
 
 export const Layout = ({ children }) => {
   return (
-    <div>
-      <Header />
-      {children}
-      <Footer />
-    </div>
+    <>
+      <Meta />
+      <div>
+        <HeaderTW />
+        {children}
+        <Footer />
+      </div>
+    </>
   );
 };
 
