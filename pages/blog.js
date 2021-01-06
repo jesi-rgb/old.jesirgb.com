@@ -1,7 +1,7 @@
 import Link from "next/link";
 import fs from "fs";
 import Layout from "../components/Layout";
-import IndexBody from "./blog-index-body";
+import BlogIndexBody from "./blog-index-body";
 
 export default function Blog({ slugs }) {
   return (

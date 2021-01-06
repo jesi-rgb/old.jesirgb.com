@@ -1,4 +1,4 @@
-import { Footer } from "./Footer";
+import Footer from "./Footer";
 import { HeaderTW } from "./HeaderTW";
 import Meta from "../components/meta";
 

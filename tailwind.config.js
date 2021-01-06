@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         "accent-1": "#1abc9c",
         "accent-2": "#725ac1",
-        "accent-7": "#333",
+        "accent-7": "#1e1e1e",
         success: "#0070f3",
         cyan: "#79FFE1",
       },
@@ -27,6 +27,9 @@ module.exports = {
       boxShadow: {
         small: "0 5px 10px rgba(0, 0, 0, 0.12)",
         medium: "0 8px 30px rgba(0, 0, 0, 0.12)",
+      },
+      scale: {
+        200: "2",
       },
     },
   },
