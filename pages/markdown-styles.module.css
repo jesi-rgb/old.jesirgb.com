@@ -4,8 +4,7 @@
   
 .markdown p,
 .markdown ul,
-.markdown ol,
-.markdown blockquote {
+.markdown ol {
     @apply my-8 text-2xl;
     color: #d6d6d6;
     font-family: Avenir;
@@ -14,7 +13,7 @@
 .markdown blockquote p {
     @apply italic font-serif text-lg;
     color: #1e1e1e;
-    background-color: #c1eee5;
+    background-color: #aff7d0;
     border-radius: 10px;
     padding-left: 15px;
     padding: 15px;
@@ -35,7 +34,7 @@
     border-radius: 10px;
     padding: 8px;
     padding-left: 15px;
-    @apply text-3xl mt-12 font-bold mb-4 leading-snug;
+    @apply text-3xl mt-32 font-bold mb-4 leading-snug;
 }
   
 .markdown h3 {
