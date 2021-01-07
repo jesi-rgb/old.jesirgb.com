@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         "accent-1": "#1abc9c",
         "accent-2": "#725ac1",
+        "accent-2-hover": "#553ca5",
         "accent-7": "#1e1e1e",
         success: "#0070f3",
         cyan: "#79FFE1",
