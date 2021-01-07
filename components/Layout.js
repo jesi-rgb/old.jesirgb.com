@@ -6,10 +6,12 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <div className="max-h-screen space-y-11">
+      <div className="max-h-screen">
         <HeaderTW />
-        {children}
-        <Footer />
+        <div className="relative min-h-screen">
+          {children}
+          <Footer />
+        </div>
       </div>
     </>
   );
