@@ -30,7 +30,7 @@ export const HeaderTW = () => {
                 Blog
               </a>
               <a
-                href="/curriculum"
+                href="https://jesus-enrique-cv.jesi-rgb.vercel.app"
                 className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-accent-1-hover transition-colors"
               >
                 Curriculum

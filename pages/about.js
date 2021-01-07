@@ -43,10 +43,13 @@ export default function About() {
 
               <p className="my-7 text-xl">
                 On the topic of mixing disciplines, the data visualization and
-                data journalism fields very elegantly mix some of my favourites:
-                problem solving, data, graphic design and narrative. Finding
-                good data to mine and process and offer a piece of valuable
-                information to the world literally boils me from excitement.
+                data journalism fields very elegantly mix some of my favourites:{" "}
+                <span className="text-accent-1-lighter font-bold">
+                  problem solving, data, graphic design and narrative.
+                </span>{" "}
+                Finding good data to mine and process and offer a piece of
+                valuable information to the world literally boils me from
+                excitement.
               </p>
 
               <p className="my-7 text-xl">
