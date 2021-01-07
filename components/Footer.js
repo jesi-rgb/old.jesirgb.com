@@ -5,9 +5,9 @@ import {
   faTwitter,
   faGithub,
   faLinkedin,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faAddressBook, faAdjust } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t border-accent-2 flex-shrink-0">
       <Container>
-        <div className="py-12 flex flex-col lg:flex-row items-center">
+        <div className="py-8 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Jesús Rascón
           </h3>
@@ -28,7 +28,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="transform scale-250 mx-7 hover:text-accent-1"
+                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -37,7 +37,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTwitter}
-                className="transform scale-250 mx-7 hover:text-accent-1"
+                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -46,7 +46,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faGithub}
-                className="transform scale-250 mx-7 hover:text-accent-1"
+                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -55,7 +55,15 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="transform scale-250 mx-7 hover:text-accent-1"
+                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
+              />
+            </a>
+          </Link>
+          <Link href="https://t.me/jrascon">
+            <a>
+              <FontAwesomeIcon
+                icon={faTelegram}
+                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>

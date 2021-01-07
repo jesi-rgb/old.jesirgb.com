@@ -17,7 +17,7 @@ export const HeaderTW = () => {
             <nav className="hidden md:flex space-x-10">
               <a
                 href="/"
-                className="text-base font-medium text-white text-4xl font-bold hover:text-accent-7"
+                className="text-base font-medium text-white text-4xl font-bold hover:text-accent-1-hover transition-colors"
               >
                 Thinking thoughts
               </a>
@@ -25,19 +25,19 @@ export const HeaderTW = () => {
             <nav className="hidden md:flex items-right space-x-10 justify-end md:flex-1 lg:w-0">
               <a
                 href="/blog"
-                className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-gray-900"
+                className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-accent-1-hover transition-colors"
               >
                 Blog
               </a>
               <a
                 href="/curriculum"
-                className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-gray-900"
+                className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-accent-1-hover transition-colors"
               >
                 Curriculum
               </a>
               <a
                 href="/about"
-                className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-gray-900"
+                className="whitespace-nowrap text-base text-2xl font-medium text-white hover:text-accent-1-hover transition-colors"
               >
                 About
               </a>

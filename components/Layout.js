@@ -6,7 +6,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <div>
+      <div className="max-h-screen space-y-11">
         <HeaderTW />
         {children}
         <Footer />

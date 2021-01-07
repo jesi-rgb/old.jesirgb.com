@@ -4,6 +4,8 @@ module.exports = {
     extend: {
       colors: {
         "accent-1": "#1abc9c",
+        "accent-1-lighter": "#aff7d0",
+        "accent-1-hover": "#0e685f",
         "accent-2": "#725ac1",
         "accent-2-hover": "#553ca5",
         "accent-7": "#1e1e1e",
@@ -33,6 +35,9 @@ module.exports = {
         200: "2",
         250: "2.5",
         300: "3",
+      },
+      fontFamily: {
+        display: ["Avenir"],
       },
     },
   },

@@ -16,25 +16,6 @@ const Post = ({ htmlString, data }) => {
       </Head>
       <Layout>
         <PostBody content={htmlString} />
-        <style jsx>
-          {`
-            .article {
-              color: #eeeeee;
-              min-height: 25vh;
-
-              margin: 0 3em;
-              margin: 0 auto;
-              padding: 0 1em;
-              display: grid;
-
-              justify-content: baseline;
-              text-align: justify;
-              align-items: center;
-
-              word-break: break-word;
-            }
-          `}
-        </style>
       </Layout>
     </>
   );
