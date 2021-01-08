@@ -1,10 +1,17 @@
 import Container from "../components/container";
 import Layout from "../components/Layout";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import Head from "next/head";
+
 //max-w-2xl mx-auto
 export default function About() {
   return (
     <>
+      <Head>
+        <title>About</title>
+      </Head>
       <Layout>
         <Container>
           <div className="flex text-white items-top p-6 pl-36">
@@ -16,9 +23,13 @@ export default function About() {
                 height={700}
                 className="rounded-md"
               />
+              <span>
+                Credits: Alex Catena.
+                <FontAwesomeIcon icon={faInstagram} />
+              </span>
             </div>
             <div className="flex-none p-6 max-w-3xl items-center">
-              <p className="my-7 text-xl text-xl">
+              <p className="my-7 text-xl">
                 Hi! My name is Jesús and I am an Andalusian{" "}
                 <span className="text-accent-1-lighter font-bold">
                   data analyst, chart lover, designer and musician.
