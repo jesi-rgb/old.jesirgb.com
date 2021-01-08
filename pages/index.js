@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-8xl font-bold text-center">
             Welcome to my lovely place!
           </h1>
-          <TopTracks />
+          <TopTracks className="grid grid-cols-2" />
         </div>
       </Layout>
     </>
