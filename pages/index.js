@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Head from "next/head";
+import TopTracks from "../components/TopTracks";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
           <h1 className="text-8xl font-bold text-center">
             Welcome to my lovely place!
           </h1>
-          <p></p>
+          <TopTracks />
         </div>
       </Layout>
     </>
