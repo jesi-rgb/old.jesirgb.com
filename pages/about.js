@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Head from "next/head";
+import Link from "next/link";
 
 //max-w-2xl mx-auto
 export default function About() {
@@ -15,7 +16,7 @@ export default function About() {
       <Layout>
         <Container>
           <div className="flex text-white items-top p-6 pl-36">
-            <div className="flex-none w-max relative">
+            <div className="flex-none w-max relative grid">
               <Image
                 src="/assets/jesi.jpg"
                 alt="Picture of Jesús Rascón"
@@ -23,9 +24,16 @@ export default function About() {
                 height={700}
                 className="rounded-md"
               />
-              <span>
-                Credits: Alex Catena.
-                <FontAwesomeIcon icon={faInstagram} />
+              <span className="italic row-auto text-sm my-3">
+                Credits: © Alex Catena
+                <Link href="https://www.instagram.com/alexcatena">
+                  <a>
+                    <FontAwesomeIcon
+                      icon={faInstagram}
+                      className="transform scale-200 mx-3 align-center hover:text-accent-1 transition-colors"
+                    />
+                  </a>
+                </Link>
               </span>
             </div>
             <div className="flex-none p-6 max-w-3xl items-center">

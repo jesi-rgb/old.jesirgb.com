@@ -19,7 +19,7 @@ export default function Blog({ slugs }) {
                   <a>
                     <div
                       key={slug}
-                      className="link bg-accent-2 hover:bg-accent-2-hover transition-colors rounded-md pl-2 py-7 my-16 text-2xl text-center text-white"
+                      className="link bg-accent-2 hover:bg-accent-2-hover transition-colors rounded-md pl-2 py-7 my-12 text-2xl text-center text-white"
                     >
                       {slug.replace(/-/g, " ").toUpperCase()}
                     </div>
