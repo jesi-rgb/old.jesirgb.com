@@ -8,10 +8,8 @@ export const Layout = ({ children }) => {
       <Meta />
       <div className="max-h-screen">
         <HeaderTW />
-        <div className="relative min-h-screen">
-          {children}
-          <Footer />
-        </div>
+        {children}
+        <Footer />
       </div>
     </>
   );
