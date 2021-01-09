@@ -41,7 +41,7 @@ export default function About() {
             <p className="mb-7 text-xl">
               Hi! My name is Jesús and I am an Andalusian{" "}
               <span className="text-accent-1-lighter font-bold">
-                data analyst, chart lover, designer and musician.
+                data journalist, chart lover, designer and musician.
               </span>{" "}
               I like to explore all kinds of new disciplines and search for
               relationships between them. I am deeply fascinated by the process

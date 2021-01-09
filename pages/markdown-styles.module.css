@@ -5,9 +5,8 @@
 .markdown p,
 .markdown ul,
 .markdown ol {
-    @apply my-8 text-2xl;
+    @apply my-8 text-2xl font-blogpost;
     color: #d6d6d6;
-    font-family: Avenir;
 }
 
 .markdown blockquote p {
@@ -41,9 +40,9 @@
     @apply text-2xl mt-8 mb-4 leading-snug;
 }
 
-.markdown em {
+/* .markdown em {
     color: #d2e4ff;
-}
+} */
 
 .markdown code {
     margin-bottom: 30px;

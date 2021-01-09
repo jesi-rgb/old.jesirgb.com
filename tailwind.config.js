@@ -37,7 +37,8 @@ module.exports = {
         300: "3",
       },
       fontFamily: {
-        display: ["Avenir"],
+        blogpost: "Avenir",
+        display: "Helvetica",
       },
     },
   },
