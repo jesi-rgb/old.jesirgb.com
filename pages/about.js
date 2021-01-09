@@ -14,7 +14,7 @@ export default function About() {
         <title>About</title>
       </Head>
       <Layout>
-        <div className="space-x-9 flex text-white">
+        <div className="space-x-9 flex text-white font-blogpost">
           <div className="w-2/4">
             <Image
               src="/assets/jesi.jpg"

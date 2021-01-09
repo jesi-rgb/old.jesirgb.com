@@ -37,7 +37,7 @@ module.exports = {
         300: "3",
       },
       fontFamily: {
-        sans: [
+        blogpost: [
           "Avenir",
           "ui-sans-serif",
           "system-ui",
@@ -54,7 +54,23 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
-        display: "Helvetica",
+        display: [
+          "Helvetica Neue",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
       },
     },
   },
