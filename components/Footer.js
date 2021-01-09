@@ -21,17 +21,17 @@ export default function Footer() {
     <footer className="items-center border-t-2 border-gray-200 text-gray-300 mt-32">
       <div className="py-10 flex flex-row items-center">
         <Link href="/">
-          <a className="w-2/5 text-5xl font-bold tracking-tighter leading-tight text-left  hover:text-accent-1 transition-colors">
+          <a className="w-2/6 text-5xl font-bold tracking-tighter leading-tight text-left  hover:text-accent-1 transition-colors">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
 
-        <div className="w-3/5 object-center">
+        <div className="w-2/6 items-center text-center">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
+                className="transform scale-250 mr-7 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -66,12 +66,12 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTelegram}
-                className="transform scale-250 mx-7 hover:text-accent-1 transition-colors"
+                className="transform scale-250 ml-7 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
         </div>
-        <h4 className="text-5xl w-1/5 font-bold tracking-tighter leading-tight text-right">
+        <h4 className="text-5xl w-2/6 font-bold tracking-tighter text-right">
           2021
         </h4>
       </div>
