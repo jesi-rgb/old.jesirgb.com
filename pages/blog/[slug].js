@@ -5,7 +5,7 @@ import matter from "gray-matter";
 import Head from "next/head";
 import marked from "marked";
 import Layout from "../../components/Layout";
-import PostBody from "./post-body";
+import PostBody from "@/components/PostBody";
 
 const Post = ({ htmlString, data }) => {
   return (

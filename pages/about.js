@@ -23,18 +23,19 @@ export default function About() {
               height={700}
               className="rounded-lg"
             />
-          </div>
-          {/* <span className="italic row-auto text-sm my-3">
+
+            <figcaption className="italic row-auto text-sm my-3">
               Credits: © Alex Catena
               <Link href="https://www.instagram.com/alexcatena">
                 <a>
                   <FontAwesomeIcon
                     icon={faInstagram}
-                    className="transform scale-200 mx-3 align-center hover:text-accent-1 transition-colors"
+                    className="transform scale-150 mx-3 align-center hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
-            </span> */}
+            </figcaption>
+          </div>
 
           <div className="w-2/4 text-justify">
             <p className="mb-7 text-xl">
