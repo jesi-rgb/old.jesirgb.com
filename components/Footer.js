@@ -18,14 +18,15 @@ config.autoAddCss = false; /* eslint-disable import/first */
 
 export default function Footer() {
   return (
-    <footer className="bottom-0 max-w-screen-xl mx-auto items-center object-center border-t-2 border-gray-200 text-gray-300">
-      <Container>
-        <div className="py-8 flex flex-col lg:flex-row items-center">
-          <Link href="/">
-            <a className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2  hover:text-accent-1 transition-colors">
-              <h3>Jesús Rascón</h3>
-            </a>
-          </Link>
+    <footer className="items-center border-t-2 border-gray-200 text-gray-300 mt-32">
+      <div className="py-10 flex flex-row items-center">
+        <Link href="/">
+          <a className="w-2/5 text-5xl font-bold tracking-tighter leading-tight text-left  hover:text-accent-1 transition-colors">
+            <h3>Jesús Rascón</h3>
+          </a>
+        </Link>
+
+        <div className="w-3/5 object-center">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon
@@ -69,11 +70,11 @@ export default function Footer() {
               />
             </a>
           </Link>
-          <h4 className="text-2xl text-right lg:text-5xl font-bold tracking-tighter leading-tight lg:text-right mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            2021
-          </h4>
         </div>
-      </Container>
+        <h4 className="text-5xl w-1/5 font-bold tracking-tighter leading-tight text-right">
+          2021
+        </h4>
+      </div>
     </footer>
   );
 }
