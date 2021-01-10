@@ -4,23 +4,23 @@ export const HeaderTW = () => {
   return (
     <>
       {/* header itself */}
-      <div className="relative bg-accent-1 mb-10 lg:py-6 lg:mb-20">
+      <header className="relative bg-accent-1 mb-10 md:py-6 md:mb-20">
         {/* div for all three elements */}
-        <div className="flex flex-row mx-auto items-center lg:py-6">
+        <div className="flex flex-row mx-auto items-center">
           {/* logo */}
-          <div className="m-2 justify-center align-middle w-1/2 lg:w-1/4 lg:mx-10 lg:transform lg:scale-250">
+          <div className="m-2 align-middle w-1/2 md:w-1/4 md:scale-250">
             <a href="/">
               <img src="/jesi.svg" alt="" width={50} height={50} />
             </a>
           </div>
 
           {/* title */}
-          <div className="hidden text-white text-4xl font-bold hover:text-accent-1-hover transition-colors lg:visible lg:flex lg:items-center lg:w-2/4">
+          <div className="hidden text-white text-4xl font-bold hover:text-accent-1-hover transition-colors md:visible md:flex md:items-center md:w-2/4">
             <a href="/">Thinking thoughts</a>
           </div>
 
           {/* navigators */}
-          <div className="w-1/2 text-md space-x-3 mx-4 font-medium lg:justify-end lg:w-1/2 lg:text-2xl">
+          <div className="w-1/2 text-md space-x-3 mx-4 font-medium md:justify-end md:w-1/2 md:text-2xl">
             <a
               href="/blog"
               className="text-white hover:text-accent-1-hover transition-colors"
@@ -41,7 +41,7 @@ export const HeaderTW = () => {
             </a>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
 };
