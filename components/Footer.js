@@ -18,7 +18,7 @@ config.autoAddCss = false; /* eslint-disable import/first */
 
 export default function Footer() {
   return (
-    <footer className="items-center border-t-2 border-gray-200 text-gray-300 mt-32">
+    <footer className="border-t-2 border-gray-200 text-gray-300 mt-32">
       <div className="py-8 space-y-5 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
         <Link href="/">
           <a className="text-3xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left hover:text-accent-1 transition-colors">
@@ -26,12 +26,12 @@ export default function Footer() {
           </a>
         </Link>
 
-        <div className="flex flex-row text-center items-center my-2 md:my-0 md:w-2/6">
+        <div className="flex flex-row justify-center md:space-x-14 items-center my-2 md:my-0 md:w-2/6">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="transform scale-150 md:scale-250 mr-7 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -40,7 +40,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTwitter}
-                className="transform scale-150 md:scale-250 mx-7 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -49,7 +49,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faGithub}
-                className="transform scale-150 md:scale-250 mx-7 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="transform scale-150 md:scale-250 mx-7 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTelegram}
-                className="transform scale-150 md:scale-250 ml-7 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-250  hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
