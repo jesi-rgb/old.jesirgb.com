@@ -31,7 +31,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-150 lg:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -40,7 +40,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTwitter}
-                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-150 lg:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -49,7 +49,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faGithub}
-                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-150 lg:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="transform scale-150 md:scale-250 hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-150 lg:scale-250 hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTelegram}
-                className="transform scale-150 md:scale-250  hover:text-accent-1 transition-colors"
+                className="transform scale-150 md:scale-150 lg:scale-250  hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
