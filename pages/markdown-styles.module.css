@@ -1,16 +1,16 @@
 .markdown {
-    @apply max-w-sm md:max-w-screen-md lg:max-w-screen-lg mx-auto;
+    @apply max-w-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto;
 }
   
 .markdown p,
 .markdown ul,
 .markdown ol {
-    @apply my-8 text-xl font-blogpost;
+    @apply my-8 text-xl xl:text-2xl font-blogpost;
     color: #d6d6d6;
 }
 
 .markdown blockquote p {
-    @apply italic font-serif text-lg;
+    @apply italic font-serif text-lg xl:text-2xl;
     color: #1e1e1e;
     background-color: #aff7d0;
     border-radius: 10px;
@@ -33,7 +33,7 @@
     border-radius: 10px;
     padding: 8px;
     padding-left: 15px;
-    @apply text-xl lg:text-3xl mt-32 font-bold mb-4 leading-snug;
+    @apply text-xl lg:text-5xl mt-32 font-bold mb-4 leading-snug;
 }
   
 .markdown h3 {
