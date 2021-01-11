@@ -1,4 +1,3 @@
-import Container from "../components/container";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,8 +13,8 @@ export default function About() {
         <title>About</title>
       </Head>
       <Layout>
-        <div className="space-x-9 flex text-white font-blogpost">
-          <div className="w-2/4">
+        <div className="flex xl:space-x-9 flex-col xl:flex-row xl:object-top items-center xl:items-start text-white font-blogpost">
+          <div className="mx-5 mb-10 justify-center md:w-2/4">
             <Image
               src="/assets/jesi.jpg"
               alt="Picture of Jesús Rascón"
@@ -37,8 +36,8 @@ export default function About() {
             </figcaption>
           </div>
 
-          <div className="w-2/4 text-justify">
-            <p className="mb-7 text-xl">
+          <div className="flex-col text-lg items-top xl:text-xl space-y-9 mx-5 xl:mx-0 md:w-2/4 text-justify">
+            <p>
               Hi! My name is Jesús and I am an Andalusian{" "}
               <span className="text-accent-1-lighter font-bold">
                 data journalist, chart lover, designer and musician.
@@ -49,7 +48,7 @@ export default function About() {
               one day, I can transfer all that I know to millions of people.
             </p>
 
-            <p className="my-7 text-xl">
+            <p>
               I studied{" "}
               <span className="text-accent-1-lighter font-bold">
                 Computer Science at the University of Jaén
@@ -60,7 +59,7 @@ export default function About() {
               a bigger scale.
             </p>
 
-            <p className="my-7 text-xl">
+            <p>
               On the topic of mixing disciplines, the data visualization and
               data journalism fields very elegantly mix some of my favourites:{" "}
               <span className="text-accent-1-lighter font-bold">
@@ -71,7 +70,7 @@ export default function About() {
               excitement.
             </p>
 
-            <p className="my-7 text-xl">
+            <p>
               Finally, I have been studying music since 2013, when I first
               picked up guitar. Later in the process, I learned bass, keys,
               drums, and the piece that glues it all:{" "}
@@ -90,9 +89,7 @@ export default function About() {
               .
             </p>
 
-            <p className="mt-7 text-xl">
-              Follow me anywhere, links down in the footer. See ya!
-            </p>
+            <p>Follow me anywhere, links down in the footer. See ya!</p>
           </div>
         </div>
       </Layout>
