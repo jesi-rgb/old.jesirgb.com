@@ -11,24 +11,22 @@ export default function Blog({ slugs }) {
         <title>Blog</title>
       </Head>
       <Layout>
-        <BlogIndexBody>
-          <div className="link-list max-w-screen-2xl">
-            {slugs.map((slug) => {
-              return (
-                <Link href="/blog/[slug]" as={"/blog/" + slug}>
-                  <a>
-                    <div
-                      key={slug}
-                      className="link bg-accent-2 hover:bg-accent-2-hover transition-colors rounded-md pl-2 py-7 my-12 text-2xl text-center text-white"
-                    >
-                      {slug.replace(/-/g, " ").toUpperCase()}
-                    </div>
-                  </a>
-                </Link>
-              );
-            })}
-          </div>
-        </BlogIndexBody>
+        <div className="max-w-sm xl:max-w-xl mx-auto">
+          {slugs.map((slug) => {
+            return (
+              <Link href="/blog/[slug]" as={"/blog/" + slug}>
+                <a>
+                  <div
+                    key={slug}
+                    className="link bg-accent-2 hover:bg-accent-2-hover transition-colors rounded-md pl-2 py-7 my-12 text-md md:text-2xl text-center text-white"
+                  >
+                    {slug.replace(/-/g, " ").toUpperCase()}
+                  </div>
+                </a>
+              </Link>
+            );
+          })}
+        </div>
       </Layout>
     </>
   );
