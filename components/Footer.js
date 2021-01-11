@@ -19,14 +19,14 @@ config.autoAddCss = false; /* eslint-disable import/first */
 export default function Footer() {
   return (
     <footer className="border-t-2 border-gray-200 text-gray-300 mt-32">
-      <div className="py-8 space-y-5 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
+      <div className="py-8 space-y-9 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
         <Link href="/">
           <a className="text-3xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left hover:text-accent-1 transition-colors">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
 
-        <div className="flex flex-row justify-center md:space-x-14 items-center my-2 md:my-0 md:w-2/6">
+        <div className="flex flex-row justify-center space-x-8 md:space-x-14 items-center my-2 md:my-0 md:w-2/6">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon
