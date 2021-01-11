@@ -6,10 +6,10 @@ export const HeaderTW = () => {
       {/* header itself */}
       <div className="relative bg-accent-1 mb-10 md:mb-20">
         {/* div for all three elements */}
-        <div className="flex flex-row items-center md:py-14 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
+        <div className="flex flex-row items-center md:py-5 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
           {/* logo */}
           <div className="flex w-1/2 md:w-1/3 md:justify-start">
-            <a href="/">
+            <a href="/" className="-m-5 md:-m-0">
               <img
                 src="/jesi.svg"
                 alt="logo for jesús rascón"
