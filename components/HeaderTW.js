@@ -1,10 +1,11 @@
 import Image from "next/image";
 
 export const HeaderTW = () => {
+  console.log("header");
   return (
     <>
       {/* header itself */}
-      <div className="relative  mb-10 md:mb-20">
+      <div className="relative mb-10 md:mb-20">
         {/* div for all three elements */}
         <div className="flex flex-row border-b-2 border-accent-1 items-center md:py-5 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
           {/* logo */}
