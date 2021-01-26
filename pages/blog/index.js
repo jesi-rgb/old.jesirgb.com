@@ -7,7 +7,7 @@ export default function Blog({ slugs }) {
   return (
     <>
       <Head>
-        <title>Blog</title>
+        <title>Blogpost</title>
       </Head>
       <Layout>
         <div className="max-w-sm xl:max-w-xl mx-auto">
