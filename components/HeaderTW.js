@@ -1,5 +1,4 @@
 export const HeaderTW = () => {
-  console.log("header");
   return (
     <>
       {/* header itself */}
