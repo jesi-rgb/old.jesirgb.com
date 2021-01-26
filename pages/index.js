@@ -2,10 +2,14 @@ import Footer from "@/components/Footer";
 import { HeaderLanding } from "@/components/HeaderLanding";
 
 import TopTracks from "@/components/TopTracks";
+import Head from "next/head";
 
 export default function Landing() {
   return (
     <>
+      <Head>
+        <title>Thinking thoughts</title>
+      </Head>
       <HeaderLanding />
 
       <svg
