@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Track(track) {
+export default function Track({ track }) {
   return (
     <a
       href={track.songUrl}

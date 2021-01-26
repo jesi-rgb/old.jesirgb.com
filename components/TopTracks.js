@@ -16,8 +16,8 @@ export default function TopTracks() {
         <p className="text-xl text-white text-center my-3 lg:text-2xl">
           Here's a list of my last played songs... click on them to listen!
         </p>
-        {data.tracks.map((track, index) => (
-          <Track ranking={index + 1} key={track.songUrl} {...track} />
+        {data.tracks.map((track) => (
+          <Track key={track.songUrl} track={track} />
         ))}
       </div>
     </>
