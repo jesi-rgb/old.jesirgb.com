@@ -42,7 +42,6 @@ export const getStaticProps = async ({ params: { slug } }) => {
     .toString();
 
   const parsedMarkdown = matter(markdownWithMetadata);
-
   const htmlString = marked(parsedMarkdown.content);
 
   return {
