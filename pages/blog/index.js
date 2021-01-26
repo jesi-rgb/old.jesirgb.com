@@ -33,7 +33,7 @@ export default function Blog({ slugs, titles, descriptions, dates }) {
   );
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const files = fs.readdirSync("posts");
 
   const markdownMetadata = files.map((filename) => {
