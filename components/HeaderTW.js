@@ -5,7 +5,7 @@ export const HeaderTW = () => {
       {/* header itself */}
       <div className="relative mb-10 md:mb-20 z-10">
         {/* div for all three elements */}
-        <div className="flex flex-row border-b-2 border-accent-1 items-center md:py-5">
+        <div className="flex flex-row border-b border-accent-1 items-center md:py-5">
           {/* logo */}
           <div className="flex w-1/2 md:w-1/3 md:justify-start">
             <a href="/" className="-m-5 md:-m-0">
