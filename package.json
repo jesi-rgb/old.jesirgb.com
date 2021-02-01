@@ -15,6 +15,7 @@
     "autoprefixer": "^10.1.0",
     "d3": "^6.3.1",
     "gray-matter": "^4.0.2",
+    "mapbox-gl": "^2.0.1",
     "marked": "^1.2.7",
     "next": "10.0.4",
     "postcss": "^8.2.1",

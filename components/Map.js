@@ -1,7 +1,7 @@
 import * as React from "react";
 import ReactMapGL from "react-map-gl";
 
-const { MAPBOX_TOKEN: map_token } = process.env;
+const map_token = process.env.MAPBOX_TOKEN;
 
 export default function Map() {
   const [viewport, setViewport] = React.useState({
@@ -9,8 +9,6 @@ export default function Map() {
     longitude: -122.4376,
     zoom: 8,
   });
-
-  console.log(map_token);
 
   return (
     <ReactMapGL
