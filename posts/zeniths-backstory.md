@@ -4,6 +4,9 @@ description: A bit of backstory on how the album came to be
 date: 13/05/2021
 ---
 
+# Zenith's backstory
+*13/05/2021*
+
 Music has (not) always a crucial part of my life, even subconciously. I remember telling mum I wanted to pick up guitar, just because I was discovering things I liked to hear, and I wanted to be part of it! Long before that, I mostly despised music, in the sense that it didnt attract me at all. That is the (not) at the beginning.
 
 Since that moment, I took off on a journey that would very much completely change my whole life. I started to learn music theory with the help of one of the best teachers and partners I have EVER had and improvise and compose.
@@ -24,5 +27,6 @@ The next logical step falls easily: then, why dont you make one?
 
 That very evening I sat at the computer and started making this album, which I am very proud of.
 
-
 <iframe src="https://open.spotify.com/embed/album/4oXxekjpYQlgZGZ5DfVyxM" width="1000" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+In another post I explaing all about the ideas behind it and the decisions made through the process.
