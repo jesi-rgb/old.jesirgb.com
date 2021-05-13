@@ -1,6 +1,6 @@
 ---
 title: Perfect pitch and social constructs
-description: This is a brief thought syntesis on how we like to name things.
+description: This is a brief thought synthesis on how we like to name things.
 date: 23/12/2020
 ---
 
