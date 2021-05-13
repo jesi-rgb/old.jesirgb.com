@@ -2,10 +2,11 @@
     @apply max-w-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto;
 }
   
+
 .markdown p,
 .markdown ul,
 .markdown ol {
-    @apply my-8 text-xl xl:text-2xl font-blogpost;
+    @apply my-8 mx-3 text-sm xl:text-2xl font-blogpost;
     color: #d6d6d6;
 }
 
@@ -24,7 +25,7 @@
 }
   
 .markdown h1 {
-    @apply text-3xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
+    @apply mx-3 text-3xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
 }
 
 .markdown h2 {
@@ -33,11 +34,11 @@
     border-radius: 10px;
     padding: 8px;
     padding-left: 15px;
-    @apply text-xl lg:text-5xl mt-32 font-bold mb-4 leading-snug;
+    @apply text-xl mx-3 lg:text-5xl mt-32 font-bold mb-4 leading-snug;
 }
   
 .markdown h3 {
-    @apply text-2xl mt-8 mb-4 leading-snug;
+    @apply text-2xl mx-3 mt-8 mb-4 leading-snug;
 }
 
 .markdown em {
