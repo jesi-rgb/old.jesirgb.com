@@ -38,7 +38,9 @@
 }
   
 .markdown h3 {
-    @apply text-2xl mx-3 mt-8 mb-4 leading-snug;
+    color: white;
+    @apply text-4xl mx-3 mt-20 mb-3 leading-snug;
+
 }
 
 .markdown em {
@@ -60,4 +62,9 @@
     background-color: #fefefe;
     border-radius: 10px;
     padding: 7px;
+}
+
+.markdown a {
+    color: #aff7d0;
+    text-decoration: underline;
 }
