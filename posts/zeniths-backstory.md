@@ -29,4 +29,4 @@ That very evening I sat at the computer and started making this album, which I a
 
 <iframe src="https://open.spotify.com/embed/album/4oXxekjpYQlgZGZ5DfVyxM" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-In another post I explaing all about the ideas behind it and the decisions made through the process.
+In another post I'll explain everything behind the ideas and the decisions made through the process.
