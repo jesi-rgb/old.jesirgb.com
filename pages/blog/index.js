@@ -11,7 +11,7 @@ export default function Blog({ slugs }) {
         <title>Blogpost</title>
       </Head>
       <Layout>
-        <div className="max-w-sm xl:max-w-2xl mx-auto">
+        <div className="mx-2 xl:max-w-2xl">
           <div className="text-6xl xl:text-7xl font-bold text-white">Blog</div>
           <div className="text-white text-xl font-blogpost text-left my-4 mb-20">
             Developing ideas and exploring my inner self.

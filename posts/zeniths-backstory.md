@@ -27,6 +27,6 @@ The next logical step falls easily: then, why dont you make one?
 
 That very evening I sat at the computer and started making this album, which I am very proud of.
 
-<iframe src="https://open.spotify.com/embed/album/4oXxekjpYQlgZGZ5DfVyxM" width="1000" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/album/4oXxekjpYQlgZGZ5DfVyxM" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 In another post I explaing all about the ideas behind it and the decisions made through the process.
