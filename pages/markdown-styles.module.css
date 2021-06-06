@@ -4,14 +4,23 @@
   
 
 .markdown p,
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5 {
+    @apply mx-4;
+}
+
+.markdown p,
 .markdown ul,
 .markdown ol {
-    @apply my-8 mx-3 text-sm xl:text-2xl font-blogpost;
+    @apply my-8 text-sm xl:text-2xl font-blogpost;
     color: #d6d6d6;
 }
 
 .markdown blockquote p {
-    @apply italic font-serif text-lg xl:text-2xl;
+    @apply italic font-serif text-sm xl:text-2xl;
     color: #1e1e1e;
     background-color: #aff7d0;
     border-radius: 10px;
@@ -25,7 +34,7 @@
 }
   
 .markdown h1 {
-    @apply mx-3 text-3xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
+    @apply  text-3xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
 }
 
 .markdown h2 {
@@ -34,12 +43,12 @@
     border-radius: 10px;
     padding: 8px;
     padding-left: 15px;
-    @apply text-xl mx-3 lg:text-5xl mt-32 font-bold mb-4 leading-snug;
+    @apply text-xl lg:text-5xl mt-32 font-bold mb-4 leading-snug;
 }
   
 .markdown h3 {
     color: white;
-    @apply text-4xl mx-3 mt-20 mb-3 leading-snug;
+    @apply text-4xl xl:text-5xl mt-20 mb-3 leading-snug;
 
 }
 
