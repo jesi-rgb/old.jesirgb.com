@@ -1,7 +1,6 @@
 import fs from "fs";
 import Layout from "../../components/Layout";
 import Head from "next/head";
-import path from "path";
 import matter from "gray-matter";
 import BlogItem from "@/components/BlogItem";
 
@@ -17,11 +16,10 @@ export default function Blog({ slugs }) {
           <div className="text-white text-xl font-blogpost text-left my-4 mb-20">
             Developing ideas and exploring my inner self.
           </div>
-
           {slugs.map((slug) => (
             <BlogItem
               key={slug}
-              slug={slug}
+              slug={slug.slug}
               title={slug.title}
               description={slug.description}
               date={slug.date}
