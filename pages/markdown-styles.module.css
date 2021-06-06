@@ -45,6 +45,15 @@
     color: #d2e4ff;
 }
 
+.markdown strong {
+    color: #aff7d0;
+}
+
+::selection .markdown{
+    color: red;
+    background: yellow;
+  }
+
 .markdown code {
     margin-bottom: 30px;
     color: rgb(243, 54, 54);
