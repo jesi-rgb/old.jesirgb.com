@@ -5,7 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 import BlogItem from "@/components/BlogItem";
 
-export default function Blog({ slugs, titles, descriptions, dates }) {
+export default function Blog({ slugs }) {
   return (
     <>
       <Head>
@@ -18,13 +18,13 @@ export default function Blog({ slugs, titles, descriptions, dates }) {
             Developing ideas and exploring my inner self.
           </div>
 
-          {slugs.map((slug, index) => (
+          {slugs.map((slug) => (
             <BlogItem
               key={slug}
               slug={slug}
-              title={titles[index]}
-              description={descriptions[index]}
-              date={dates[index]}
+              title={slug.title}
+              description={slug.description}
+              date={slug.date}
             />
           ))}
         </div>
@@ -34,24 +34,37 @@ export default function Blog({ slugs, titles, descriptions, dates }) {
 }
 
 export const getStaticProps = async () => {
-  const files = fs.readdirSync("posts");
+  const path = process.cwd() + "/posts/";
+  const fileNames = fs.readdirSync(path);
 
-  const markdownMetadata = files.map((filename) => {
-    const markdownWithMetadata = fs
-      .readFileSync(path.join("posts", filename))
-      .toString();
-
-    const parsedMarkdown = matter(markdownWithMetadata);
-    return parsedMarkdown.data;
+  const postList = fileNames.map((fileName) => {
+    const filePath = path + fileName;
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const result = matter(fileContent);
+    return {
+      slug: fileName.replace(".md", ""),
+      title: result.data.title,
+      description: result.data.description,
+      date: result.data.date,
+    };
   });
+
   return {
     props: {
-      slugs: files.map((filename) => {
-        return filename.replace(".md", "");
+      slugs: postList.sort((a, b) => {
+        const a_day = a.date.split("/")[0];
+        const a_month = a.date.split("/")[1];
+        const a_year = a.date.split("/")[2];
+
+        const b_day = b.date.split("/")[0];
+        const b_month = b.date.split("/")[1];
+        const b_year = b.date.split("/")[2];
+
+        const aDate = new Date(a_year, a_month, a_day);
+        const bDate = new Date(b_year, b_month, b_day);
+
+        return aDate < bDate ? 1 : -1;
       }),
-      titles: markdownMetadata.map((m) => m.title),
-      descriptions: markdownMetadata.map((m) => m.description),
-      dates: markdownMetadata.map((m) => m.date),
     },
   };
 };
