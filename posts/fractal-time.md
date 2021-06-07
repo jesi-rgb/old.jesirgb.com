@@ -1,6 +1,6 @@
 ---
 title: Fractal time
-description: Time is really the same no matter how far you look
+description: Time is the same no matter how far you look
 date: 06/06/2021
 ---
 
