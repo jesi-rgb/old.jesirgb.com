@@ -11,11 +11,13 @@ export default function Blog({ slugs }) {
         <title>Blogpost</title>
       </Head>
       <Layout>
-        <div className="mx-2 xl:mx-auto xl:max-w-2xl">
-          <div className="text-6xl xl:text-7xl font-bold text-white">Blog</div>
-          <div className="text-white text-xl font-blogpost text-left my-4 mb-20">
-            Developing ideas and exploring my inner self.
-          </div>
+        <div className="text-6xl xl:text-7xl font-bold text-white mx-2 xl:mx-auto xl:max-w-2xl">
+          Blog
+        </div>
+        <div className="text-white text-xl font-blogpost text-left my-4 mb-20 mx-2 xl:mx-auto xl:max-w-2xl">
+          Developing ideas and exploring my inner self.
+        </div>
+        <div className="overflow-y-scroll overflow-hidden h-96 mx-2 xl:mx-auto xl:max-w-2xl">
           {slugs.map((slug) => (
             <BlogItem
               key={slug}
