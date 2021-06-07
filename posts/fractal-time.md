@@ -25,4 +25,4 @@ Can you see the pattern? morning - spring - childhood, afternoon - summer - teen
 
 No matter how much you zoom in or out, the same pattern repeats. It is a looping pattern. That may tell us that there is actually life after death. Life is a looping pattern. Or maybe not. 
 
-What it is clear is that whenever we finish another day, month, year, another loop... we start over again, but nothing remains the same as before. Time continues to loop, but we are never the same as yesterday.
+What it is clear is that whenever we finish another day, month, year, another loop... we start over again, but nothing remains the same as before. Time continues to loop, but we always keep moving forward.
