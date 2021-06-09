@@ -9,13 +9,13 @@
 .markdown h3,
 .markdown h4,
 .markdown h5 {
-    @apply mx-4;
+    @apply mx-4 xl:mx-32;
 }
 
 .markdown p,
 .markdown ul,
 .markdown ol {
-    @apply my-8 text-sm xl:text-2xl font-blogpost;
+    @apply my-8 text-sm xl:text-xl font-blogpost;
     color: #d6d6d6;
 }
 
@@ -48,7 +48,7 @@
   
 .markdown h3 {
     color: white;
-    @apply text-4xl xl:text-5xl mt-20 mb-3 leading-snug;
+    @apply text-2xl xl:text-5xl mt-20 mb-3 leading-snug;
 
 }
 
