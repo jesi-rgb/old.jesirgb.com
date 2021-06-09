@@ -26,7 +26,7 @@ export default function Footer() {
           </a>
         </Link>
 
-        <div className="flex flex-row justify-center space-x-8 md:space-x-14 items-center my-2 md:my-0 md:w-2/6">
+        <div className="flex flex-row justify-center space-x-10 md:space-x-14 xl:space-x-20 items-center my-2 md:my-0 md:w-2/6">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon

@@ -13,12 +13,10 @@ export default function Landing() {
       <HeaderLanding />
 
       <svg
-        width="3000"
-        height="2500"
-        viewBox="60 0 650 650"
+        viewBox="-10 0 650 650"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute top-10 z-0"
+        className="w-80 h-80 absolute -top-10 z-0 mt-32 mr-96 lg:w-4/6 lg:h-full"
       >
         <svg
           width="540"
@@ -54,22 +52,22 @@ export default function Landing() {
         </svg>
       </svg>
 
-      <div className="absolute w-full text-white text-3xl font-light m-40 top-54">
+      <div className="absolute w-full m-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
         I am{" "}
-        <h1 className="text-9xl 2xl:text-10xl m-10 font-bold font-blogpost tracking-tighter">
+        <h1 className="text-3xl xl:text-8xl xl:m-10 font-bold font-blogpost tracking-tighter">
           Jesús Rascón
         </h1>
-        <div className="my-16 w-1/2 md:w-1/4 font-light text-4xl mr-auto">
+        <div className="mt-8 w-1/2 md:w-1/4 font-light text-xl xl:text-3xl mr-auto">
           Data driven journalist, frontend developer, musician and creative.
         </div>
       </div>
 
       <svg
-        width="3000"
-        height="2500"
+        width="400"
         viewBox="60 0 650 650"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="h-96 mt-30 xl:h-full xl:mt-96"
       ></svg>
 
       <div className="md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
