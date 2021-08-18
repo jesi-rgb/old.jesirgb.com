@@ -37,3 +37,6 @@ html {
     background-color: #242424;
 }
 
+svg {
+  z-index: -1;
+}
