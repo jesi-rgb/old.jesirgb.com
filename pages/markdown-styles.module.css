@@ -34,22 +34,25 @@
 }
   
 .markdown h1 {
-    @apply  text-3xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
+    @apply  text-5xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
 }
 
 .markdown h2 {
-    color: white;
-    background-color: #1abc9c;
-    border-radius: 10px;
-    padding: 8px;
-    padding-left: 15px;
-    @apply text-xl lg:text-5xl mt-32 font-bold mb-4 leading-snug;
+    @apply text-3xl lg:text-6xl text-white border-l-4 p-3 mt-32 font-bold mb-4 leading-snug;
 }
   
 .markdown h3 {
     color: white;
     @apply text-3xl xl:text-5xl mt-20 mb-3 leading-snug;
 
+}
+
+.markdown ol{
+    @apply ml-14 mr-4 xl:mx-52 list-decimal text-justify
+}
+
+.markdown ul{
+    @apply ml-14 mr-4 xl:mx-20 list-disc text-justify
 }
 
 .markdown em {
@@ -66,11 +69,12 @@
   }
 
 .markdown code {
-    margin-bottom: 30px;
-    color: rgb(243, 54, 54);
-    background-color: #fefefe;
-    border-radius: 10px;
-    padding: 7px;
+    color: #242424;
+    @apply text-lg bg-accent-1-lighter rounded-md p-0.5
+}
+
+.markdown img{
+    @apply mx-auto xl:max-w-screen-md
 }
 
 .markdown a {
