@@ -28,7 +28,7 @@ As you can see, very quickly we get into a loop, the ```4, 2, 1``` loop. 1 is od
 
 The conjecture itself tries to find out if this is true for every number. That is, does every positive integer extending to infinity land on the ```4, 2, 1``` loop? Finding out just 1 counter example would prove this conjecture wrong, but we haven't found any cases yet.
 
-This is a **conjecture** because we have not proven this formally with mathematical tools that allow us to abstract the numbers themselves and just being able that "*for absolutely every positive number, this holds true*".
+This is a **conjecture** because we have not proven this formally with mathematical tools that allow us to abstract the numbers themselves and just being able to say, confidently, that "*for absolutely every positive number, this holds true*".
 
 As stated in the video, some mathematicians suggest that "*math is not yet prepared for such problem*".
 
