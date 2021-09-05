@@ -53,10 +53,13 @@ export default function About() {
               <span className="text-accent-1-lighter font-bold">
                 Computer Science at the University of Jaén
               </span>{" "}
-              and have a master's degree in Data Science. Telling compelling
-              stories and spreading knowledge has always flowed through my
-              veins, so it's only natural that I aim for doing the same, but on
-              a bigger scale.
+              and have a{" "}
+              <span className="text-accent-1-lighter font-bold">
+                Master's in Data Science by the University of Granada
+              </span>
+              {""}. Telling compelling stories and spreading knowledge has
+              always flowed through my veins, so it's only natural that I aim
+              for doing the same, but on a bigger scale.
             </p>
 
             <p>

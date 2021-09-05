@@ -52,12 +52,12 @@ export default function Landing() {
         </svg>
       </svg>
 
-      <div className="m-5 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
+      <div className="ml-9 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
         I am{" "}
         <h1 className="text-5xl xl:text-8xl my-10 font-bold font-blogpost tracking-tighter">
           Jesús Rascón
         </h1>
-        <div className="mt-8 w-1/2 md:w-1/4 text-xl xl:text-3xl mr-auto">
+        <div className="mt-8 w-1/2 md:w-1/4 text-xl xl:text-3xl">
           Data driven journalist and engineer, frontend developer, creative
           assistant and producer.
         </div>
