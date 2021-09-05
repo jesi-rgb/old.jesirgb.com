@@ -53,7 +53,7 @@ export default function Landing() {
         </svg>
       </svg>
 
-      <div className="ml-9 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
+      <div className="pl-9 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
         I am{" "}
         <h1 className="text-5xl xl:text-8xl my-10 font-bold font-blogpost tracking-tighter">
           Jesús Rascón
