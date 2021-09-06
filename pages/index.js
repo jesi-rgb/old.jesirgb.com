@@ -17,7 +17,7 @@ export default function Landing() {
         viewBox="-10 0 950 650"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="hidden xl:inline xl:visible xl:absolute xl:-top-10 xl:mt-32 xl:h-full"
+        className="hidden xl:inline xl:absolute xl:-top-10 xl:mt-32 xl:h-full"
       >
         <svg
           width="540"
@@ -53,7 +53,7 @@ export default function Landing() {
         </svg>
       </svg>
 
-      <div className="pl-9 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
+      <div className="ml-9 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
         I am{" "}
         <h1 className="text-5xl xl:text-8xl my-10 font-bold font-blogpost tracking-tighter">
           Jesús Rascón
