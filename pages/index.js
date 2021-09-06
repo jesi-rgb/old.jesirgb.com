@@ -4,7 +4,7 @@ import { HeaderLanding } from "@/components/HeaderLanding";
 import TopTracks from "@/components/TopTracks";
 import Head from "next/head";
 
-// no se
+// no s
 export default function Landing() {
   return (
     <>
