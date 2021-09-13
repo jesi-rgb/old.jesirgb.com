@@ -27,7 +27,7 @@ export default function Landing() {
           xmlns="https://www.w3.org/2000/svg"
         >
           <circle
-            style={{ "mix-blend-mode": "lighten" }}
+            style={{ mixBlendMode: "lighten" }}
             cx="171"
             cy="171"
             r="171"
@@ -35,7 +35,7 @@ export default function Landing() {
             id="circle-top"
           />
           <circle
-            style={{ "mix-blend-mode": "lighten" }}
+            style={{ mixBlendMode: "lighten" }}
             cx="369"
             cy="242"
             r="171"
@@ -43,7 +43,7 @@ export default function Landing() {
             id="circle-right"
           />
           <circle
-            style={{ "mix-blend-mode": "lighten" }}
+            style={{ mixBlendMode: "lighten" }}
             cx="206"
             cy="358"
             r="171"
