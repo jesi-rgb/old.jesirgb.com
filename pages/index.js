@@ -16,7 +16,7 @@ export default function Landing() {
       <svg
         viewBox="-10 0 950 650"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://www.w3.org/2000/svg"
         className="hidden xl:inline xl:absolute xl:-top-10 xl:mt-32 xl:h-full"
       >
         <svg
@@ -24,7 +24,7 @@ export default function Landing() {
           height="540"
           viewBox="0 -5 540 529"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
         >
           <circle
             style={{ "mix-blend-mode": "lighten" }}
