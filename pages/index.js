@@ -17,7 +17,7 @@ export default function Landing() {
         viewBox="-10 0 950 650"
         fill="none"
         xmlns="https://www.w3.org/2000/svg"
-        className="hidden xl:inline xl:absolute xl:-top-10 xl:mt-32 xl:h-full"
+        className="xl:inline xl:absolute xl:-top-10 xl:mt-32 xl:h-full"
       >
         <svg
           width="540"
