@@ -23,12 +23,18 @@ export const HeaderTW = () => {
           </div>
 
           {/* navigators */}
-          <div className="flex md:flex-auto text-md space-x-6 mx-2 md:mx-0 font-medium md:justify-end md:text-2xl md:w-1/3">
+          <div className="flex md:flex-auto text-xs space-x-2 xl:space-x-4 mx-2 md:mx-0 font-medium md:justify-end md:text-2xl md:w-1/3">
             <a
               href="/blog"
               className="text-white hover:text-accent-1-lighter transition-colors"
             >
               Blog
+            </a>
+            <a
+              href="/portfolio"
+              className="text-white hover:text-accent-1-lighter transition-colors"
+            >
+              Portfolio
             </a>
             <a
               href="https://jesus-enrique-cv.jesi-rgb.vercel.app"

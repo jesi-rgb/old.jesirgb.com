@@ -47,11 +47,11 @@
 
 }
 
-.markdown ol{
+.markdown ol {
     @apply ml-14 mr-4 xl:mx-52 list-decimal text-justify
 }
 
-.markdown ul{
+.markdown ul {
     @apply ml-14 mr-4 xl:mx-20 list-disc text-justify
 }
 
@@ -63,18 +63,22 @@
     color: #aff7d0;
 }
 
-::selection .markdown{
+::selection .markdown {
     color: red;
     background: yellow;
-  }
+}
 
 .markdown code {
     color: #242424;
     @apply text-lg bg-accent-1-lighter rounded-md p-0.5
 }
 
-.markdown img{
-    @apply mx-auto xl:max-w-screen-md
+.markdown img {
+    @apply mx-auto xl:max-w-full
+}
+
+span .highlight {
+    @apply text-white
 }
 
 .markdown a {
