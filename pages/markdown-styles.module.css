@@ -20,7 +20,7 @@
 }
 
 .markdown blockquote p {
-    @apply italic font-serif text-sm xl:text-2xl;
+    @apply italic font-serif text-sm xl:text-xl;
     color: #1e1e1e;
     background-color: #aff7d0;
     border-radius: 10px;
@@ -68,17 +68,9 @@
     background: yellow;
 }
 
-.markdown code {
-    color: #242424;
-    @apply text-lg bg-accent-1-lighter rounded-md p-0.5
-}
 
 .markdown img {
     @apply mx-auto xl:max-w-full
-}
-
-span .highlight {
-    @apply text-white
 }
 
 .markdown a {

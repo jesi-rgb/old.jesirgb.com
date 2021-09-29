@@ -25,8 +25,8 @@ In order to show this property, we'll put every odd number up until some maximum
 For that, we create a row of nodes with all the odd numbers, which can be easily accomplished in python like this, where we specify the beginning, end and step, to get every other number starting from one:
 
 ```python
-	for i in range(1, max_number, 2):
-		# do things
+				for i in range(1, max_number, 2):
+					# do things
 ```
 
 this will give the first row of all odd numbers up until `max_number`.
@@ -34,14 +34,14 @@ this will give the first row of all odd numbers up until `max_number`.
 From here, it's just as easy as setting up a `while` loop for each number in our first row and keep dividing as long as we can. That is, if we divide and still obtain an even number, keep dividing. If we run into an odd number, stop and go with the next in the row. 
 
 ```python
-nodes = []
-for each odd_number:
-	result = odd_number
-	while result % 2 == 0:
-		result /= 2
-		n = Node(result) # create a node
-		# save the nodes in a data structure
-		nodes.append(n)	
+				nodes = []
+				for each odd_number:
+					result = odd_number
+					while result % 2 == 0:
+						result /= 2
+						n = Node(result) # create a node
+						# save the nodes in a data structure
+						nodes.append(n)	
 ```
 
 

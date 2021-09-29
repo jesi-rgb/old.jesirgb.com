@@ -29,8 +29,5 @@
     "swr": "^0.4.0",
     "tailwindcss": "^2.2.15"
   },
-  "devDependencies": {
-    "markdown-it": "^12.2.0",
-    "markdown-it-prism": "^2.2.1"
-  }
+  "devDependencies": {}
 }

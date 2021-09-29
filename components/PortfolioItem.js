@@ -8,7 +8,6 @@ export default function PortfolioItem({
   image,
   repository,
 }) {
-  console.log("slug image " + image);
   return (
     <a href={"/portfolio/" + slug}>
       <div className="text-white rounded-md border border-gray-200 my-5 p-3 bg-opacity-40">

@@ -8,7 +8,6 @@ import Layout from "../../components/Layout";
 import PostBody from "@/components/PostBody";
 
 import prism from "prismjs";
-
 import "prismjs/themes/prism-okaidia.css";
 
 const Post = ({ htmlString, data }) => {

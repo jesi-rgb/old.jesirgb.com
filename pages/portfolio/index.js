@@ -51,7 +51,6 @@ export const getStaticProps = async () => {
     postAndImage.image =
       "/thumbnails-portfolio/" + project.replace(".md", "") + ".png";
 
-    console.log(postAndImage);
     return postAndImage;
   });
 
