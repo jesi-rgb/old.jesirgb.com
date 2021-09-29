@@ -50,7 +50,7 @@ This will also allow to make groups out of the "columns", which can afterwards b
 
 
 ## The result
-Here are some frames I made for the video, using [Manim](https://github.com/3b1b/manim)
+Here are some frames of the result, all using [ManimGL](https://github.com/3b1b/manim)
 
 ![Frame of the animation](/portfolio-images/collatz-conjecture/curtain.png)
 
@@ -59,9 +59,9 @@ Here are some frames I made for the video, using [Manim](https://github.com/3b1b
 
 
 
-Finally, here's the final video. We put a lot of effort and passion into it, so hopefully you'll love it. 
+Finally, here's the published video. We put a lot of effort and passion into it, so hopefully you'll love it! 💖
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/094y1Z2wpJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## The goals
-Working in this project has made me realize that I really want to pursue a career like this, where I teach things on the internet to millions of people. It really makes me feel great and I am not afraid of possibly failing. I'll extend my role also working as a designer and data scientist, visualizing data and presenting it beautifully. [The Pudding](https://pudding.cool) are a great example of this, and really inspire me to continue down this line. We'll see where we are in year from now! I am excited.
+
+Manim is a great way of developing animations and I encourage anyone interested in this field to give it a try. The animation side of things makes you more aware of every step in the algorithm you are developing, and forces to change your mindset to be very thoughtful about what you want to represent and how. In the same way that you're usually told to "*develop a given algorithm from scratch to really learn how it works*", I would go as far as **animating** it. It is really the definitive exercise.
