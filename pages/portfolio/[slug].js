@@ -43,7 +43,6 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params: { slug } }) => {
   marked.setOptions({
     highlight: (code, lang) => {
-      console.log("language: " + lang);
       if (prism.languages[lang]) {
         return prism.highlight(code, prism.languages[lang], lang);
       } else {
