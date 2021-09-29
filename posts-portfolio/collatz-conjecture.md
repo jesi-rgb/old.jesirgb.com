@@ -40,6 +40,7 @@ From here, it's just as easy as setting up a `while` loop for each number in our
 					while result % 2 == 0:
 						result /= 2
 						n = Node(result) # create a node
+						
 						# save the nodes in a data structure
 						nodes.append(n)	
 ```
