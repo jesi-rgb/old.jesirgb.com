@@ -17,7 +17,7 @@ export default function Blog({ slugs }) {
         <div className="text-white text-xl font-blogpost text-left my-4 mb-20 mx-2 xl:mx-auto xl:max-w-full">
           Take a peek at some of the works I've done so far!
         </div>
-        <div className="mx-2 xl:grid xl:grid-flow-col xl:grid-cols-2 xl:grid-rows-3 xl:gap-8 xl:mx-auto xl:max-w-full">
+        <div className="mx-2 xl:grid xl:grid-flow-row xl:grid-cols-2 xl:grid-rows-3 xl:gap-8 xl:mx-auto xl:max-w-full">
           {slugs.map((slug) => (
             <PortfolioItem
               key={slug}

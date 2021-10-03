@@ -1,6 +1,6 @@
 ---
 title: Collatz conjecture
-description: Breaking down the process for this video's animation
+description: Breaking down the process for some bubbly math
 date: 30/07/2021
 ---
 
