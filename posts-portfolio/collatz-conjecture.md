@@ -1,7 +1,8 @@
 ---
 title: Collatz conjecture
-description: Breaking down the process for some bubbly math
+description: Breaking down the process for some Veritasium-flavoured bubbly math
 date: 30/07/2021
+tags: programming, animation
 ---
 
 # Collatz conjecture 
@@ -18,7 +19,7 @@ You see, when we have an odd number, the problem asks to multiply and add one. T
 
 The thing is, there is a pattern under this concept. Given all odd numbers, 50% of the time we'll obtain an even number AND end up in an odd number. 25% of the time we'll need to divide twice before reaching an odd number. 1/8th of the time we'll need to divide tree times before reaching an odd number... and so on. Can you see the pattern? This is what we are going to visualize.
 
-## The processs
+## The process
 ![Frame of the animation](/portfolio-images/collatz-conjecture/long-curtain.png)
 In order to show this property, we'll put every odd number up until some maximum one, like 257 in my case. You can set the upper bound to whatever you want, it'll just show more numbers and the pattern will be better appreciated the more numbers you add.
 

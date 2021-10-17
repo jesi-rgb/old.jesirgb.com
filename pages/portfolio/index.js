@@ -26,6 +26,7 @@ export default function Blog({ slugs }) {
               description={slug.description}
               date={slug.date}
               image={slug.image}
+              tags={slug.tags}
             />
           ))}
         </div>
@@ -50,6 +51,10 @@ export const getStaticProps = async () => {
     postAndImage.slug = project.replace(".md", "");
     postAndImage.image =
       "/thumbnails-portfolio/" + project.replace(".md", "") + ".png";
+
+    let tags = processedPostContent.data.tags.split(", ");
+
+    postAndImage.tags = tags;
 
     return postAndImage;
   });

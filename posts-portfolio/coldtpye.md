@@ -2,6 +2,7 @@
 title: Coldtyping...
 description: Coldest library to manipulate fonts
 date: 04/10/2021
+tags: programming, animation, design
 ---
 
 # Coldtype: the hottest typos 
