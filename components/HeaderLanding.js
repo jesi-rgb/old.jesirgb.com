@@ -37,7 +37,7 @@ export const HeaderLanding = () => {
               Portfolio
             </a>
             <a
-              href="https://jesus-enrique-cv.jesi-rgb.vercel.app"
+              href="/curriculum"
               className="text-white hover:text-accent-1-lighter transition-colors"
             >
               Curriculum
