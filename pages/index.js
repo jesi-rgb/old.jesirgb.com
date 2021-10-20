@@ -59,8 +59,8 @@ export default function Landing() {
           Jesús Rascón
         </h1>
         <div className="mt-8 w-1/2 md:w-1/4 text-xl xl:text-3xl">
-          Data driven journalist and engineer, frontend developer, creative
-          assistant and producer.
+          Computer and data scientist, mathematical animator, creative
+          consultant and musician.
         </div>
       </div>
 

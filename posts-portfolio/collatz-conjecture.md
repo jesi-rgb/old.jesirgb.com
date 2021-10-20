@@ -2,7 +2,7 @@
 title: Collatz conjecture
 description: Breaking down the process for some Veritasium-flavoured bubbly math
 date: 30/07/2021
-tags: programming, animation
+tags: programming, animation, veritasium
 ---
 
 # Collatz conjecture 
