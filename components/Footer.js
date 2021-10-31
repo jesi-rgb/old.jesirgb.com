@@ -12,6 +12,7 @@ import Link from "next/link";
 //bug correction
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import { faAt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 config.autoAddCss = false; /* eslint-disable import/first */
 
 export default function Footer() {
@@ -48,6 +49,14 @@ export default function Footer() {
               <FontAwesomeIcon
                 icon={faGithub}
                 className="transform scale-150 md:scale-150 lg:scale-250 hover:text-accent-1 transition-colors"
+              />
+            </a>
+          </Link>
+          <Link href="mailto:blograso@gmail.com">
+            <a>
+              <FontAwesomeIcon
+                icon={faAt}
+                className="transform scale-150 md:scale-150 lg:scale-250  hover:text-accent-1 transition-colors"
               />
             </a>
           </Link>
