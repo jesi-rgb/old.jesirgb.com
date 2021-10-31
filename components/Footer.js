@@ -1,5 +1,3 @@
-import Container from "./container";
-
 import {
   faInstagram,
   faTwitter,
