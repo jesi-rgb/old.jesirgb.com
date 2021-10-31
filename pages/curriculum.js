@@ -6,13 +6,10 @@ import {
   faLocationArrow,
   faChevronRight,
   faChartPie,
-  faCompactDisc,
-  faLaptopCode,
   faDesktop,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDeskpro } from "@fortawesome/free-brands-svg-icons";
 
 export default function Curriculum() {
   return (
@@ -73,17 +70,42 @@ export default function Curriculum() {
               </div>
               <ul className="list-inside list-disc mt-4 ml-4 font-normal">
                 <li>
-                  Working on shedding a light on how the concept of biodiversity
-                  is understood in social media.
+                  Worked with{" "}
+                  <a
+                    href="https://www.youtube.com/c/veritasium"
+                    className="font-bold text-purple-300"
+                  >
+                    Veritasium
+                  </a>{" "}
+                  in two videos in the mathematical animation department
                 </li>
-                <li>Pre-processing and engineering of PLN based datasets</li>
                 <li>
-                  Helped supporting management's decision making regarding sales
-                  using ggplot2 in R
+                  Using{" "}
+                  <a
+                    href="https://www.manim.community"
+                    className="font-bold text-purple-300"
+                  >
+                    Manim
+                  </a>{" "}
+                  to create beautiful, captivating animations about mathematical
+                  concepts
                 </li>
+
                 <li>
-                  Data labeling through machine learning based clustering
-                  algorithms, using <strong>Python</strong>, Spacy and NLTK
+                  Worked closely with the team developing a great sense of
+                  teamwork and learning how to apply feedback to the work
+                </li>
+
+                <li>
+                  More of the work I've done as a freelancer can be found in my{" "}
+                  <a href="/portfolio" className="font-bold text-purple-300">
+                    Portfolio
+                  </a>{" "}
+                  as well as my{" "}
+                  <a href="/blog" className="font-bold text-purple-300">
+                    Blog
+                  </a>
+                  , for a deeper dive on some concepts
                 </li>
               </ul>
               <li className="list-item mt-10 text-2xl">
@@ -249,7 +271,7 @@ export default function Curriculum() {
             </ul>
           </div>
 
-          <div className="text-4xl mb-4 mt-10 font-bold text-white">Skills</div>
+          {/* <div className="text-4xl mb-4 mt-10 font-bold text-white">Skills</div> */}
         </div>
       </Layout>
     </>
