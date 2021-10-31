@@ -24,7 +24,7 @@ export default function Curriculum() {
             <div className="text-5xl mb-3 font-bold text-green-300">
               Profile
             </div>
-            <div className="text-xl text-gray-200">
+            <div className="text-xl text-gray-200 font-blogpost">
               <p className="mb-4">
                 Multi-disciplinary professional, deeply intrigued by the process
                 of learning and passionate about telling stories through data.
@@ -45,7 +45,7 @@ export default function Curriculum() {
               Experience
             </div>
             <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl">
+              <li className="list-item mt-10 text-2xl font-blogpost">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Freelance mathematical animator
               </li>
@@ -68,7 +68,7 @@ export default function Curriculum() {
                   <span className="font-normal text-purple-200">Remote</span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-normal">
+              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
                 <li>
                   Worked with{" "}
                   <a
@@ -132,10 +132,10 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-normal">
+              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
                 <li>
-                  Working on shedding a light on how the concept of biodiversity
-                  is understood in social media.
+                  Helped shedding a light on how the concept of biodiversity is
+                  understood in social media.
                 </li>
                 <li>Pre-processing and engineering of PLN based datasets.</li>
                 <li>
@@ -172,7 +172,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-normal">
+              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
                 <li>
                   Assisting and learning in the process of gathering and
                   arranging data
@@ -212,7 +212,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-normal">
+              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
                 <li>
                   Thesis in NLP based transformer to generate medical comments
                   and evaluate the performance of state of the art medical-text
@@ -253,7 +253,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-normal">
+              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
                 <li>
                   Maximum grade in bachelor's thesis building a convolutional
                   autoencoder to detect anomalies in images for the WWF using
