@@ -4,18 +4,18 @@ export default function Track({ track }) {
   return (
     <a
       href={track.songUrl}
-      className="flex my-5 border-2 items-center rounded-md border-accent-1 p-2 bg-accent-1-hover hover:bg-accent-1 transition-colors"
+      className="flex my-2 items-center p-3 hover:bg-white hover:bg-opacity-10 rounded-xl"
     >
-      <div className="flex mr-2">
+      <div className="mr-4">
         <Image
           alt="Spotify"
-          className="rounded-md"
-          height={60}
-          width={60}
+          className="rounded-full"
+          height={50}
+          width={50}
           src={track?.albumCover || "/jesi.svg"}
         />
       </div>
-      <div className="align-left w-9/12">
+      <div className="align-left w-1/2">
         <p className="text-white font-bold truncate">{track.title}</p>
         <p className="text-white italic truncate">{track.artist}</p>
       </div>
