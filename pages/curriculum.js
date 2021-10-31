@@ -19,7 +19,7 @@ export default function Curriculum() {
       </Head>
 
       <Layout>
-        <div className="mx-auto max-w-2xl text-gray-200">
+        <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-200">
           <div className="">
             <div className="text-5xl mb-3 font-bold text-green-300">
               Profile
