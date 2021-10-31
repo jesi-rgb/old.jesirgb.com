@@ -7,6 +7,7 @@ module.exports = {
         "accent-1-lighter": "#aff7d0",
         "accent-1-hover": "#0e685f",
         "accent-2": "#725ac1",
+        "accent-2-lighter": "#C0B2F0",
         "accent-2-hover": "#553ca5",
         "accent-7": "#1e1e1e",
         success: "#0070f3",
