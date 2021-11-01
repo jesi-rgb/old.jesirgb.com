@@ -9,6 +9,8 @@ import {
   faDesktop,
 } from "@fortawesome/free-solid-svg-icons";
 
+import YoutubeViewsCount from "@/components/YoutubeViewsCount";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Curriculum() {
@@ -70,14 +72,18 @@ export default function Curriculum() {
               </div>
               <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
                 <li>
-                  Worked with{" "}
+                  Created engaging animations earning{" "}
+                  <strong>
+                    <YoutubeViewsCount />
+                  </strong>{" "}
+                  views as part of the{" "}
                   <a
                     href="https://www.youtube.com/c/veritasium"
                     className="font-bold text-purple-300"
                   >
                     Veritasium
                   </a>{" "}
-                  in two videos in the mathematical animation department
+                  Creative team
                 </li>
                 <li>
                   Using{" "}
