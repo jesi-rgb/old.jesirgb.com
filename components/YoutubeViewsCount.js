@@ -12,8 +12,6 @@ export default function YoutubeViewsCount() {
   var totalViews =
     parseInt(data.viewCountCollatz) + parseInt(data.viewCountCubic);
 
-  console.log(totalViews);
-
   var numStr = (totalViews / 1000000).toFixed(2) + "M";
 
   return (
