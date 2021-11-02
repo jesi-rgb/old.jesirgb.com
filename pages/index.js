@@ -20,8 +20,8 @@ export default function Landing() {
         className="hidden xl:inline xl:absolute xl:-top-10 xl:mt-32 xl:h-full"
       >
         <svg
-          width="540"
           height="540"
+          width="540"
           viewBox="0 -5 540 529"
           fill="none"
           xmlns="https://www.w3.org/2000/svg"
@@ -54,13 +54,11 @@ export default function Landing() {
       </svg>
 
       <div className="ml-9 z-10 text-white text-xl xl:text-3xl font-light xl:m-40 xl:top-20">
-        I am{" "}
         <h1 className="text-5xl xl:text-8xl my-10 font-bold font-blogpost tracking-tighter">
           Jesús Rascón
         </h1>
-        <div className="mt-8 w-1/2 md:w-1/4 text-xl xl:text-3xl">
-          Computer and data scientist, mathematical animator, creative
-          consultant and musician.
+        <div className="mt-8 w-1/2 md:w-1/4 text-xl xl:text-3xl font-bold">
+          Mathematically-flavoured creator
         </div>
       </div>
 

@@ -11,12 +11,14 @@ export default function PortfolioItem({
   return (
     <a href={"/portfolio/" + slug}>
       <div className="text-white rounded-md border-2 border-gray-300 my-5 p-3 bg-opacity-40">
-        <Image
-          src={image || "/jesi.svg"}
-          className="border-2 border-gray-50"
-          width={600}
-          height={600}
-        />
+        <div className="border-2 border-white rounded-sm">
+          <Image
+            src={image || "/jesi.svg"}
+            className="border-2 border-gray-50"
+            width={600}
+            height={600}
+          />
+        </div>
         <div className="font-bold my-4 text-2xl">{title}</div>
         <div className="font-blogpost xl:text-xl mb-2">{description}</div>
         <div className="flex flex-col xl:flex-row">
