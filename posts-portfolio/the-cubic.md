@@ -34,5 +34,10 @@ Though very subtle, all the cubes have what artists would consider a *stroke*, t
 ![Cubes dancing](/portfolio-images/the-cubic/cubes.mp4)
 
 
+## The video
+
+Finally, as usual, here's the final video. One of the best in the channel so far! 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cUzklzVXJwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
