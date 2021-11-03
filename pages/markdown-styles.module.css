@@ -88,3 +88,7 @@
   color: #aff7d0;
   text-decoration: underline;
 }
+
+.markdown code {
+  @apply font-mono font-bold text-yellow-300;
+}
