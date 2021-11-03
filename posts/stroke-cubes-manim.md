@@ -15,7 +15,8 @@ Before diving deep into the code and specifics, I want to clarify some things. I
 I know that ManimCE supports both real-time rendering and adding stroke to ``3D Mobjects``, but the already quite large codebase (5.1K lines at this point) made it very impractical to switch.
 
 So I needed to create a new structure that allowed for adding strokes to `3D Mobjects`, compatible with the already made animations and, obiously, parameterizable. Let's go.
-`
+
+
 ## Before and after
 
 Here's what we had at the beginning of the project:
@@ -49,7 +50,7 @@ The idea is to simply create another shape with the same dimensions as the main 
 To do this, the first approach was to use ```Line```. But you can see that this does not look very good.
 
 
-[Image of several cubes using line and see perspective messed up]
+![Image of several cubes using line and see perspective messed up](/portfolio-images/the-cubic/weird_perspective.png)
 
 The problem we see here is that the renderer does not now how to calculate the interactions between 3D Mobjects and 2D Mobjects, that is, Cubes and Lines.
 
