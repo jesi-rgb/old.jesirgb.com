@@ -65,7 +65,7 @@ Luckily, there's a ```3DLine``` object in Manim, that addresses all the problems
 
 Now that's good an all, but how do you make a wireframe for a cube?
 
-Lets compile some requirements:
+Let's compile some requirements:
 1. I want to develop a new class, ```JPrism``` (J for Jesús, obviously), that works the exact same as a normal ```Prism``` but has a stroke.
 1. I want the stroke to be parameterizable. Not necessarily super easy but at least customizable.
 1. I want it to be properly rendered, so we'll use ```3DLine```.
@@ -192,7 +192,7 @@ And our wireframe looks like this!
 
 ![image of wireframe cube correct](/portfolio-images/the-cubic/rotating_wireframe_good.mp4)
 
-Since the lines are also objects, those can be parameterizables, so that's also cool. And I built a class that I could simply replace into the original animation, and everything worked flawlessly, but now with outlined cubes!
+Since the lines are also objects, those can be parameterizable, so that's also cool. And I built a class that I could simply replace into the original animation, and everything worked flawlessly, but now with outlined cubes!
 
 I find this to be probably overkill, but I've learned lots of things along the way and forced myself to think a bit more outside the box. (pun intended)
 

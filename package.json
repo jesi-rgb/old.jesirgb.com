@@ -27,6 +27,7 @@
     "react-map-gl": "^6.1.1",
     "styled-components": "^5.2.1",
     "swr": "^0.4.0",
+    "tailwind-scrollbar-hide": "^1.1.5",
     "tailwindcss": "^2.2.15"
   },
   "devDependencies": {}
