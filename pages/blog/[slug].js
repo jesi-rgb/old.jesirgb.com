@@ -3,7 +3,7 @@ import fs from "fs";
 import path, { parse } from "path";
 import matter from "gray-matter";
 import Head from "next/head";
-import marked from "marked";
+import { marked } from "marked";
 import Layout from "../../components/Layout";
 import PostBody from "@/components/PostBody";
 

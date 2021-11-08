@@ -12,11 +12,6 @@
   @apply mx-4 xl:mx-32;
 }
 
-.markdown pre {
-  /* word-wrap: break-word;  */
-  @apply overflow-hidden overflow-x-auto;
-}
-
 .markdown table {
   @apply table-auto text-white mx-auto text-xl border-separate;
   border-color: #aff7d0;
@@ -90,5 +85,5 @@
 }
 
 .markdown code {
-  @apply font-mono font-bold text-yellow-300;
+  @apply font-mono font-bold;
 }

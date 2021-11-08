@@ -76,7 +76,7 @@ To create the edges of a cube, you can repeatedly and manually position some lin
 
 Thinking about the problem for a bit, we can reach some useful conclusions. Imagine that you have a unit cube with one of the vertices positioned right at the origin of our scene. The sides are length 1 in every direction, so it is a 1 tall-wide-deep cube.
 
-Now think of the coordinates of the other vertices. The main one is in the origin, (0, 0 ,0). But the other ones will be in a combination of (1, 0, 0), (1, 1, 0), (1, 0, 1)... and so on.
+Now think of the coordinates of the other vertices. The main one is in the origin, `(0, 0 ,0)`. But the other ones will be in a combination of `(1, 0, 0)`, `(1, 1, 0)`, `(1, 0, 1)`... and so on.
 
 That looks a lot like binary numbers, and indeed, we can use this to our advantage.
 
@@ -99,6 +99,7 @@ output:
 
 ```
 
+
 As we can see, we have every binary number from 0 to 7. That is 8 numbers, which coincides with the number of vertices in a cube. Cool!
 
 Now, to construct a wireframe, we need to specify which two points to join together to form a line.
@@ -111,7 +112,7 @@ We need a way to **filter** the unnecessary edges. But how?
 
 Well, thinking about it just a bit more, we can find a pattern. When you join any pair of vertices to form our little unit cube, we can see that in each pair, **only one component of the coordinate changes**. 
 
-That is, one valid edge would be from (0, 0, 0) to (0, 0, 1), or (0, 1, 0), but never from (0, 0, 0) to (1, 1, 0). Every pair of vertices whose coordinates change in more than one component would cross through some of the faces or inside the cube. And we want to filter these out.
+That is, one valid edge would be from `(0, 0, 0)` to `(0, 0, 1)`, or `(0, 1, 0)`, but never from `(0, 0, 0)` to `(1, 1, 0)`. Every pair of vertices whose coordinates change in more than one component would cross through some of the faces or inside the cube. And we want to filter these out.
 
 But how? Let's think a bit more! 
 
@@ -125,7 +126,7 @@ That means that the XOR tells us when two inputs are equal or not. See where we 
 
 Making the XOR of two coordinates would look something like this:
 
-```
+```python
 (0, 0, 0)
 (1, 0, 0)
 _________ XOR
@@ -148,7 +149,6 @@ So now, we can use this to our advantage, specifying that we need every pair of 
 We can write this in python using some functional programming like this:
 
 ```python
-
 every_edge = list(permutations(vertices, 2))
 
 def filter_func(edge):
@@ -159,7 +159,7 @@ filtered_edges = list(filter(filter_func, every_edge))
 
 The result in ```filtered_edges``` looks something like:
 
-```
+```python
 [
 	 ((0, 0, 0), (0, 0, 1)),
 	 ((0, 0, 0), (0, 1, 0)),

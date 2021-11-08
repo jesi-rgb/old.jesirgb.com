@@ -1,4 +1,5 @@
 import "../styles/index.css";
+import "pages/code-syntax.css";
 import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
