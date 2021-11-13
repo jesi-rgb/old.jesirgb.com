@@ -12,13 +12,15 @@ export default function TopTracks() {
 
   return (
     <>
-      <p className="mt-32 text-xl text-white my-3 lg:text-2xl">
-        Recently played songs...
-      </p>
-      <div className="flex overflow-x-scroll scrollbar-hide space-x-3">
-        {data.tracks.map((track) => (
-          <Track key={track.songUrl} track={track} />
-        ))}
+      <div className="mx-4 xl:mx-0">
+        <p className="mt-32 text-xl text-white my-3 lg:text-2xl">
+          Recently played songs...
+        </p>
+        <div className="flex overflow-x-scroll scrollbar-hide space-x-3">
+          {data.tracks.map((track) => (
+            <Track key={track.songUrl} track={track} />
+          ))}
+        </div>
       </div>
     </>
   );

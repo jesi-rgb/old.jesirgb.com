@@ -76,7 +76,7 @@ To create the edges of a cube, you can repeatedly and manually position some lin
 
 Thinking about the problem for a bit, we can reach some useful conclusions. Imagine that you have a unit cube with one of the vertices positioned right at the origin of our scene. The sides are length 1 in every direction, so it is a 1 tall-wide-deep cube.
 
-Now think of the coordinates of the other vertices. The main one is in the origin, `(0, 0 ,0)`. But the other ones will be in a combination of `(1, 0, 0)`, `(1, 1, 0)`, `(1, 0, 1)`... and so on.
+Now think of the coordinates of the other vertices. The main one is in the origin, `(0, 0, 0)`. But the other ones will be in a combination of `(1, 0, 0)`, `(1, 1, 0)`, `(1, 0, 1)`... and so on.
 
 That looks a lot like binary numbers, and indeed, we can use this to our advantage.
 
