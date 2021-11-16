@@ -87,3 +87,7 @@
 .markdown code {
   @apply font-mono font-bold;
 }
+
+.markdown pre {
+  @apply scrollbar-hide;
+}
