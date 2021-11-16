@@ -21,18 +21,18 @@ So I needed to create a new structure that allowed for adding strokes to `3D Mob
 
 Here's what we had at the beginning of the project:
 
-![Cubes no stroke](/portfolio-images/the-cubic/cube_normal.png)
+![Cubes no stroke](/blog/stroke-cubes-manim/cube_normal.png)
 
 and here's how they'll look afterwards.
 
 
-![Cubes stroke](/portfolio-images/the-cubic/cube_stroke.png)
+![Cubes stroke](/blog/stroke-cubes-manim/cube_stroke.png)
 
 
 ## The idea
 The idea is that, when making the animation for Veritasium, I created the animation so the cubes sat down *exactly* next to each other, so they would basically blend together and look like a bigger shape rather than being able to identify each element.
 
-![Images comparing cubes side by side with and without strokes](/portfolio-images/the-cubic/comparison_blend.png)
+![Images comparing cubes side by side with and without strokes](/blog/stroke-cubes-manim/comparison_blend.png)
 
 Adding a stroke (outline) to the shapes would very easily allow us to see where each shape starts and ends, and better keep track of the whole animation. Plus it just looks very stylish in my opinion.
 
@@ -50,7 +50,7 @@ The idea is to simply create another shape with the same dimensions as the main 
 To do this, the first approach was to use ```Line```. But you can see that this does not look very good.
 
 
-![Image of several cubes using line and see perspective messed up](/portfolio-images/the-cubic/weird_perspective.png)
+![Image of several cubes using line and see perspective messed up](/blog/stroke-cubes-manim/weird_perspective.png)
 
 The problem we see here is that the renderer does not now how to calculate the interactions between 3D Mobjects and 2D Mobjects, that is, Cubes and Lines.
 
@@ -106,7 +106,7 @@ Now, to construct a wireframe, we need to specify which two points to join toget
 
 That is, we could make every possible combination of pairs of vertices, but that is not the wireframe we are looking for. That would look like this:
 
-![wireframe with every vertex joined](/portfolio-images/the-cubic/rotating_wireframe_all.mp4)
+![wireframe with every vertex joined](/blog/stroke-cubes-manim/rotating_wireframe_all.mp4)
 
 We need a way to **filter** the unnecessary edges. But how?
 
@@ -190,7 +190,7 @@ The result in ```filtered_edges``` looks something like:
 
 And our wireframe looks like this!
 
-![image of wireframe cube correct](/portfolio-images/the-cubic/rotating_wireframe_good.mp4)
+![image of wireframe cube correct](/blog/stroke-cubes-manim/rotating_wireframe_good.mp4)
 
 Since the lines are also objects, those can be parameterizable, so that's also cool. And I built a class that I could simply replace into the original animation, and everything worked flawlessly, but now with outlined cubes!
 
@@ -198,4 +198,4 @@ I find this to be probably overkill, but I've learned lots of things along the w
 
 That's it. Here's some dancing cubes for you.
 
-![gif of dancing cubes](/portfolio-images/the-cubic/cubes_dancing.mp4)
+![gif of dancing cubes](/blog/stroke-cubes-manim/cubes_dancing.mp4)
