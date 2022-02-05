@@ -79,7 +79,7 @@ export default function Footer() {
           </Link>
         </div>
         <h4 className="text-xl md:text-3xl my-3 md:w-2/6 md:my-0 font-bold tracking-tighter text-right">
-          2021
+          {new Date().getFullYear()}
         </h4>
       </div>
     </footer>
