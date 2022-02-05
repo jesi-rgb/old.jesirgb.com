@@ -49,9 +49,8 @@ export default function Curriculum() {
             <ul className="list-inside">
               <li className="list-item mt-10 text-2xl font-blogpost">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
-                Freelance mathematical animator
+                Art director and mathematical animator at Reducible
               </li>
-
               <div className="flex flex-row space-x-5">
                 <div className="flex flex-row ml-5 items-center">
                   <FontAwesomeIcon
@@ -59,9 +58,58 @@ export default function Curriculum() {
                     className="mr-2 text-purple-200"
                   />
                   <span className="font-normal text-purple-200">
-                    July 2021 - Present
+                    November 2021 - Present
                   </span>
                 </div>
+                <div className="flex flex-row ml-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faLocationArrow}
+                    className="mr-1 text-purple-200"
+                  />
+                  <span className="font-normal text-purple-200">Remote</span>
+                </div>
+              </div>
+              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+                <li>
+                  Creation and production of insightful, computer science based
+                  animations and designs as part of{" "}
+                  <a
+                    href="https://www.youtube.com/c/reducible"
+                    className="font-bold text-purple-300"
+                  >
+                    Reducible
+                  </a>
+                  's team
+                </li>
+                <li>
+                  Using{" "}
+                  <a
+                    href="https://www.manim.community"
+                    className="font-bold text-purple-300"
+                  >
+                    Manim
+                  </a>{" "}
+                  to develop incredibly powerful and detailed explanations about
+                  CS concepts in an attractive visual way
+                </li>
+              </ul>
+            </ul>
+            <ul className="list-inside">
+              <li className="list-item mt-10 text-2xl font-blogpost">
+                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
+                Freelance mathematical animator
+              </li>
+
+              <div className="flex flex-row space-x-5">
+                {/* <div className="flex flex-row ml-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faCalendar}
+                    className="mr-2 text-purple-200"
+                  />
+                  <span className="font-normal text-purple-200">
+                    July 2021 - Present
+                  </span>
+                </div> */}
                 <div className="flex flex-row ml-5 items-center">
                   <FontAwesomeIcon
                     icon={faLocationArrow}
