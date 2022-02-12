@@ -20,7 +20,7 @@ export default function PortfolioItem({
           />
         </div>
         <div className="font-bold my-4 text-2xl">{title}</div>
-        <div className="font-blogpost xl:text-xl mb-2">{description}</div>
+        <div className="font-blogpost xl:text-sm mb-2">{description}</div>
         <div className="flex flex-col xl:flex-row">
           <div className="italic text-blue-100 text-opacity-60 mb-4 xl:mb-0 xl:w-2/3">
             {date}

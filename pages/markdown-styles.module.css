@@ -9,7 +9,7 @@
 .markdown h3,
 .markdown h4,
 .markdown h5 {
-  @apply mx-4 xl:mx-72;
+  @apply mx-4 xl:mx-44;
 }
 
 .markdown table {
@@ -28,7 +28,7 @@
 .markdown p,
 .markdown ul,
 .markdown ol {
-  @apply my-8 text-lg xl:text-xl font-blogpost;
+  @apply my-8 text-lg xl:text-lg font-blogpost;
   color: #d6d6d6;
 }
 
@@ -42,21 +42,21 @@
 }
 
 .markdown h1 {
-  @apply text-5xl md:text-7xl text-white font-bold mt-12 mb-4 leading-snug;
+  @apply text-5xl md:text-5xl text-white font-bold mt-12 leading-snug;
 }
 
 .markdown h2 {
-  @apply text-3xl lg:text-6xl text-white border-l-4 p-3 mt-32 font-bold mb-4 leading-snug;
+  @apply text-3xl lg:text-3xl text-white border-l-4 p-3 mt-32 font-bold mb-4 leading-snug;
 }
 
 .markdown h3 {
   color: white;
-  @apply text-3xl xl:text-5xl mt-20 mb-3 leading-snug;
+  @apply text-3xl xl:text-2xl mt-20 mb-3 leading-snug;
 }
 
 .markdown h4 {
   color: white;
-  @apply text-2xl xl:text-4xl mt-20 mb-3 leading-snug;
+  @apply text-2xl xl:text-xl mt-20 mb-3 leading-snug;
 }
 
 .markdown ol {
