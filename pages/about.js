@@ -36,7 +36,7 @@ export default function About() {
             </figcaption>
           </div>
 
-          <div className="flex-col text-lg items-top xl:text-xl space-y-9 mx-5 xl:mx-0 md:w-2/4 text-justify">
+          <div className="flex-col text-lg items-top xl:text-lg space-y-9 mx-5 xl:mx-0 md:w-2/4 text-justify">
             <p>
               Hi! My name is Jesús and I am an Andalusian{" "}
               <span className="text-accent-1-lighter font-bold">
