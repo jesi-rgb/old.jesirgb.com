@@ -60,11 +60,11 @@
 }
 
 .markdown ol {
-  @apply ml-14 mr-4 xl:mx-96 list-decimal text-justify;
+  @apply ml-11 mr-4 xl:mx-60 list-decimal text-justify;
 }
 
 .markdown ul {
-  @apply ml-14 mr-4 xl:mx-12 list-disc text-justify;
+  @apply ml-11 mr-4 xl:mx-12 list-disc text-justify;
 }
 
 .markdown em {
