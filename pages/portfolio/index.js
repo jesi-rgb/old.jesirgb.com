@@ -11,24 +11,26 @@ export default function Blog({ slugs }) {
         <title>Portfolio</title>
       </Head>
       <Layout>
-        <div className="text-6xl xl:text-7xl font-bold text-white mx-2 xl:mx-auto xl:max-w-full">
-          Portfolio
-        </div>
-        <div className="text-white text-xl font-blogpost text-left my-4 mb-20 mx-2 xl:mx-auto xl:max-w-full">
-          Take a peek at some of the works I've done so far!
-        </div>
-        <div className="mx-2 xl:mx-auto xl:max-w-full">
-          {slugs.map((slug) => (
-            <PortfolioItem
-              key={slug}
-              slug={slug.slug}
-              title={slug.title}
-              description={slug.description}
-              date={slug.date}
-              image={slug.image}
-              tags={slug.tags}
-            />
-          ))}
+        <div className="mx-2 xl:mx-auto xl:max-w-4xl">
+          <div className="text-6xl xl:text-7xl font-bold text-white mx-2 xl:mx-auto xl:max-w-full">
+            Portfolio
+          </div>
+          <div className="text-white text-xl font-blogpost text-left my-4 mb-20 mx-2 xl:mx-auto xl:max-w-full">
+            Take a peek at some of the works I've done so far!
+          </div>
+          <div className="mx-2 xl:mx-auto xl:max-w-full">
+            {slugs.map((slug) => (
+              <PortfolioItem
+                key={slug}
+                slug={slug.slug}
+                title={slug.title}
+                description={slug.description}
+                date={slug.date}
+                image={slug.image}
+                tags={slug.tags}
+              />
+            ))}
+          </div>
         </div>
       </Layout>
     </>

@@ -11,17 +11,17 @@ export default function PortfolioItem({
 }) {
   return (
     <a href={"/portfolio/" + slug}>
-      <div className="text-white border-t-2 border-gray-300 my-5 p-3 bg-opacity-40 flex flex-shrink-0 items-center">
-        <div className="w-1/4">
+      <div className="text-white border-t border-gray-400 my-5 p-3 bg-opacity-40 flex flex-col xl:flex-row xl:flex-shrink-0 xl:items-center">
+        <div className="xl:w-1/4">
           <Image
             src={image || "/jesi.svg"}
-            className="rounded-full"
+            className="rounded-full transform scale-75 xl:scale-100"
             width={150}
             height={150}
           />
         </div>
 
-        <div className="flex flex-col w-2/4">
+        <div className="flex flex-col xl:w-2/4">
           <div className="font-bold my-4 text-2xl">{title}</div>
           <div className="font-blogpost xl:text-xl mb-2">{description}</div>
           <Date date={date} />
