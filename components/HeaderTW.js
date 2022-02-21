@@ -23,7 +23,7 @@ export const HeaderTW = () => {
           </div>
 
           {/* navigators */}
-          <div className="flex md:flex-auto text-sm space-x-2 xl:space-x-4 mx-2 md:mx-0 font-medium md:justify-end md:text-lg md:w-1/3">
+          <div className="absolute right-0 flex md:flex-auto text-sm space-x-2 xl:space-x-4 mx-2 md:mx-0 font-medium md:justify-end md:text-lg w-1/2 md:w-1/3">
             <a
               href="/blog"
               className="text-white hover:text-accent-1-lighter transition-colors"

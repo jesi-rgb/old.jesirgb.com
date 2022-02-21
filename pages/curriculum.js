@@ -32,12 +32,14 @@ export default function Curriculum() {
                 of learning and passionate about telling stories through data.
               </p>
               <p className="mb-4">
-                Strong statistical background and experience applying data
-                science techniques to solve complex problems.
+                Strong statistical and mathematical background, as well as
+                experience applying data science techniques to solve complex
+                problems.
               </p>
               <p className="mb-4">
                 Developed a very wide skill set, ranging from computer science
-                and design to multimedia creation and processing.
+                and design to multimedia creation and processing; either through
+                professional software or custom programming.
               </p>
             </div>
           </div>

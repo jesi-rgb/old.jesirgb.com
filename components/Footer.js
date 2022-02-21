@@ -61,7 +61,7 @@ export default function Footer() {
             </a>
           </Link>
 
-          <Link href="https://www.linkedin.com/in/jesús-enrique-cartas-rascón-8716131a5/">
+          <Link href="https://www.linkedin.com/in/jesi-rgb/">
             <a>
               <FontAwesomeIcon
                 icon={faLinkedin}
