@@ -8,7 +8,7 @@ tags: programming, animation, veritasium
 # The problem that broke math
 *02/11/2021*
 
-In this episode, the team at Veritasium tries to depict how hard was for mathematicians to find what the solution to an apparently simple polynomial could be, only to lead to one of history's most breakthroughs in mathematics.
+In this [episode](https://youtu.be/cUzklzVXJwo), the team at Veritasium tries to depict how hard was for mathematicians to find what the solution to an apparently simple polynomial could be, only to lead to one of history's most breakthroughs in mathematics.
 
 I won't spoil the story here, since it is REALLY good. But I will share some of the works I did for the team. In my [blogpost](/blog) I will breakdown how some of them were made, since what looks very simple and obivous can sometimes be incredibly elaborate to pull off!
 
@@ -23,7 +23,9 @@ The main idea was to depict the geometric processes through which all the mathem
 Here's the full animation for the geometric proof of the classic **quadratic formula** that you probably know of! 
 
 
-![Cubes dancing](/portfolio-images/the-cubic/squares.mp4)
+<video width="700" controls loop autoplay muted>
+  <source src="/portfolio-images/the-cubic/squares.mp4" type="video/mp4">
+</video>
 
 ## Completing the cube
 
@@ -31,7 +33,9 @@ Here's the animation for the exact same thing but in 3D, solving the **cubic for
 
 Though very subtle, all the cubes have what artists would consider a *stroke*, that is like a black outline. In [this article in my blog](/blog/stroke-cubes-manim), I'll carry you through the process of creating such thing, since Manim does not allow for stroke polyhedra when in the 3D realm. We had to pull some clever tricks to make it work!
 
-![Cubes dancing](/portfolio-images/the-cubic/cubes.mp4)
+<video width="700" controls loop autoplay muted>
+  <source src="/portfolio-images/the-cubic/cubes.mp4" type="video/mp4">
+</video>
 
 
 ## The video

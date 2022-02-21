@@ -106,7 +106,10 @@ Now, to construct a wireframe, we need to specify which two points to join toget
 
 That is, we could make every possible combination of pairs of vertices, but that is not the wireframe we are looking for. That would look like this:
 
-![wireframe with every vertex joined](/blog/stroke-cubes-manim/rotating_wireframe_all.mp4)
+
+<video width="700" controls loop autoplay muted>
+  <source src="/blog/stroke-cubes-manim/rotating_wireframe_all.mp4" type="video/mp4">
+</video>
 
 We need a way to **filter** the unnecessary edges. But how?
 
@@ -190,7 +193,10 @@ The result in ```filtered_edges``` looks something like:
 
 And our wireframe looks like this!
 
-![image of wireframe cube correct](/blog/stroke-cubes-manim/rotating_wireframe_good.mp4)
+<video width="700" controls loop autoplay muted>
+  <source src="/blog/stroke-cubes-manim/rotating_wireframe_good.mp4" type="video/mp4">
+</video>
+
 
 Since the lines are also objects, those can be parameterizable, so that's also cool. And I built a class that I could simply replace into the original animation, and everything worked flawlessly, but now with outlined cubes!
 
@@ -198,4 +204,7 @@ I find this to be probably overkill, but I've learned lots of things along the w
 
 That's it. Here's some dancing cubes for you.
 
-![gif of dancing cubes](/blog/stroke-cubes-manim/cubes_dancing.mp4)
+
+<video width="700" controls loop autoplay muted>
+  <source src="/blog/stroke-cubes-manim/cubes_dancing.mp4" type="video/mp4">
+</video>
