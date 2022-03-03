@@ -38,8 +38,10 @@ module.exports = {
         250: "2.5",
         300: "3",
       },
+
       fontFamily: {
         blogpost: [
+          "Rubik",
           "Avenir",
           "ui-sans-serif",
           "system-ui",

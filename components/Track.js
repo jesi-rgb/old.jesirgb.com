@@ -16,9 +16,9 @@ export default function Track({ track }) {
             src={track?.albumCover || "/jesi.svg"}
           />
         </div>
-        <div className="align-left">
+        <div className="align-left w-48">
           <p className="text-white font-bold">{track.title}</p>
-          <p className="text-white italic">{track.artist}</p>
+          <p className="text-white italic truncate ...">{track.artist}</p>
         </div>
       </a>
     </div>

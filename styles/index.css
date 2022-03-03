@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 @tailwind base;
 
 /* Write your own custom base styles here */
@@ -13,18 +15,9 @@
 /* Stop purging. */
 
 @font-face {
-  font-family: "Avenir";
-  font-style: normal;
-  src: url(/static/fonts/Avenir.ttc) format("truetype");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
-}
-
-@font-face {
   font-family: "Helvetica";
   font-style: normal;
-  src: url(/static/fonts/HelveticaNeue.ttc) format("truetype");
+  src: url("/static/fonts/HelveticaNeue.ttc") format("truetype");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
