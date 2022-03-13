@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import { Header } from "./Header";
+import { HeaderTW } from "./HeaderTW";
 import Meta from "../components/meta";
 import React, { useEffect } from "react";
 import prism from "prismjs";
@@ -13,8 +14,9 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <div className="md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
-        <Header />
+      {/* <div className="md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto"> */}
+      <div className="xl:mx-auto xl:max-w-4xl">
+        <HeaderTW />
         {children}
         <Footer />
       </div>

@@ -14,7 +14,7 @@ export default function About() {
       </Head>
       <Layout>
         <div className="flex xl:space-x-9 flex-col xl:flex-row xl:object-top items-center xl:items-start text-white font-blogpost">
-          <div className="mx-5 mb-10 justify-center md:w-2/4">
+          <div className="mb-10 justify-center md:w-2/4">
             <Image
               src="/assets/jesi.jpg"
               alt="Picture of Jesús Rascón"
@@ -40,12 +40,12 @@ export default function About() {
             <p>
               Hi! My name is Jesús and I am an Andalusian{" "}
               <span className="text-accent-1-lighter font-bold">
-                data journalist, chart lover, designer and musician.
+                mathematical animator, data scientist, designer and musician.
               </span>{" "}
               I like to explore all kinds of new disciplines and search for
               relationships between them. I am deeply fascinated by the process
-              of learning and, as such, I am always exercising it so, hopefully,
-              one day, I can transfer all that I know to millions of people.
+              of learning and my main goal in life is to become renowned a
+              science communicator.
             </p>
 
             <p>
@@ -57,14 +57,15 @@ export default function About() {
               <span className="text-accent-1-lighter font-bold">
                 Master's in Data Science by the University of Granada
               </span>
-              {""}. Telling compelling stories and spreading knowledge has
-              always flowed through my veins, so it's only natural that I aim
-              for doing the same, but on a bigger scale.
+              {""}. Telling stories and spreading knowledge has always flowed
+              through my veins, so it's only natural that I aim for doing the
+              same, but on a bigger scale.
             </p>
 
             <p>
               On the topic of mixing disciplines, the data visualization and
-              data journalism fields very elegantly mix some of my favourites:{" "}
+              science communication fields very elegantly mix some of my
+              favourites:{" "}
               <span className="text-accent-1-lighter font-bold">
                 problem solving, data, graphic design and narrative.
               </span>{" "}
