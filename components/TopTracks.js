@@ -12,8 +12,8 @@ export default function TopTracks() {
 
   return (
     <>
-      <div className="mx-4 xl:mx-0">
-        <p className="mt-32 text-xl text-white my-3 lg:text-2xl">
+      <div className="mx-4 xl:mx-0 sticky">
+        <p className="mt-30 text-lg text-white my-3 lg:text-xl">
           Recently played songs...
         </p>
         <div className="flex overflow-x-scroll scrollbar-hide space-x-3">
