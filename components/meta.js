@@ -26,7 +26,7 @@ export default function Meta() {
       <meta
         name="description"
         content={
-          "Personal website for Jesús Rascón: Data Journalist, Designer, Web Developer and Musician"
+          "Personal website for Jesús Rascón: Mathematical animator at Reducible"
         }
       />
     </Head>
