@@ -3,6 +3,7 @@ title: The problem that broke math
 description: Showcasing some of the animations in Veritasium's take on cubic functions
 date: 02/11/2021
 tags: programming, animation, veritasium
+pinned: true
 ---
 
 # The problem that broke math

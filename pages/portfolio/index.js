@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import Head from "next/head";
 import matter from "gray-matter";
 import PortfolioItem from "@/components/PortfolioItem";
+import PinnedPortfolioItem from "@/components/PinnedPortfolioItem";
 
 export default function Blog({ slugs }) {
   return (
@@ -15,13 +16,34 @@ export default function Blog({ slugs }) {
           <div className="text-6xl xl:text-7xl font-bold text-white mx-2 xl:mx-auto xl:max-w-full">
             Portfolio
           </div>
-          <div className="text-white text-xl font-blogpost text-left my-4 mb-20 mx-2 xl:mx-auto xl:max-w-full">
+          <div className="text-white text-xl font-blogpost text-left my-4 mb-10 mx-2 xl:mx-auto xl:max-w-full">
             Take a peek at some of the works I've done so far!
+          </div>
+
+          <div
+            id="pinned"
+            className="flex scrollbar-hide space-x-6 mb-14 rounded-2xl items-center"
+          >
+            {slugs.map((slug) => {
+              if (slug.pinned) {
+                return (
+                  <PinnedPortfolioItem
+                    key={slug.slug + "pinned"}
+                    slug={slug.slug}
+                    title={slug.title}
+                    description={slug.description}
+                    date={slug.date}
+                    image={slug.image}
+                    tags={slug.tags}
+                  />
+                );
+              }
+            })}
           </div>
           <div className="mx-2 xl:mx-auto xl:max-w-full">
             {slugs.map((slug) => (
               <PortfolioItem
-                key={slug}
+                key={slug.slug}
                 slug={slug.slug}
                 title={slug.title}
                 description={slug.description}
@@ -55,6 +77,8 @@ export const getStaticProps = async () => {
       "/thumbnails-portfolio/" + project.replace(".md", "") + ".png";
 
     let tags = processedPostContent.data.tags.split(", ");
+
+    postAndImage.pinned = processedPostContent.data.pinned ? true : false;
 
     postAndImage.tags = tags;
 

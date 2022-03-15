@@ -3,6 +3,7 @@ title: Deep dive into JPEG
 description: Let's explore in detail one of the most controversial compression algorithms
 date: 19/01/2022
 tags: programming, animation, reducible
+pinned: true
 ---
 
 # Deep dive into JPEG
