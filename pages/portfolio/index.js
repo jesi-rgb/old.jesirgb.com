@@ -22,7 +22,7 @@ export default function Blog({ slugs }) {
 
           <div
             id="pinned"
-            className="flex scrollbar-hide space-x-6 mb-14 rounded-2xl items-center"
+            className="flex scrollbar-hide overflow-y-visible overflow-x-auto space-x-6 mb-14 mx-2 items-center"
           >
             {slugs.map((slug) => {
               if (slug.pinned) {

@@ -18,7 +18,7 @@ export default function Blog({ slugs }) {
           </div>
           {slugs.map((slug) => (
             <BlogItem
-              key={slug}
+              key={slug.slug}
               slug={slug.slug}
               title={slug.title}
               description={slug.description}
