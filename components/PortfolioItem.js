@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Date from "./Date";
 import Tag from "./Tag";
 export default function PortfolioItem({
@@ -10,7 +11,7 @@ export default function PortfolioItem({
   tags,
 }) {
   return (
-    <a href={"/portfolio/" + slug}>
+    <Link href={"/portfolio/" + slug}>
       <div className="text-white border-t border-gray-400 my-5 p-3 bg-opacity-40 flex flex-col xl:flex-row xl:flex-shrink-0 xl:items-center hover:text-accent-1-lighter ">
         <div className="xl:w-1/4">
           <Image
@@ -34,6 +35,6 @@ export default function PortfolioItem({
           </div>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

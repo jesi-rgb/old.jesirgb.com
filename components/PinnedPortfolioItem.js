@@ -4,10 +4,11 @@ import Date from "./Date";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faThumbtack } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function PinnedPortfolioItem({ slug, title, date, image }) {
   return (
-    <a href={"/portfolio/" + slug}>
+    <Link href={"/portfolio/" + slug}>
       <div className="relative flex w-max flex-shrink-0 py-3 px-5 items-center align-middle text-sm border border-accent-1-lighter border-opacity-30 rounded-xl">
         <span className="absolute bottom-1 right-1 bg-accent-1-hover py-0 px-1.5 rounded-full">
           <FontAwesomeIcon
@@ -29,6 +30,6 @@ export default function PinnedPortfolioItem({ slug, title, date, image }) {
           <Date date={date} />
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

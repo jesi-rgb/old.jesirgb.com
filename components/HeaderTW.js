@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export const HeaderTW = () => {
   return (
     <>
@@ -7,15 +10,15 @@ export const HeaderTW = () => {
         <div className="flex flex-row border-b border-accent-1 items-center">
           {/* logo */}
           <div className="flex w-1/2 md:w-1/3 md:justify-start">
-            <a href="/" className="-m-4 md:-m-0">
-              <img
+            <Link href="/" className="-m-4 md:-m-0">
+              <Image
                 src="/jesi.svg"
                 alt="logo for jesús rascón"
                 width={100}
                 height={100}
                 className="transform scale-50"
               />
-            </a>
+            </Link>
           </div>
           {/* title */}
           {/* <div className="hidden text-white text-2xl font-bold hover:text-accent-1-lighter transition-colors md:visible md:flex md:justify-center md:w-1/3">
