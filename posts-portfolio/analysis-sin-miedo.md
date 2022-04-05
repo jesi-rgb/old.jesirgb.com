@@ -10,7 +10,7 @@ tags: programming, design, infographics
 
 
 
-In this post, I'll tackle some of the ideas and thought processes I went through to elaborate a music-and-language-flavoured infographic about Kali Uchis' third album.
+In this post, I'll tackle some of the ideas and thought processes I went through to elaborate a music-and-language-flavoured infographic about Kali Uchis' third album. If you want to skip all the details, the final product <a href="#final-product">lives at the very end of this page</a>.
 
 
 ## The idea
@@ -111,9 +111,16 @@ And the cool thing is that, being carefully not to mess it up while editing, you
 
 I created a palette based on the album's cover, and coloured the graphs accordingly. Easy!
 
+<a id="final-product"></a>
+
+
 ## The final product
 
-Here's the final product for you to see. Also, I published it on [twitter](https://twitter.com/jesi_rgb/status/1426575462315307010?s=20). Feel free to reach out if you have any other questions or whatever!
+Here's the final product for you to see. You can click on it to view it in glorious full resolution. Also, I published it on [twitter](https://twitter.com/jesi_rgb/status/1426575462315307010?s=20). Feel free to reach out if you have any other questions!
+
+<a href="/portfolio-images/analysis-sin-miedo/sin-miedo-analysis.pdf">
 
 ![Final Product](/portfolio-images/analysis-sin-miedo/analysis-sin-miedo.jpg)
+
+</a>
 
