@@ -7,7 +7,7 @@ pinned: true
 ---
 
 # PNG vs QOI: simplicity at its finest
-*19/01/2022*
+*29/03/2022*
 
 
 In this new episode, we are going to talk a lot about PNG: how it works, how it does what it does 
