@@ -1,5 +1,7 @@
 import TopTracks from "@/components/TopTracks";
 import Head from "next/head";
+import Footer from "@/components/Footer";
+import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -9,7 +11,16 @@ import {
   faUser,
   faCubes,
   faAward,
+  faAt,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faInstagram,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+  faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
+import LandingButton from "@/components/LandingButton";
 
 export default function Landing() {
   return (
@@ -43,37 +54,73 @@ export default function Landing() {
             </p>
           </div>
           <div className="text-center  mt-10 flex flex-col space-y-5 xl:flex-row xl:space-x-9 xl:space-y-0">
-            <button className="text-accent-1-lighter bg-accent-1 bg-opacity-20 border-0 border-accent-1 py-3 px-6 focus:outline-none hover:bg-opacity-50 rounded text-lg">
-              <a className="w-full" href="/portfolio">
-                <FontAwesomeIcon icon={faBook} className="text-lg mr-3" />{" "}
-                Portfolio
-              </a>
-            </button>
+            <LandingButton link="/portfolio" icon={faBook} text="Portfolio" />
+            <LandingButton
+              link="/curriculum"
+              icon={faAward}
+              text="Curriculum"
+            />
+            <LandingButton link="/blog" icon={faICursor} text="Blog" />
+            <LandingButton link="/about" icon={faUser} text="About" />
+          </div>
 
-            <button className="text-accent-1-lighter bg-accent-1 bg-opacity-20 border-0 border-accent-1 py-3 px-6 focus:outline-none hover:bg-opacity-50 rounded text-lg">
-              <a href="/curriculum">
-                <FontAwesomeIcon icon={faAward} className="text-lg mr-3" />{" "}
-                Curriculum
+          <div className="text-gray-400 flex flex-row justify-center space-x-8 xl:space-x-9 items-center my-2 mt-20 md:w-2/6">
+            <Link href="https://www.instagram.com/jrascon_">
+              <a>
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                />
               </a>
-            </button>
+            </Link>
 
-            <button className="text-accent-1-lighter bg-accent-1 bg-opacity-20 border-0 border-accent-1 py-3 px-6 focus:outline-none hover:bg-opacity-50 rounded text-lg">
-              <a href="/blog">
-                <FontAwesomeIcon icon={faICursor} className="text-lg mr-3" />{" "}
-                Blog
+            <Link href="https://www.twitter.com/jesi_rgb">
+              <a>
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                />
               </a>
-            </button>
+            </Link>
 
-            <button className="text-accent-1-lighter bg-accent-1 bg-opacity-20 border-0 border-accent-1 py-3 px-6 focus:outline-none hover:bg-opacity-50 rounded text-lg">
-              <a href="/about">
-                <FontAwesomeIcon icon={faUser} className="text-lg mr-3" /> About
+            <Link href="https://www.github.com/jesi-rgb">
+              <a>
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                />
               </a>
-            </button>
+            </Link>
+            <Link href="mailto:blograso@gmail.com">
+              <a>
+                <FontAwesomeIcon
+                  icon={faAt}
+                  className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.linkedin.com/in/jesi-rgb/">
+              <a>
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                />
+              </a>
+            </Link>
+            <Link href="https://t.me/jrascon">
+              <a>
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </section>
 
-      <div className="md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
+      <div className="hidden lg:block md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
         <TopTracks />
       </div>
     </>
