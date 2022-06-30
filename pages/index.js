@@ -53,7 +53,7 @@ export default function Landing() {
               .
             </p>
           </div>
-          <div className="text-center  mt-10 flex flex-col space-y-5 xl:flex-row xl:space-x-9 xl:space-y-0">
+          <div className="text-center mt-10 flex flex-col space-y-5 xl:flex-row xl:space-x-9 xl:space-y-0">
             <LandingButton link="/portfolio" icon={faBook} text="Portfolio" />
             <LandingButton
               link="/curriculum"
