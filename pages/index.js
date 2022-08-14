@@ -26,7 +26,7 @@ export default function Landing() {
   return (
     <>
       <Head>
-        <title>Thinking thoughts</title>
+        <title>Jesús Rascón</title>
       </Head>
 
       <section className="text-white mb-10 xl:mt-20">

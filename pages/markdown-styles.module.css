@@ -11,8 +11,25 @@
 .markdown h2,
 .markdown h3,
 .markdown h4,
-.markdown h5 {
-  @apply mx-4 xl:mx-44;
+.markdown h5,
+.markdown h6,
+.markdown ul,
+.markdown ol {
+  @apply text-white max-w-sm xl:max-w-xl mx-auto;
+}
+
+.markdown h1,
+.markdown h2 {
+  @apply my-4;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-family: Lexend Deca;
 }
 
 .markdown table {
@@ -45,29 +62,41 @@
 }
 
 .markdown h1 {
-  @apply text-5xl md:text-5xl text-white font-bold mt-12 leading-snug;
+  @apply text-6xl xl:text-6xl font-bold mt-12 leading-snug;
 }
 
 .markdown h2 {
-  @apply text-3xl lg:text-3xl text-white border-l-4 p-3 mt-32 font-bold mb-4 leading-snug;
+  @apply text-3xl xl:text-4xl border-b-2 py-1 mt-32 font-bold mb-4 leading-snug;
 }
 
 .markdown h3 {
   color: white;
-  @apply text-3xl xl:text-2xl mt-20 mb-3 leading-snug;
+  @apply text-3xl xl:text-3xl mt-20 mb-3 leading-snug;
 }
 
 .markdown h4 {
   color: white;
-  @apply text-2xl xl:text-xl mt-20 mb-3 leading-snug;
+  @apply text-2xl xl:text-2xl mt-20 mb-3 leading-snug;
+}
+.markdown h5 {
+  color: white;
+  @apply text-2xl xl:text-2xl mt-20 mb-3 leading-snug;
+}
+.markdown h6 {
+  color: white;
+  @apply text-2xl xl:text-2xl mt-20 mb-3 leading-snug;
 }
 
+.markdown ul,
 .markdown ol {
-  @apply ml-11 mr-4 xl:mx-60 list-decimal text-justify;
+  @apply text-justify;
 }
 
 .markdown ul {
-  @apply ml-11 mr-4 xl:mx-32 list-disc text-justify;
+  list-style-type: disc;
+}
+.markdown ol {
+  list-style-type: decimal;
 }
 
 .markdown em {

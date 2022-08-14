@@ -59,6 +59,7 @@ module.exports = {
           "Noto Color Emoji",
         ],
         display: [
+          "Lexend Deca",
           "Helvetica Neue",
           "ui-sans-serif",
           "system-ui",

@@ -125,6 +125,7 @@ Now that we know how to covert an RGB color from our image to the corresponding 
 This will effectively tell us what are the most relevant chunks that better sum up our image. From there, since every chunk is actually represented by a color (the average), we retrieve the 256 most referenced, and thus, important chunks, and, consequently, their associated colors. This will effectively return a set of colors that we can use for our GIF!
 
 _Side note_
+
 _All this information and much more can be found on this spectacular article by Steven Segenchuk: [An Overview of Color Quantization Techniques](http://web.cs.wpi.edu/~matt/courses/cs563/talks/color_quant/CQindex.html)_
 
 ### Applying a palette
