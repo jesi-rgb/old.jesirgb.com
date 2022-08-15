@@ -23,7 +23,7 @@ export default function PortfolioItem({
         </div>
 
         <div className="flex flex-col xl:w-2/4">
-          <div className="font-bold my-4 text-2xl">{title}</div>
+          <div className="font-bold font-display my-4 text-2xl">{title}</div>
           <div className="font-blogpost xl:text-xl mb-2">{description}</div>
           <Date date={date} />
           <div className="flex flex-col xl:flex-row mt-4">

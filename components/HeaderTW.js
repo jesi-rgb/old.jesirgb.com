@@ -9,16 +9,16 @@ export const HeaderTW = () => {
         {/* div for all three elements */}
         <div className="flex flex-row border-b border-accent-1 items-center">
           {/* logo */}
-          <div className="flex w-1/2 md:w-1/3 md:justify-start">
-            <Link href="/" className="-m-4 md:-m-0">
+          <div className=" w-1/2 md:w-1/3 md:justify-start -m-2">
+            <a href="/" className="">
               <Image
                 src="/jesi.svg"
                 alt="logo for jesús rascón"
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 className="transform scale-50"
               />
-            </Link>
+            </a>
           </div>
           {/* title */}
           {/* <div className="hidden text-white text-2xl font-bold hover:text-accent-1-lighter transition-colors md:visible md:flex md:justify-center md:w-1/3">

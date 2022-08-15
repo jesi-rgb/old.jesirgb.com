@@ -6,7 +6,7 @@ date: 14/08/2022
 
 # GIF encoding in p5.js
 
-#gif #p5js
+_🚧 this article is still a work in progress!_
 
 Okay! It's now time to understand how GIF actually works, at least in the contest of a library like and javascript. This article will particularly be focused on the decisions I made while adding this functionality to the tool, which may not be the best, but it's mostly a journey through what I discovered and learned.
 

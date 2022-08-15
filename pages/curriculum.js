@@ -23,10 +23,10 @@ export default function Curriculum() {
       <Layout>
         <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-200">
           <div className="">
-            <div className="text-5xl mb-3 font-bold text-green-300">
+            <div className="text-5xl mb-3 font-bold font-display text-green-300">
               Profile
             </div>
-            <div className="text-xl text-gray-200 font-blogpost">
+            <div className="text-xl text-gray-200 ">
               <p className="mb-4">
                 Multi-disciplinary professional, deeply intrigued by the process
                 of learning and passionate about telling stories through data.
@@ -45,11 +45,11 @@ export default function Curriculum() {
           </div>
 
           <div className="mt-20">
-            <div className="text-4xl mb-3 font-bold text-purple-300">
+            <div className="text-4xl mb-3 font-bold font-display text-purple-300">
               Experience
             </div>
             <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-blogpost">
+              <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Art director and mathematical animator at Reducible
               </li>
@@ -71,7 +71,7 @@ export default function Curriculum() {
                   <span className="font-normal text-purple-200">Remote</span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+              <ul className="list-inside list-disc mt-4 ml-4">
                 <li>
                   Creation and production of insightful, computer science based
                   animations and designs as part of{" "}
@@ -97,7 +97,7 @@ export default function Curriculum() {
               </ul>
             </ul>
             <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-blogpost">
+              <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Freelance mathematical animator
               </li>
@@ -120,7 +120,7 @@ export default function Curriculum() {
                   <span className="font-normal text-purple-200">Remote</span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+              <ul className="list-inside list-disc mt-4 ml-4 ">
                 <li>
                   Created engaging animations earning{" "}
                   <strong>
@@ -164,7 +164,7 @@ export default function Curriculum() {
                   , for a deeper dive on some concepts
                 </li>
               </ul>
-              <li className="list-item mt-10 text-2xl">
+              <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Data analyst and engineer
               </li>
@@ -188,7 +188,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+              <ul className="list-inside list-disc mt-4 ml-4 ">
                 <li>
                   Helped shedding a light on how the concept of biodiversity is
                   understood in social media.
@@ -204,7 +204,7 @@ export default function Curriculum() {
                 </li>
               </ul>
 
-              <li className="list-item mt-10 text-2xl">
+              <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Intern data engineer
               </li>
@@ -228,7 +228,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+              <ul className="list-inside list-disc mt-4 ml-4 ">
                 <li>
                   Assisting and learning in the process of gathering and
                   arranging data
@@ -239,12 +239,12 @@ export default function Curriculum() {
           </div>
 
           <div className="mt-20">
-            <div className="text-4xl mb-4 font-bold text-blue-400">
+            <div className="text-4xl mb-4 font-bold font-display text-blue-400">
               Education
             </div>
 
             <ul>
-              <li className="list-item mt-10 text-2xl">
+              <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faChartPie} className="mr-3" />
                 MSc in Data Science
               </li>
@@ -268,7 +268,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+              <ul className="list-inside list-disc mt-4 ml-4 ">
                 <li>
                   Thesis in NLP based transformer to generate medical comments
                   and evaluate the performance of state of the art medical-text
@@ -285,7 +285,7 @@ export default function Curriculum() {
                 </li>
               </ul>
 
-              <li className="list-item mt-10 text-2xl">
+              <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faDesktop} className="mr-3" />
                 BSc in Computer Science
               </li>
@@ -309,7 +309,7 @@ export default function Curriculum() {
                   </span>
                 </div>
               </div>
-              <ul className="list-inside list-disc mt-4 ml-4 font-blogpost">
+              <ul className="list-inside list-disc mt-4 ml-4 ">
                 <li>
                   Maximum grade in bachelor's thesis building a convolutional
                   autoencoder to detect anomalies in images for the WWF using

@@ -35,7 +35,7 @@ export default function Landing() {
             <h1 className="text-5xl xl:text-7xl mb-4 font-bold font-blogpost text-white">
               Jesús Enrique Rascón
             </h1>
-            <p className="mb-8 mt-10 leading-relaxed text-lg xl:text-2xl font-blogpost text-opacity-60">
+            <p className="mb-8 mt-10 leading-relaxed text-lg xl:text-2xl font-display text-opacity-60">
               I am a freelance mathematical animator at{" "}
               <a
                 className="font-bold text-accent-1-lighter hover:text-accent-1"

@@ -17,7 +17,7 @@ export default function Track({ track }) {
           />
         </div>
         <div className="align-left w-48">
-          <p className="text-white font-bold">{track.title}</p>
+          <p className="text-white font-display font-bold">{track.title}</p>
           <p className="text-white italic truncate ...">{track.artist}</p>
         </div>
       </a>

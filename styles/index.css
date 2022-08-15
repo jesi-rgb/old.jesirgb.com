@@ -15,6 +15,10 @@
 @tailwind utilities;
 /* Stop purging. */
 
+html {
+  font-family: Rubik;
+}
+
 @font-face {
   font-family: "Helvetica";
   font-style: normal;

@@ -30,6 +30,7 @@
 .markdown h5,
 .markdown h6 {
   font-family: Lexend Deca;
+  font-weight: bold;
 }
 
 .markdown table {
