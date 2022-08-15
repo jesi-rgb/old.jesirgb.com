@@ -22,7 +22,6 @@ export default async (req, res) => {
     let json = await responses[i].json();
     viewsArray.push(json.items[0].statistics.viewCount);
   }
-  console.log(viewsArray);
 
   return res.status(200).json({
     viewsArray,
