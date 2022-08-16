@@ -117,10 +117,10 @@
   text-decoration: underline;
 }
 
-.markdown code {
-  @apply font-mono font-bold;
-}
+/* .markdown * > code {
+  @apply font-mono font-bold text-accent-2-lighter;
+} */
 
-.markdown pre {
-  @apply scrollbar-hide;
+.markdown pre > code {
+  @apply scrollbar-hide font-mono font-bold;
 }
