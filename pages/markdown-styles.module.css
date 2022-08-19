@@ -90,7 +90,7 @@
 
 .markdown ul,
 .markdown ol {
-  @apply text-justify;
+  @apply text-left xl:text-justify max-w-xs xl:max-w-md;
 }
 
 .markdown ul {
@@ -117,9 +117,10 @@
   text-decoration: underline;
 }
 
-/* .markdown * > code {
-  @apply font-mono font-bold text-accent-2-lighter;
-} */
+.markdown * > code {
+  @apply font-mono font-bold;
+  color: #9cdcfe;
+}
 
 .markdown pre > code {
   @apply scrollbar-hide font-mono font-bold;

@@ -56,7 +56,7 @@ This technique is pretty involved and there are lots of simple and sophisticated
 
 #### Quantizing colors: Popularity algorithm
 
-Just to be very clear, I want to reinforce what is our main goal with all this. We have a color space of more than 16M colors ($256^3$) and we want to find the most important colors that our particular image has. **We want to find a subset of all the possible colors that best represents the colors in our image**.
+Just to be very clear, I want to reinforce what is our main goal with all this. We have a color space of more than 16M colors ($256^{3}$) and we want to find the most important colors that our particular image has. **We want to find a subset of all the possible colors that best represents the colors in our image**.
 
 ##### Step 1: Breaking down the color space
 
@@ -66,7 +66,7 @@ Any point in this space will be represented by its corresponding coordinate: `[2
 
 If we do this for absolutely every possible combination, we end up with our $256^3$ colors, which equals to 16M+.
 
-Now, the key part is we are going to group all this points in chunks, little $n\times n \times n$ cubes. For example, we could group them in little packages of $32 \times 32 \times 32$, each containing 32768 colors. This already is quantizing the 16M+ space into a space of only 512 colors. This comes from $\frac{256^3}{32^3} = 512$, or more importantly: $\frac{256}{32} = 8$, meaning that we are getting an eighth of the total colors for each axis `[r, g, b]`. This ratio will be important next.
+Now, the key part is we are going to group all this points in chunks, little $n\times n \times n$ cubes. For example, we could group them in little packages of $32 \times 32 \times 32$, each containing 32768 colors. This already is quantizing the 16M+ space into a space of only 512 colors. This comes from ${\frac{256^{3}}{32^{3}}} = 512$, or more importantly: $\frac{256}{32} = 8$, meaning that we are getting an eighth of the total colors for each axis `[r, g, b]`. This ratio will be important next.
 
 ##### Step 2: Define the chunks
 
@@ -108,7 +108,7 @@ Now, to get the coordinate of the chunk that the pixel in our image belongs to, 
 
 Now, we have `731`, a number in base 8, which we can convert to base 10 to get our index:
 
-$7*8^2 + 3*8 + 1 = 473$
+@7 \cdot 8^{2} + 3 \cdot 8 + 1 = 473@
 
 Now, simply access `color_chunks[473]` and obtain our new averaged, quantized color!
 
