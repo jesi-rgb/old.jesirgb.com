@@ -18,7 +18,7 @@ const Post = ({ htmlString, data }) => {
     <>
       <Head>
         <title>{data.title}</title>
-        <meta title="description" content={data.description} />
+        <meta name="description" content={data.description} />
       </Head>
       <Layout>
         <MathJaxContext config={config}>
