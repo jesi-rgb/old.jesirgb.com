@@ -108,7 +108,7 @@ Now, to get the coordinate of the chunk that the pixel in our image belongs to, 
 
 Now, we have `731`, a number in base 8, which we can convert to base 10 to get our index:
 
-@7 \cdot 8^{2} + 3 \cdot 8 + 1 = 473@
+$$7 \cdot 8^{2} + 3 \cdot 8 + 1 = 473$$
 
 Now, simply access `color_chunks[473]` and obtain our new averaged, quantized color!
 
