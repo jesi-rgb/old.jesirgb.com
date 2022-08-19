@@ -23,12 +23,6 @@ export default function Meta() {
       <link rel="manifest" href="/site.webmanifest" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1abc9c" />
       <meta name="theme-color" content="#1abc9c" />
-      <meta
-        name="description"
-        content={
-          "Personal website for Jesús Rascón: Mathematical animator at Reducible"
-        }
-      />
     </Head>
   );
 }

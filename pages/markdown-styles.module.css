@@ -15,7 +15,7 @@
 .markdown h6,
 .markdown ul,
 .markdown ol {
-  @apply text-white max-w-sm xl:max-w-xl mx-auto;
+  @apply text-white max-w-md xl:max-w-xl mx-auto;
 }
 
 .markdown h1,
