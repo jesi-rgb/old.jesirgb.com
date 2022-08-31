@@ -4,11 +4,15 @@ description: The most extensive guide to GIF encoding
 date: 14/08/2022
 ---
 
-# GIF encoding in p5.js
+# GIF encoding in p5.js 🌸
 
-Okay! It's now time to understand how GIF actually works, at least in the contest of a library like and javascript. This article will particularly be focused on the decisions I made while adding this functionality to the tool, which may not be the best, but it's mostly a journey through what I discovered and learned.
+Okay! It's now time to understand how GIF actually works, at least in the contest of a library like and javascript.
+
+This article will particularly be focused on the decisions I made while adding this functionality to the tool, which may not be the best, but it's mostly a journey through what I discovered and learned.
 
 I will try to explain the whole process from beginning to end of what it takes to create a GIF out of any given animation.
+
+[![Gif encoding](/blog/gif-encoding/thumbnail.png)](/blog/gif-encoding/thumbnail.png)
 
 ## GIF files: a bit of story and terms
 
@@ -142,6 +146,8 @@ _Side note_
 
 _All this information and much more can be found on this spectacular article by Steven Segenchuk: [An Overview of Color Quantization Techniques](http://web.cs.wpi.edu/~matt/courses/cs563/talks/color_quant/CQindex.html)_
 
+_Also, this whole process, as well as applying the palette, is actually done by the [gifenc library](https://github.com/mattdesl/gifenc), by [Matt DesLauriers](https://twitter.com/mattdesl), which helped me a ton in this project._
+
 ### Applying a palette
 
 Great! So now we have a color palette that's tailored to our specific animation. Now, we need to use this palette to encode every frame.
@@ -173,22 +179,24 @@ This way, if we have a static background in our animation, this background will 
 
 So, to recap:
 
-- Gather every frame from your animation
+- **Gather every frame from your animation**
 
-- Generate a global palette
+- **Generate a global palette**
 
-- Apply the palette to every frame
+- **Apply the palette to every fram**e
 
-- Smash holes wherever applies
+- **Smash holes wherever applies**
 
-- Encode each frame
+- **Encode each frame**
 
-- Enjoy!
+- **Enjoy!**
 
 What it's described here is by no means the _standard_ way of doing this but just all the decisions and choices I had to make in order to implement the `saveGif()` function for the `p5.js` library.
 
 As I said in the beginning, the GIF specification only tells you how to **write** all the frames at low level, with block management and all that stuff. But it does not tell you how those frames should look like or what you can do to make them either look better, be smaller or (hopefully) both. So this article was aimed to explore at some of the solutions needed in those aspects.
 
-By the end of this 2022 summer the PR with all the changes should've been approved and merged, meaning this functionality would be available for everyone to use.
+By the end of this 2022 summer [the PR](https://github.com/processing/p5.js/pull/5709) with all the changes should've been approved and merged, meaning this functionality would be available for everyone to use.
 
 That's it! Now go touch some grass or, at least, watch some grass GIFs.
+
+<img width="500px" src="https://media1.tenor.com/images/2a3bcbcbe4e14c1cf24ef307c10c1fb9/tenor.gif?itemid=6112271" />
