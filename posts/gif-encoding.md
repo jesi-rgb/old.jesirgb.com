@@ -50,6 +50,10 @@ Usually, there's a javascript library (or framework) for absolutely anything. Bu
 
 So, first, we have to figure out a way to generate a color palette. Color palettes **MUST** be the size of a power of 2 and less than or equal to 256. Pretty limited. We could simply use something like this, which tries to capture every single color as best as it can.
 
+<img src="http://blog.pkh.me/img/ffgif/default-palette.png" />
+
+_Image taken from [insouris blog](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html)_
+
 But that's lame, because this palette will work mediocrely for every gif and good for almost no case. It's quite recommended to use your animation to generate a palette. And we are gonna do that!
 
 How? Simple! Go through each pixel in each frame on your animation and extract the most important colors.
