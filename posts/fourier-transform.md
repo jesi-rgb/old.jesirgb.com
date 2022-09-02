@@ -14,13 +14,13 @@ _The transform of function $f(x)$ at frequency ξ is given by the complex number
 
 When the independent variable represents time (often denoted by $t$ instead of $x$), the transform variable represents frequency (often denoted by $f$ instead of ξ). E.g. if time is measured in seconds, then frequency is in hertz (1/s).
 
-##### From [3b1b's video](https://www.youtube.com/watch?v=spUNpyF58BY):
+## From [3b1b's video](https://www.youtube.com/watch?v=spUNpyF58BY):
 
 Essentially, we are winding up our function and plotting the values of the function in a 2D-complex plane. We wind up our function around the origin at some frequency. These frequencies correspond to ξ. Whenever the frequency ξ matches somehow with the frequencies that our signal may be composed of, this will return high values in this integral.
 
 What we are measuring, step by step is:
 
-##### $e$'s rotation
+### $e$'s rotation
 
 $$e^{\theta i}$$
 
@@ -36,14 +36,14 @@ where $f$ and ξ are used interchangeably, as well as $x$ and $t$.
 This rotates our function clockwise, and the convention states the opposite, so we throw a minus sign in there:
 $$e^{-2\pi i f t}$$
 
-##### scaling of the value
+### Scaling of the value
 
 Now, this allows us to rotate at our specific frequency that we want to analyze, but the magnitude is still invariant. Every complex number lies on the unit circle. To **scale** the vector, we just multiply all that by our function at that point in time!
 $$f(t) \cdot e^{2\pi i f t}$$
 
 And this will give us a single complex number for a given $t$.
 
-##### Final integration/sumation
+### Final integration/sumation
 
 We are now going to evaluate this function for every $f$ (or ξ) in the real number plane $\mathbb{R}$.
 
