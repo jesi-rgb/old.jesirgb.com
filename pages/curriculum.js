@@ -193,7 +193,7 @@ export default function Curriculum() {
                   Helped shedding a light on how the concept of biodiversity is
                   understood in social media.
                 </li>
-                <li>Pre-processing and engineering of PLN based datasets.</li>
+                <li>Pre-processing and engineering of NLP based datasets.</li>
                 <li>
                   Helped supporting management's decision making regarding sales
                   using ggplot2 in R
