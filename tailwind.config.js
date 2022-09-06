@@ -76,6 +76,7 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
+        mono: ["IBM Plex Mono", "monospaced"],
       },
     },
   },

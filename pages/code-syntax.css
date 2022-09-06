@@ -3,7 +3,6 @@ code[class*="language-"] {
   color: #9cdcfe;
   font-size: 18px;
   text-shadow: none;
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -19,11 +18,11 @@ code[class*="language-"] {
   hyphens: none;
 }
 
-pre[class*="language-"]::selection,
+/* pre[class*="language-"]::selection,
 code[class*="language-"]::selection {
   text-shadow: none;
   background: #b3d4fc;
-}
+} */
 
 @media print {
   pre[class*="language-"],
