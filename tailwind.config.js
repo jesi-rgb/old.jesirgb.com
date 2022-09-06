@@ -41,7 +41,7 @@ module.exports = {
 
       fontFamily: {
         blogpost: [
-          "Rubik",
+          "IBM Plex Sans",
           "Avenir",
           "ui-sans-serif",
           "system-ui",
