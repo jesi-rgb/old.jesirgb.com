@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 text-gray-300 mt-32">
       <div className="py-8 space-y-9 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
         <Link href="/">
-          <a className="text-xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left hover:text-accent-1 transition-colors">
+          <a className="text-xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left  hover:text-accent-1-lighter-lighter transition-colors">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
@@ -30,7 +30,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="transform scale-150 hover:text-accent-1 transition-colors"
+                className="transform scale-150  hover:text-accent-1-lighter transition-colors"
               />
             </a>
           </Link>
@@ -39,7 +39,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTwitter}
-                className="transform scale-150 hover:text-accent-1 transition-colors"
+                className="transform scale-150  hover:text-accent-1-lighter transition-colors"
               />
             </a>
           </Link>
@@ -48,7 +48,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faGithub}
-                className="transform scale-150 hover:text-accent-1 transition-colors"
+                className="transform scale-150  hover:text-accent-1-lighter transition-colors"
               />
             </a>
           </Link>
@@ -56,7 +56,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faAt}
-                className="transform scale-150 hover:text-accent-1 transition-colors"
+                className="transform scale-150  hover:text-accent-1-lighter transition-colors"
               />
             </a>
           </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="transform scale-150 hover:text-accent-1 transition-colors"
+                className="transform scale-150  hover:text-accent-1-lighter transition-colors"
               />
             </a>
           </Link>
@@ -73,12 +73,12 @@ export default function Footer() {
             <a>
               <FontAwesomeIcon
                 icon={faTelegram}
-                className="transform scale-150 hover:text-accent-1 transition-colors"
+                className="transform scale-150  hover:text-accent-1-lighter transition-colors"
               />
             </a>
           </Link>
         </div>
-        <div className="text-2xl md:text-xl my-3 md:w-2/6 md:my-0 text-right">
+        <div className="text-2xl font-bold md:text-xl my-3 md:w-2/6 md:my-0 text-right">
           {new Date().getFullYear()}
         </div>
       </div>
