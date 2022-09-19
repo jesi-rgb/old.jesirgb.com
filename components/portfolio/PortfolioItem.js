@@ -1,15 +1,16 @@
 import Image from "next/image";
 
-export default function PortfolioItem2({ title, subtitle, thumbnail, link }) {
-  //   const img = new Blob(thumbnail);
-  //   console.log(img.width);
-
+export default function PortfolioItem2({ workInfo }) {
   return (
     <>
-      <a href={link}>
-        <img src={thumbnail} />
-        <div className="font-bold font-display text-white">{title}</div>
-        <div className="font-blogpost text-gray-400">{subtitle}</div>
+      <a href={workInfo.link} className="space-y-3">
+        <img src={workInfo.thumbnail} />
+        <div>
+          <div className="font-bold font-display text-white">
+            {workInfo.title}
+          </div>
+          <div className="font-blogpost text-gray-400">{workInfo.subtitle}</div>
+        </div>
       </a>
     </>
   );
