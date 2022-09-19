@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
 
-import PortfolioItem2 from "@/components/portfolio/PortfolioItem";
+import PortfolioItem from "@/components/portfolio/PortfolioItem";
 
 export default function Blog() {
   let works = [
@@ -192,7 +192,7 @@ export default function Blog() {
                   </div>
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 text-lg">
                     {c.works.map((w) => {
-                      return <PortfolioItem2 key={w.title} workInfo={w} />;
+                      return <PortfolioItem key={w.title} workInfo={w} />;
                     })}
                   </div>
                 </div>

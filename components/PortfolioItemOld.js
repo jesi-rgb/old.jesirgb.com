@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Date from "./Date";
 import Tag from "./Tag";
-export default function PortfolioItem({
+export default function PortfolioItemOld({
   slug,
   title,
   description,

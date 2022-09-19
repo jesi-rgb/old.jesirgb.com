@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function PortfolioItem2({ workInfo }) {
+export default function PortfolioItem({ workInfo }) {
   return (
     <>
       <div className={workInfo.spanDoubleCol ? " lg:col-span-2" : ""}>
