@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 text-gray-300 mt-32">
       <div className="py-8 space-y-9 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
         <Link href="/">
-          <a className="text-xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left  hover:text-accent-1-lighter-lighter transition-colors">
+          <a className="text-xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
