@@ -28,18 +28,13 @@ export default function Curriculum() {
             </div>
             <div className="text-xl text-gray-200 ">
               <p className="mb-4">
-                Multi-disciplinary professional, deeply intrigued by the process
-                of learning and passionate about telling stories through data.
+                Hi! I am Jesús, a video producer, web developer, graphic
+                designer and musician.
               </p>
               <p className="mb-4">
-                Strong statistical and mathematical background, as well as
-                experience applying data science techniques to solve complex
-                problems.
-              </p>
-              <p className="mb-4">
-                Developed a very wide skill set, ranging from computer science
-                and design to multimedia creation and processing; either through
-                professional software or custom programming.
+                I really enjoy all things art, but make it digital. That's why I
+                mainly focus on researching about computer graphics or
+                experimenting with blend modes.
               </p>
             </div>
           </div>
