@@ -24,6 +24,30 @@ export default function Blog() {
           spanDoubleCol: true,
         },
         {
+          title: "Just bought some new shoes",
+          subtitle: "why is it so damn hard",
+          thumbnail: "/thumbnails-portfolio/shoes-portfolio.jpg",
+          link: "/thumbnails-portfolio/shoes-portfolio.jpg",
+        },
+        {
+          title: "CACTUS",
+          subtitle: "Cool lamps in cool places",
+          thumbnail: "/thumbnails-portfolio/cactus-portfolio.jpg",
+          link: "/thumbnails-portfolio/cactus-portfolio.jpg",
+        },
+        {
+          title: "Enjoy the beach",
+          subtitle: "In late September!",
+          thumbnail: "/thumbnails-portfolio/beach-portfolio.jpg",
+          link: "/thumbnails-portfolio/beach-portfolio.jpg",
+        },
+        {
+          title: "Brain got hands",
+          subtitle: "Fighting thoughts never went well",
+          thumbnail: "/thumbnails-portfolio/brain-portfolio.jpg",
+          link: "/thumbnails-portfolio/brain-portfolio.jpg",
+        },
+        {
           title: "REST",
           subtitle: "You need some rest, even from your dreams",
           thumbnail: "/thumbnails-portfolio/REST_final.png",
@@ -79,7 +103,7 @@ export default function Blog() {
         {
           title:
             "The Traveling Salesman Problem: when good enough beats perfect",
-          subtitle: "Search engines explained",
+          subtitle: "Going places has never been this hard",
           thumbnail:
             "https://i.ytimg.com/vi/GiDsjIBOVoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCl3wLO7Ak-DcE436vfRkK7sG6rTw",
           link: "https://www.youtube.com/watch?v=GiDsjIBOVoA",
