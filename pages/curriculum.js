@@ -51,6 +51,75 @@ export default function Curriculum() {
             <ul className="list-inside">
               <li className="list-item mt-10 text-2xl font-display">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
+                Google's Summer of Code Contributor, Processing Foundation
+              </li>
+              <div className="flex flex-row space-x-5">
+                <div className="flex flex-row ml-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faCalendar}
+                    className="mr-2 text-purple-200"
+                  />
+                  <span className="font-normal text-purple-200">
+                    July 2022 - September 2022
+                  </span>
+                </div>
+                <div className="flex flex-row ml-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faLocationArrow}
+                    className="mr-1 text-purple-200"
+                  />
+                  <span className="font-normal text-purple-200">Remote</span>
+                </div>
+              </div>
+              <ul className="list-inside list-disc mt-4 ml-4">
+                <li>
+                  Successful contributor for the{" "}
+                  <a
+                    className="font-bold text-purple-300"
+                    href="https://processingfoundation.org/"
+                  >
+                    {" "}
+                    Processing Foundation
+                  </a>
+                  , building a native an easy implementation to save GIFs right
+                  from the{" "}
+                  <a
+                    className="font-bold text-purple-300"
+                    href="https://p5js.org/"
+                  >
+                    p5.js
+                  </a>{" "}
+                  library
+                </li>
+                <li>
+                  Implemented custom logic to save the GIFs in the most
+                  efficient way possible. You can{" "}
+                  <a
+                    className="font-bold text-purple-300"
+                    href="https://www.jesirgb.com/blog/gif-encoding"
+                  >
+                    read more here
+                  </a>
+                </li>
+                <li>
+                  Huge focus on teamwork, communication and iterative
+                  development through Github
+                </li>
+                <li>
+                  Check the merged{" "}
+                  <a
+                    className="font-bold text-purple-300"
+                    href="https://github.com/processing/p5.js/pull/5709"
+                  >
+                    {" "}
+                    pull request here
+                  </a>
+                </li>
+              </ul>
+            </ul>
+            <ul className="list-inside">
+              <li className="list-item mt-10 text-2xl font-display">
+                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Art director and mathematical animator at Reducible
               </li>
               <div className="flex flex-row space-x-5">
@@ -191,7 +260,7 @@ export default function Curriculum() {
               <ul className="list-inside list-disc mt-4 ml-4 ">
                 <li>
                   Helped shedding a light on how the concept of biodiversity is
-                  understood in social media.
+                  understood in social media
                 </li>
                 <li>Pre-processing and engineering of NLP based datasets.</li>
                 <li>
@@ -272,16 +341,16 @@ export default function Curriculum() {
                 <li>
                   Thesis in NLP based transformer to generate medical comments
                   and evaluate the performance of state of the art medical-text
-                  classifiers.
+                  classifiers
                 </li>
                 <li>GPA 8.5/10</li>
                 <li>
-                  Coding of advanced data mining algorithms using Python and R.
+                  Coding of advanced data mining algorithms using Python and R
                 </li>
-                <li>Tidyverse, ggplot2, Spacy, Keras/Tensorflow.</li>
+                <li>Tidyverse, ggplot2, Spacy, Keras/Tensorflow</li>
                 <li>
                   Statistical models, regression, fuzzy logic, data mining
-                  algorithms, clustering and classification.
+                  algorithms, clustering and classification
                 </li>
               </ul>
 
@@ -313,21 +382,19 @@ export default function Curriculum() {
                 <li>
                   Maximum grade in bachelor's thesis building a convolutional
                   autoencoder to detect anomalies in images for the WWF using
-                  Tensorflow and OpenCV.
+                  Tensorflow and OpenCV
                 </li>
                 <li>
                   GPA of 7.5/10 and passed with honors Image Processing and Data
-                  Engineering.
+                  Engineering
                 </li>
                 <li>
                   Data structures and Algorithms using C++ and Python,
-                  Artificial Intelligence, Operating Systems.
+                  Artificial Intelligence, Operating Systems
                 </li>
               </ul>
             </ul>
           </div>
-
-          {/* <div className="text-4xl mb-4 mt-10 font-bold text-white">Skills</div> */}
         </div>
       </Layout>
     </>
