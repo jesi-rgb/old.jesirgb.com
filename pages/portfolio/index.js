@@ -16,12 +16,30 @@ export default function Blog() {
           link: "https://jesirgb.gumroad.com/l/circle-study-wallpapers",
           spanDoubleCol: true,
         },
+
         {
-          title: "Orion Logo",
-          subtitle: "Redesigning Orion's logo just for fun",
-          thumbnail: "/thumbnails-portfolio/orion-logo.jpg",
-          link: "https://twitter.com/jesi_rgb/status/1568197841012531200",
-          spanDoubleCol: true,
+          title: "If the path looks clear, you're on someone else's",
+          subtitle: "Beautiful quote by Joseph Campbell",
+          thumbnail: "/thumbnails-portfolio/path.jpg",
+          link: "/thumbnails-portfolio/path.jpg",
+        },
+        {
+          title: "Mistakes are just means to solutions",
+          subtitle: "A different approach to having a problem",
+          thumbnail: "/thumbnails-portfolio/mistakes-ocean.jpg",
+          link: "/thumbnails-portfolio/mistakes-ocean.jpg",
+        },
+        {
+          title: "BUBBLE TEA",
+          subtitle: "it's just fucking sick",
+          thumbnail: "/thumbnails-portfolio/bubble-tea.jpg",
+          link: "/thumbnails-portfolio/bubble-tea.jpg",
+        },
+        {
+          title: "You gotta close a door to open a window",
+          subtitle: "from Tyler's NEW MAGIC WAND",
+          thumbnail: "/thumbnails-portfolio/door-window.jpg",
+          link: "/thumbnails-portfolio/door-window.jpg",
         },
         {
           title: "Just bought some new shoes",
@@ -72,6 +90,13 @@ export default function Blog() {
           thumbnail:
             "/portfolio-images/analysis-sin-miedo/analysis-sin-miedo.jpg",
           link: "https://twitter.com/jesi_rgb/status/1426575462315307010",
+        },
+        {
+          title: "Orion Logo",
+          subtitle: "Redesigning Orion's logo just for fun",
+          thumbnail: "/thumbnails-portfolio/orion-logo.jpg",
+          link: "https://twitter.com/jesi_rgb/status/1568197841012531200",
+          spanDoubleCol: true,
         },
         {
           title: "Coldtyping",
@@ -158,6 +183,38 @@ export default function Blog() {
             "https://i.ytimg.com/vi/094y1Z2wpJg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAO53Ianb2RhP7cAX9B83XXCGejCw",
           link: "https://www.youtube.com/watch?v=094y1Z2wpJg",
           category: "Video production",
+        },
+      ],
+    },
+
+    {
+      category: "Music production",
+
+      subtitle:
+        "This category includes all my solo projects publicly available on the main streaming platforms. I've also made some commissions for background music for Youtube channels, but that won't appear here.",
+
+      works: [
+        {
+          title: "Zenith",
+          subtitle:
+            "A conceptual album about space, painting landscapes with sounds.",
+          thumbnail:
+            "https://i.scdn.co/image/ab67616d0000b273b9943e6dbc57e40f4b87a6c4",
+          link: "https://open.spotify.com/album/4oXxekjpYQlgZGZ5DfVyxM?si=qVyOzZg0ScKOoq1KgnRI3Q",
+        },
+        {
+          title: "Te elijo a ti",
+          subtitle: "A very fun song made with my friend :)",
+          thumbnail:
+            "https://i.scdn.co/image/ab67616d0000b273bf95c21d0f10efee3342ab3e",
+          link: "https://open.spotify.com/album/36DyQNaCO3v1vXV6jQHt8l?si=l8sOVnVDQiadScet1nILbg",
+        },
+        {
+          title: "Outlandish",
+          subtitle: "first song i ever uploaded. please be kind",
+          thumbnail:
+            "https://i.scdn.co/image/ab67616d0000b27339feb0941c66bbc486d1f187",
+          link: "https://open.spotify.com/album/59tjfDMfQWGLdrUILnF8Kp?si=Rv7aBgDqTbSFa2J2kupOFQ",
         },
       ],
     },
