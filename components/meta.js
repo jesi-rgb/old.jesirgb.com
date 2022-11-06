@@ -4,6 +4,11 @@ export default function Meta() {
   return (
     <Head>
       <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/apple-touch-icon.png"
+      />
+      <link
         rel="icon"
         type="image/png"
         sizes="32x32"
@@ -15,14 +20,10 @@ export default function Meta() {
         sizes="16x16"
         href="/favicon-16x16.png"
       />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-touch-icon.png"
-      />
       <link rel="manifest" href="/site.webmanifest" />
-      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1abc9c" />
-      <meta name="theme-color" content="#1abc9c" />
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#AEF7D0" />
+      <meta name="msapplication-TileColor" content="#AEF7D0" />
+      <meta name="theme-color" content="#AEF7D0" />
     </Head>
   );
 }
