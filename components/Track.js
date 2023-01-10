@@ -5,7 +5,7 @@ export default function Track({ track }) {
     <div className="hover:bg-white hover:bg-opacity-10 rounded-xl">
       <a
         href={track.songUrl}
-        className="flex w-max flex-shrink-0 py-3 px-5 xl:py-5 xl:px-8 items-center align-middle text-sm"
+        className="flex py-3 px-3 items-center align-middle text-sm"
       >
         <div className="mr-4">
           <Image

@@ -1,4 +1,3 @@
-import TopTracks from "@/components/TopTracks";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -121,9 +120,6 @@ export default function Landing() {
           </div>
         </section>
 
-        <div className="hidden lg:block md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
-          <TopTracks />
-        </div>
       </html>
     </>
   );

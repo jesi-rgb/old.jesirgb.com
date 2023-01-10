@@ -2,6 +2,8 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import TopTracks from "@/components/TopTracks";
+import LastTrack from "components/LastTrack";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -13,13 +15,12 @@ export default function About() {
         <title>About</title>
       </Head>
       <Layout>
-        <div className="flex xl:space-x-9 flex-col xl:flex-row xl:object-top items-center xl:items-start text-white font-blogpost">
-          <div className="mb-10 justify-center md:w-2/4">
-            <Image
+        <div className="flex 2xl:space-x-9 flex-col 2xl:flex-row 2xl:object-top items-center 2xl:items-start text-white font-blogpost">
+          <div className="mb-10 justify-center 2xl:w-2/4">
+            <img
               src="/assets/jesi.jpg"
               alt="Picture of Jesús Rascón"
-              width={500}
-              height={700}
+              width={300}
               className="rounded-lg"
             />
 
@@ -36,7 +37,7 @@ export default function About() {
             </figcaption>
           </div>
 
-          <div className="flex-col text-lg items-top xl:text-lg space-y-9 mx-5 xl:mx-0 md:w-2/4 text-justify">
+          <div className="flex-col text-lg items-top xl:text-lg space-y-9 mx-1 xl:mx-0 2xl:w-2/4 text-justify">
             <p>
               Hi! My name is Jesús and I am an Andalusian{" "}
               <span className="text-accent-1-lighter font-bold">
@@ -94,8 +95,10 @@ export default function About() {
             </p>
 
             <p>Follow me anywhere, links down in the footer. See ya!</p>
+            <LastTrack />
           </div>
         </div>
+
       </Layout>
     </>
   );

@@ -6,6 +6,18 @@ import PortfolioItem from "@/components/portfolio/PortfolioItem";
 export default function Blog() {
   let works = [
     {
+      category: "Web Development",
+      subtitle: "Working on the new internet wave, baby!",
+      works: [
+        {
+          title: "elmetro",
+          subtitle: "a tiny little app to check tram timings in my city. made with svelte and my city's API!",
+          thumbnail: "https://elmetro.vercel.app/elmetro-banner.jpg",
+          spanDoubleCol: true,
+        }
+      ],
+    },
+    {
       category: "Graphic design",
       subtitle: "Some of my adventures pretending I'm a graphic designer",
       works: [
