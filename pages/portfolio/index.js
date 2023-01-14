@@ -242,6 +242,7 @@ export default function Blog() {
           thumbnail:
             "https://i.scdn.co/image/ab67616d0000b273b9943e6dbc57e40f4b87a6c4",
           link: "https://open.spotify.com/album/4oXxekjpYQlgZGZ5DfVyxM?si=qVyOzZg0ScKOoq1KgnRI3Q",
+          spanDoubleCol: true,
         },
         {
           title: "Te elijo a ti",
