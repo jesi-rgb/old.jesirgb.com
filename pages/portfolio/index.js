@@ -11,16 +11,45 @@ export default function Blog() {
       works: [
         {
           title: "elmetro",
-          subtitle: "a tiny little app to check tram timings in my city. made with svelte and my city's API!",
+          subtitle:
+            "a tiny little app to check tram timings in my city. made with svelte and my city's API!",
           thumbnail: "https://elmetro.vercel.app/elmetro-banner.jpg",
+          link: "https://elmetro.vercel.app/",
           spanDoubleCol: true,
-        }
+        },
+        {
+          title: "FOCAL-ES",
+          subtitle:
+            "a website that allows linguists to check how different focal particles interact within the spanish language",
+          thumbnail: "https://focal-es.vercel.app/focal-es-thumb-wide.png",
+          link: "https://focal-es.vercel.app/",
+          spanDoubleCol: true,
+        },
       ],
     },
     {
       category: "Graphic design",
       subtitle: "Some of my adventures pretending I'm a graphic designer",
       works: [
+        {
+          title: "LIMIT",
+          subtitle: "simulating event horizons in p5.js",
+          thumbnail: "/thumbnails-portfolio/LIMIT.jpg",
+          link: "/thumbnails-portfolio/LIMIT.jpg",
+          spanDoubleCol: true,
+        },
+        {
+          title: "ENIGMA",
+          subtitle: "playing with shapes and textures",
+          thumbnail: "/thumbnails-portfolio/ENIGMA.jpg",
+          link: "/thumbnails-portfolio/ENIGMA.jpg",
+        },
+        {
+          title: "TARGET",
+          subtitle: "playing with even more shapes and textures",
+          thumbnail: "/thumbnails-portfolio/TARGET.jpg",
+          link: "/thumbnails-portfolio/TARGET.jpg",
+        },
         {
           title: "Circle Study Wallpaper set",
           subtitle: "Making circles for my screen",
