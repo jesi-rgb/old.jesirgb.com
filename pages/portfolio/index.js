@@ -168,12 +168,19 @@ export default function Blog() {
       works: [
         {
           title:
+            "The Discrete Fourier Transform: Most Important Algorithm Ever?",
+          subtitle: "The most ubiquitous and praised algorithm. Ever.",
+          thumbnail:
+            "https://i.ytimg.com/vi/yYEMxqreA10/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7jlJpLlHyQc8YxniAmeH3vIZnbA",
+          link: "https://www.youtube.com/watch?v=yYEMxqreA10",
+        },
+        {
+          title:
             "The Traveling Salesman Problem: when good enough beats perfect",
           subtitle: "Going places has never been this hard",
           thumbnail:
             "https://i.ytimg.com/vi/GiDsjIBOVoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCl3wLO7Ak-DcE436vfRkK7sG6rTw",
           link: "https://www.youtube.com/watch?v=GiDsjIBOVoA",
-          category: "Video production",
         },
         {
           title: "PageRank: A trillion dollar algorithm",
@@ -181,7 +188,6 @@ export default function Blog() {
           thumbnail:
             "https://i.ytimg.com/vi/JGQe4kiPnrU/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAY0MpvUKnmi9whJq4FSIrFEH451A",
           link: "https://www.youtube.com/watch?v=JGQe4kiPnrU",
-          category: "Video production",
         },
         {
           title: "How PNG Works: Compromising speed for quality",
@@ -189,7 +195,6 @@ export default function Blog() {
           thumbnail:
             "https://i.ytimg.com/vi/EFUYNoFRHQI/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB44R9WPwmlmmKVuRUa90vV_ZDusQ",
           link: "https://www.youtube.com/watch?v=EFUYNoFRHQI",
-          category: "Video production",
         },
         {
           title:
@@ -199,7 +204,6 @@ export default function Blog() {
           thumbnail:
             "https://i.ytimg.com/vi/0me3guauqOU/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCi74IrUYyAW5OUwhXrhT3WuGgnxA",
           link: "https://www.youtube.com/watch?v=0me3guauqOU",
-          category: "Video production",
         },
         {
           title: "The riddle that seems impossible even if you know the answer",
@@ -207,7 +211,6 @@ export default function Blog() {
           thumbnail:
             "https://i.ytimg.com/vi/iSNsgj1OCLA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAzkXkkiqvdHdysp3towdtNV84Zcg",
           link: "https://www.youtube.com/watch?v=iSNsgj1OCLA&t=945s",
-          category: "Video production",
         },
         {
           title: "How imaginary numbers were invented",
@@ -215,7 +218,6 @@ export default function Blog() {
           thumbnail:
             "https://i.ytimg.com/vi/cUzklzVXJwo/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDPETABjsedr14aDuHULweNRzK0AQ",
           link: "https://www.youtube.com/watch?v=cUzklzVXJwo",
-          category: "Video production",
         },
         {
           title: "Collatz Conjecture",
@@ -223,7 +225,6 @@ export default function Blog() {
           thumbnail:
             "https://i.ytimg.com/vi/094y1Z2wpJg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAO53Ianb2RhP7cAX9B83XXCGejCw",
           link: "https://www.youtube.com/watch?v=094y1Z2wpJg",
-          category: "Video production",
         },
       ],
     },
