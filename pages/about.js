@@ -15,12 +15,12 @@ export default function About() {
         <title>About</title>
       </Head>
       <Layout>
-        <div className="flex 2xl:space-x-9 flex-col 2xl:flex-row 2xl:object-top items-center 2xl:items-start text-white font-blogpost">
-          <div className="mb-10 justify-center 2xl:w-2/4">
+        <div className="flex flex-col mx-auto items-center text-white font-blogpost">
+          <div className="mb-10 justify-center">
             <img
               src="/assets/jesi.jpg"
               alt="Picture of Jesús Rascón"
-              width={300}
+              width={400}
               className="rounded-lg"
             />
 
@@ -37,7 +37,7 @@ export default function About() {
             </figcaption>
           </div>
 
-          <div className="flex-col text-lg items-top xl:text-lg space-y-9 mx-1 xl:mx-0 2xl:w-2/4 text-justify">
+          <div className="flex-col text-lg items-top xl:text-lg space-y-9 text-justify">
             <p>
               Hi! My name is Jesús and I am an Andalusian{" "}
               <span className="text-accent-1-lighter font-bold">
@@ -98,7 +98,6 @@ export default function About() {
             <LastTrack />
           </div>
         </div>
-
       </Layout>
     </>
   );

@@ -1,7 +1,10 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
 
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 import PortfolioItem from "@/components/portfolio/PortfolioItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Blog() {
   let works = [
@@ -282,17 +285,23 @@ export default function Blog() {
             everything is a link.
           </div>
 
-          <div className="text-white font-bold text-2xl font-display mb-3">
+          <div className="text-white font-bold text-3xl font-display mb-3">
             Index
           </div>
-          <div className="flex flex-col space-y-3 text-lg font-display mb-20 pl-5 ">
+          <div className="flex flex-col space-y-3 text-xl font-body mb-20 pl-5">
             {works.map((w) => {
               return (
                 <a
                   href={"#" + w.category.toLowerCase().replace(" ", "-")}
-                  className="text-white hover:text-accent-1-lighter transition-colors"
+                  className="group"
                 >
-                  {"· " + w.category}
+                  <span className="text-white group-hover:text-accent-1-lighter transition-all">
+                    {w.category}{" "}
+                  </span>{" "}
+                  <FontAwesomeIcon
+                    className="text-white group-hover:text-accent-1-lighter group-hover:translate-x-4 transition-all"
+                    icon={faArrowRight}
+                  />
                 </a>
               );
             })}

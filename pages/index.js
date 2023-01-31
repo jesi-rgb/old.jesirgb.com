@@ -38,14 +38,14 @@ export default function Landing() {
               <p className="mb-8 mt-10 leading-relaxed text-lg xl:text-2xl font-display text-opacity-60">
                 I am a freelance mathematical animator at{" "}
                 <a
-                  className="font-bold text-accent-1-lighter hover:text-accent-1"
+                  className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
                   href="https://www.youtube.com/c/Reducible"
                 >
                   <FontAwesomeIcon icon={faCubes} className="" /> Reducible
                 </a>
                 . Prev at{" "}
                 <a
-                  className="font-bold text-accent-1-lighter hover:text-accent-1"
+                  className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
                   href="https://www.youtube.com/c/Veritasium"
                 >
                   Veritasium
@@ -69,7 +69,7 @@ export default function Landing() {
                 <a>
                   <FontAwesomeIcon
                     icon={faInstagram}
-                    className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                    className="transform scale-150 hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
@@ -78,7 +78,7 @@ export default function Landing() {
                 <a>
                   <FontAwesomeIcon
                     icon={faTwitter}
-                    className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                    className="transform scale-150 hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
@@ -87,7 +87,7 @@ export default function Landing() {
                 <a>
                   <FontAwesomeIcon
                     icon={faGithub}
-                    className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                    className="transform scale-150 hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
@@ -95,7 +95,7 @@ export default function Landing() {
                 <a>
                   <FontAwesomeIcon
                     icon={faAt}
-                    className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                    className="transform scale-150 hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
@@ -104,7 +104,7 @@ export default function Landing() {
                 <a>
                   <FontAwesomeIcon
                     icon={faLinkedin}
-                    className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                    className="transform scale-150 hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
@@ -112,14 +112,13 @@ export default function Landing() {
                 <a>
                   <FontAwesomeIcon
                     icon={faTelegram}
-                    className="transform scale-150 hover:text-accent-1-lighter transition-colors"
+                    className="transform scale-150 hover:text-accent-1 transition-colors"
                   />
                 </a>
               </Link>
             </div>
           </div>
         </section>
-
       </html>
     </>
   );

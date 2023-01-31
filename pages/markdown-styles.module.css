@@ -117,7 +117,7 @@
   position: relative;
   display: inline-block;
   transition: 0.1s;
-  text-decoration: none;
+  text-decoration: underline;
   color: #f3f3f3;
   font-weight: bold;
 }
@@ -143,6 +143,7 @@
 
 .markdown a:hover {
   color: #aff7d0;
+  text-decoration: none;
 }
 
 .markdown * > code {
