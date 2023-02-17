@@ -29,13 +29,13 @@ export default function Landing() {
       </Head>
 
       <html id="index">
-        <section className="text-white mb-10 xl:mt-20">
-          <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-            <div className="text-center lg:w-2/3 w-full">
-              <h1 className="text-8xl xl:text-9xl tracking-wide mb-4 font-bold font-display text-white">
+        <section className="text-white mb-10 md:mt-20">
+          <div className="container mb mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <div className="text-center">
+              <h1 className="text-7xl md:text-9xl leading-none tracking-wide mb-4 font-bold font-display text-white">
                 Jesús Enrique Rascón
               </h1>
-              <div className="mb-8 mt-10 leading-relaxed text-lg xl:text-2xl font-sans text-opacity-60">
+              <div className="mb-8 mt-10 leading-relaxed text-xl xl:text-2xl font-sans w-full md:w-3/4 mx-auto">
                 <p>
                   I am a freelance mathematical animator at{" "}
                   <a
@@ -44,7 +44,7 @@ export default function Landing() {
                   >
                     <FontAwesomeIcon icon={faCubes} className="" /> Reducible
                   </a>
-                  . Prev at{" "}
+                  . Previously at{" "}
                   <a
                     className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
                     href="https://www.youtube.com/c/Veritasium"
@@ -58,7 +58,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="text-center mt-10 flex flex-col space-y-5 xl:flex-row xl:space-x-9 xl:space-y-0">
+            <div className="text-center mt-10 flex flex-col space-y-5 md:flex-row md:space-x-9 md:space-y-0">
               <LandingButton link="/portfolio" icon={faBook} text="Portfolio" />
               <LandingButton
                 link="/curriculum"
