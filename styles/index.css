@@ -1,26 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=zodiak@1,2&f[]=new-title@1&f[]=hind@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
 @tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
 
-html {
-  font-family: "IBM Plex Sans";
-}
-
-/* Your own custom utilities */
 #index {
   /* background: #0c0c0c; */
   min-height: 100%;

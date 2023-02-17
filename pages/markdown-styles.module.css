@@ -1,6 +1,7 @@
 .markdown iframe {
   @apply max-w-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto;
 }
+
 .markdown video {
   @apply max-w-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto;
 }
@@ -30,7 +31,7 @@
 .markdown h4,
 .markdown h5,
 .markdown h6 {
-  font-family: Lexend Deca;
+  font-family: Zodiak;
   font-weight: bold;
 }
 
@@ -43,6 +44,7 @@
 .markdown table thead {
   @apply text-2xl;
 }
+
 .markdown table tbody tr {
   color: #d6d6d6;
 }
@@ -50,8 +52,8 @@
 .markdown p,
 .markdown ul,
 .markdown ol {
-  @apply my-8 text-lg xl:text-lg font-blogpost;
-  color: #d6d6d6;
+  @apply my-8 text-lg xl:text-lg font-sans;
+  color: #ddd;
 }
 
 .markdown blockquote p {
@@ -68,22 +70,24 @@
 }
 
 .markdown h2 {
-  @apply text-3xl xl:text-4xl border-b-2 py-1 mt-32 font-bold mb-4 leading-snug;
+  @apply text-3xl xl:text-4xl border-b-2 py-1 mt-24 font-bold mb-4 leading-snug;
 }
 
 .markdown h3 {
   color: white;
-  @apply text-2xl xl:text-3xl mt-20 mb-3 leading-snug;
+  @apply text-2xl xl:text-3xl mt-16 mb-3 leading-snug;
 }
 
 .markdown h4 {
   color: white;
-  @apply text-xl xl:text-2xl mt-20 mb-3 leading-snug;
+  @apply text-xl xl:text-2xl mt-14 mb-3 leading-snug;
 }
+
 .markdown h5 {
   color: white;
-  @apply text-xl xl:text-2xl mt-20 mb-3 leading-snug;
+  @apply text-xl xl:text-2xl mt-10 mb-3 leading-snug;
 }
+
 .markdown h6 {
   color: white;
   @apply text-xl xl:text-2xl mt-20 mb-3 leading-snug;
@@ -97,6 +101,7 @@
 .markdown ul {
   list-style-type: disc;
 }
+
 .markdown ol {
   list-style-type: decimal;
 }
@@ -146,11 +151,11 @@
   text-decoration: none;
 }
 
-.markdown * > code {
+.markdown *>code {
   @apply font-mono font-bold;
   color: #9cdcfe;
 }
 
-.markdown pre > code {
+.markdown pre>code {
   @apply scrollbar-hide font-mono font-bold;
 }

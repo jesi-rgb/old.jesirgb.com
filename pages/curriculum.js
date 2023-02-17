@@ -23,7 +23,7 @@ export default function Curriculum() {
       <Layout>
         <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-200">
           <div className="">
-            <div className="text-5xl mb-3 font-bold font-display text-green-300">
+            <div className="text-5xl mb-3 font-bold font-serif text-green-300">
               Profile
             </div>
             <div className="text-xl text-gray-200 ">
@@ -40,11 +40,11 @@ export default function Curriculum() {
           </div>
 
           <div className="mt-20">
-            <div className="text-4xl mb-3 font-bold font-display text-purple-300">
+            <div className="text-4xl mb-3 font-bold font-serif text-purple-300">
               Experience
             </div>
             <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Google's Summer of Code Contributor, Processing Foundation
               </li>
@@ -113,7 +113,7 @@ export default function Curriculum() {
               </ul>
             </ul>
             <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Art director and mathematical animator at Reducible
               </li>
@@ -161,7 +161,7 @@ export default function Curriculum() {
               </ul>
             </ul>
             <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Freelance mathematical animator
               </li>
@@ -228,7 +228,7 @@ export default function Curriculum() {
                   , for a deeper dive on some concepts
                 </li>
               </ul>
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Data analyst and engineer
               </li>
@@ -268,7 +268,7 @@ export default function Curriculum() {
                 </li>
               </ul>
 
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
                 Intern data engineer
               </li>
@@ -303,12 +303,12 @@ export default function Curriculum() {
           </div>
 
           <div className="mt-20">
-            <div className="text-4xl mb-4 font-bold font-display text-blue-400">
+            <div className="text-4xl mb-4 font-bold font-serif text-blue-400">
               Education
             </div>
 
             <ul>
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faChartPie} className="mr-3" />
                 MSc in Data Science
               </li>
@@ -349,7 +349,7 @@ export default function Curriculum() {
                 </li>
               </ul>
 
-              <li className="list-item mt-10 text-2xl font-display">
+              <li className="list-item mt-10 text-2xl font-serif">
                 <FontAwesomeIcon icon={faDesktop} className="mr-3" />
                 BSc in Computer Science
               </li>

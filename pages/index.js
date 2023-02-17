@@ -32,26 +32,31 @@ export default function Landing() {
         <section className="text-white mb-10 xl:mt-20">
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
             <div className="text-center lg:w-2/3 w-full">
-              <h1 className="text-5xl xl:text-7xl mb-4 font-bold font-blogpost text-white">
+              <h1 className="text-8xl xl:text-9xl tracking-wide mb-4 font-bold font-display text-white">
                 Jesús Enrique Rascón
               </h1>
-              <p className="mb-8 mt-10 leading-relaxed text-lg xl:text-2xl font-display text-opacity-60">
-                I am a freelance mathematical animator at{" "}
-                <a
-                  className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
-                  href="https://www.youtube.com/c/Reducible"
-                >
-                  <FontAwesomeIcon icon={faCubes} className="" /> Reducible
-                </a>
-                . Prev at{" "}
-                <a
-                  className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
-                  href="https://www.youtube.com/c/Veritasium"
-                >
-                  Veritasium
-                </a>
-                .
-              </p>
+              <div className="mb-8 mt-10 leading-relaxed text-lg xl:text-2xl font-sans text-opacity-60">
+                <p>
+                  I am a freelance mathematical animator at{" "}
+                  <a
+                    className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
+                    href="https://www.youtube.com/c/Reducible"
+                  >
+                    <FontAwesomeIcon icon={faCubes} className="" /> Reducible
+                  </a>
+                  . Prev at{" "}
+                  <a
+                    className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
+                    href="https://www.youtube.com/c/Veritasium"
+                  >
+                    Veritasium
+                  </a>
+                  .
+                </p>
+                <p>
+                  I am also a web developer and designer.
+                </p>
+              </div>
             </div>
             <div className="text-center mt-10 flex flex-col space-y-5 xl:flex-row xl:space-x-9 xl:space-y-0">
               <LandingButton link="/portfolio" icon={faBook} text="Portfolio" />

@@ -280,12 +280,12 @@ export default function Blog() {
             Portfolio
           </div>
 
-          <div className="text-gray-400 text-xl font-blogpost text-left mt-10 mb-20">
+          <div className="text-gray-400 text-xl font-sans text-left mt-10 mb-20">
             Take a peek at some of the works I've done so far! Don't be shy,
             everything is a link.
           </div>
 
-          <div className="text-white font-bold text-3xl font-display mb-3">
+          <div className="text-white font-bold text-3xl font-serif mb-3">
             Index
           </div>
           <div className="flex flex-col space-y-3 text-xl font-body mb-20 pl-5">
@@ -311,15 +311,15 @@ export default function Blog() {
             {works.map((c) => {
               return (
                 <div className="text-white">
-                  <div className="mb-10 font-display font-bold text-3xl xl:text-4xl">
+                  <div className="mb-10 text-3xl xl:text-4xl">
                     <a
                       id={c.category.toLowerCase().replace(" ", "-")}
                       href="#portfolio"
-                      className=""
+                      className="font-bold font-serif"
                     >
                       {c.category}
                     </a>
-                    <div className="text-xl mt-5 text-gray-400 font-blogpost font-normal">
+                    <div className="text-xl mt-5 text-gray-400 font-sans font-thin">
                       {c.subtitle}
                     </div>
                   </div>

@@ -7,10 +7,10 @@ export default function PortfolioItem({ workInfo }) {
         <a href={workInfo.link} className="space-y-3 group">
           <img src={workInfo.thumbnail} />
           <div>
-            <div className="font-bold font-display text-white group-hover:text-accent-1-lighter transition-colors">
+            <div className="font-bold font-serif text-white group-hover:text-accent-1-lighter transition-colors">
               {workInfo.title}
             </div>
-            <div className="font-blogpost text-gray-400">
+            <div className="font-sans text-gray-400">
               {workInfo.subtitle}
             </div>
           </div>

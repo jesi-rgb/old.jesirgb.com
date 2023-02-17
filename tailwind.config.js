@@ -27,6 +27,7 @@ module.exports = {
         "6xl": "2.75rem",
         "7xl": "4.5rem",
         "8xl": "6.25rem",
+        "9xl": "8.25rem",
         "10xl": "12rem",
       },
       boxShadow: {
@@ -40,41 +41,17 @@ module.exports = {
       },
 
       fontFamily: {
-        blogpost: [
-          "IBM Plex Sans",
-          "Avenir",
-          "ui-sans-serif",
+        sans: [
+          "Hind",
           "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica Neue",
-          "Arial",
-          "Noto Sans",
-          "sans-serif",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          "Noto Color Emoji",
+          "sans"
+        ],
+        serif:[
+          "Zodiak",
+          "serif"
         ],
         display: [
-          "Lexend Deca",
-          "Helvetica Neue",
-          "ui-sans-serif",
-          "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica Neue",
-          "Arial",
-          "Noto Sans",
-          "sans-serif",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          "Noto Color Emoji",
+          "New Title",
         ],
         mono: ["IBM Plex Mono", "monospaced"],
       },
