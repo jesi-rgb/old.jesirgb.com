@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Jesús Rascón Webpage",
+    "short_name": "Yeeeea",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#1abc9c",
-    "background_color": "#f0e685",
+    "theme_color": "##06231E",
+    "background_color": "##06231E",
     "display": "standalone"
 }
