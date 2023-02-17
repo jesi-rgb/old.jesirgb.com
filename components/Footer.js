@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 text-gray-300 mt-32">
       <div className="py-8 space-y-9 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
         <Link href="/">
-          <a className="text-xl mb-2 md:my-0 md:w-2/6 font-bold tracking-tighter leading-tight text-left">
+          <a className="text-5xl mb-2 md:my-0 md:w-2/6 font-semibold font-display text-left">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
             </a>
           </Link>
         </div>
-        <div className="text-2xl font-bold md:text-xl my-3 md:w-2/6 md:my-0 text-right">
+        <div className="text-4xl font-bold font-display my-3 md:w-2/6 md:my-0 text-right">
           {new Date().getFullYear()}
         </div>
       </div>

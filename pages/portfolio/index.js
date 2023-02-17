@@ -272,15 +272,15 @@ export default function Blog() {
         <title>Portfolio</title>
       </Head>
       <Layout>
-        <div className="text-lg xl:text-xl xl:mx-auto xl:max-w-4xl">
+        <div>
           <div
             id="portfolio"
-            className="text-6xl font-display xl:text-7xl font-bold text-white xl:mx-auto xl:max-w-full"
+            className="text-8xl font-display text-white font-bold"
           >
             Portfolio
           </div>
 
-          <div className="text-gray-400 text-xl font-sans text-left mt-10 mb-20">
+          <div className="text-white text-xl font-sans text-left mb-20">
             Take a peek at some of the works I've done so far! Don't be shy,
             everything is a link.
           </div>
