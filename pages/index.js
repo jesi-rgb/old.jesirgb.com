@@ -11,6 +11,7 @@ import {
   faCubes,
   faAward,
   faAt,
+  faArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
@@ -21,6 +22,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import LandingButton from "@/components/LandingButton";
 import LandingLinkSection from "@/components/LandingLinkSection";
+import Grid from "@/components/Grid";
 
 export default function Landing() {
   return (
@@ -29,10 +31,13 @@ export default function Landing() {
         <title>Jesús Rascón</title>
       </Head>
 
-      <html id="index">
+      <html className="bg-grid-slate-900/[0.04]" id="index">
         <section className="text-white mb-10 md:mt-20 h-screen">
-          <div className="w-1/2 mx-auto py-24">
-            <h1 className="text-7xl md:text-9xl text-left leading-none tracking-wide mb-4 font-bold font-display text-white">
+          <div className="xl:w-1/2 mx-10 xl:mx-auto mt-96">
+            <h1
+              style={{ textShadow: "0 0 10px #ffffff88" }}
+              className="text-8xl shadow-co md:text-9xl text-left leading-none tracking-wide mb-4 font-bold font-display text-white"
+            >
               Jesús Enrique Rascón
             </h1>
             <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans w-full">
@@ -59,6 +64,9 @@ export default function Landing() {
               </p>
               <p>I am also a web developer and designer.</p>
             </div>
+          </div>
+          <div className="text-center mt-14 sm:mt-36 animate-bounce">
+            <FontAwesomeIcon icon={faArrowDown} />
           </div>
         </section>
 

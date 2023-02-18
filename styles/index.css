@@ -1,5 +1,5 @@
 @import url("https://api.fontshare.com/v2/css?f[]=zodiak@1,2&f[]=new-title@1&f[]=hind@1&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,28 @@
   min-height: 100%;
   background: radial-gradient(circle, rgb(19, 62, 58) 0%, rgb(5, 35, 30) 68%);
   background-attachment: fixed;
+
+  --size: 110px;
+  background-image: repeating-linear-gradient(
+      0deg,
+      #fff,
+      #fff 0.1px,
+      transparent 1px,
+      transparent var(--size)
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      #fff,
+      #fff 0.1px,
+      transparent 1px,
+      transparent var(--size)
+    ),
+    radial-gradient(circle, rgb(19, 62, 58) 0%, rgb(2, 23, 19) 68%);
+
+  background-size: var(--size) var(--size), var(--size) var(--size), 100% 100%;
+
+  background-blend-mode: overlay, overlay, normal;
+
   scroll-behavior: smooth;
 }
 
