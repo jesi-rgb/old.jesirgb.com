@@ -10,7 +10,7 @@ export default function LandingLink({ text, link, description }) {
       <span className="hidden mix-blend-screen text-accent-1-lighter xl:flex pointer-events-none my-auto font-sans w-1/4 text-left text-lg mx-0 transform group-hover:translate-x-16 duration-500 opacity-0 group-hover:opacity-100 transition-all">
         {description}
       </span>
-      <span className="pointer-events-none w-1/2 my-auto text-3xl transform group-hover:translate-x-20 duration-500 opacity-0 group-hover:opacity-100 transition-all">
+      <span className="pointer-events-none w-1/2 my-auto text-3xl transform group-hover:translate-x-28 duration-500 opacity-0 group-hover:opacity-100 transition-all">
         <FontAwesomeIcon icon={faArrowRight} />
       </span>
     </div>
