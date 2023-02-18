@@ -1,5 +1,13 @@
 module.exports = {
   purge: ["./components/**/*.js", "./pages/**/*.js"],
+
+  variants: {
+    extend: {
+      translate: ["group-hover", "hover"],
+      transform: ["group-hover", "hover"],
+    },
+  },
+
   theme: {
     extend: {
       colors: {
@@ -41,22 +49,14 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: [
-          "Hind",
-          "system-ui",
-          "sans"
-        ],
-        serif:[
-          "Zodiak",
-          "serif"
-        ],
-        display: [
-          "New Title",
-        ],
+        sans: ["Hind", "system-ui", "sans"],
+        serif: ["Zodiak", "serif"],
+        display: ["New Title"],
         mono: ["IBM Plex Mono", "monospaced"],
       },
     },
   },
+
   plugins: [
     require("tailwind-scrollbar-hide"),
     // ...
