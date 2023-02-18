@@ -36,5 +36,9 @@
 }
 
 html {
-  background-color: #202020;
+  background-image: radial-gradient(
+    circle,
+    rgb(8, 41, 38) 0%,
+    rgb(2, 23, 19) 68%
+  );
 }

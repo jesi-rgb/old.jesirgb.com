@@ -31,7 +31,7 @@ export default function Landing() {
         <title>Jesús Rascón</title>
       </Head>
 
-      <html className="bg-grid-slate-900/[0.04]" id="index">
+      <html id="index">
         <section className="text-white mb-10 md:mt-20 h-screen">
           <div className="xl:w-1/2 mx-10 xl:mx-auto mt-96">
             <h1
@@ -65,12 +65,24 @@ export default function Landing() {
               <p>I am also a web developer and designer.</p>
             </div>
           </div>
-          <div className="text-center mt-14 sm:mt-36 animate-bounce">
-            <FontAwesomeIcon icon={faArrowDown} />
+          <div
+            onClick={() =>
+              document
+                .getElementById("links")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+            className="text-center mt-14 sm:mt-36 text-2xl animate-bounce w-10 h-10 mx-auto transition-all cursor-pointer"
+          >
+            <FontAwesomeIcon
+              className="hover:scale-150 transform "
+              icon={faArrowDown}
+            />
           </div>
         </section>
 
-        <LandingLinkSection />
+        <section id="links">
+          <LandingLinkSection />
+        </section>
       </html>
     </>
   );
