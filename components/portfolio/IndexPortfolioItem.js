@@ -4,8 +4,7 @@ export default function IndexPortfolioItem({ category, icon }) {
   return (
     <a
       href={"#" + category.toLowerCase().replace(" ", "-")}
-      style={{ filter: "" }}
-      className="group hover:bg-accent-1-hover rounded-xl hover:bg-opacity-50 hover:-translate-y-1 hover:animate-pulse transform transition-all duration-500"
+      className="group hover:bg-accent-1-hover rounded-xl hover:bg-opacity-50 hover:-translate-y-1 transform transition-all duration-500"
     >
       <div className="px-5 py-4 h-full w-fit rounded-xl border-2 flex flex-col items-center justify-between">
         <span className="text-white group-hover:text-accent-1-lighter hover:rotate-12 transform transition-all text-5xl">
