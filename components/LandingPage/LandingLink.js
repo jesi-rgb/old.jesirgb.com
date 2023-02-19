@@ -7,7 +7,7 @@ export default function LandingLink({ text, link, description }) {
       <div className="group w-[50%] flex space-x-2 xl:space-x-10 items-center transition-all duration-500">
         <div
           style={{ textShadow: "0 0 10px #AEF7D088" }}
-          className="transform border-transparent hover:border-accent-1-lighter border-b w-3/4 xl:w-[40%] group-hover:text-accent-1-lighter group-hover:translate-x-10 transition-all duration-500"
+          className="transform w-3/4 xl:w-[40%] group-hover:text-accent-1-lighter group-hover:translate-x-10 transition-all duration-500"
         >
           <a href={link}>{text}</a>
         </div>
