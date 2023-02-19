@@ -35,7 +35,7 @@ export default function Landing() {
         <section className="text-white mb-10 md:mt-20 h-screen">
           <div className="xl:w-1/2 mx-10 xl:mx-auto mt-96">
             <h1
-              style={{ textShadow: "0 0 10px #ffffff88" }}
+              style={{ textShadow: "0 0 10px #AEF7D088" }}
               className="text-8xl shadow-co md:text-9xl text-left leading-none tracking-wide mb-4 font-bold font-display text-white"
             >
               Jesús Enrique Rascón

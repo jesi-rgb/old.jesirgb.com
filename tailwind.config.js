@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       translate: ["group-hover", "hover"],
       transform: ["group-hover", "hover"],
+      ring: ["group-hover", "hover"],
     },
   },
 

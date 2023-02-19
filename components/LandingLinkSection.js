@@ -2,7 +2,7 @@ import LandingLink from "./LandingLink";
 
 export default function LandingLinkSection() {
   return (
-    <div className="">
+    <div className="my-10">
       <LandingLink
         link="/blog"
         description={
