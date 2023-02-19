@@ -2,7 +2,7 @@ import LandingLink from "./LandingLink";
 
 export default function LandingLinkSection() {
   return (
-    <div className="text-white my-10 text-left text-9xl font-display w-full md:w-1/2 mx-10 md:mx-auto">
+    <div className="">
       <LandingLink
         link="/blog"
         description={
@@ -19,9 +19,7 @@ export default function LandingLinkSection() {
       />
       <LandingLink
         link="/curriculum"
-        description={
-          "Professionally curated information about my career. Let me know if you spot any error."
-        }
+        description={"Professionally curated information about my career."}
         text={"Curriculum"}
       />
       <LandingLink

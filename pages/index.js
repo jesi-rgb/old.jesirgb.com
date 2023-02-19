@@ -42,13 +42,16 @@ export default function Landing() {
             </h1>
             <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans w-full">
               <p>
-                I am a freelance mathematical animator at{" "}
-                <a
-                  className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
-                  href="https://www.youtube.com/c/Reducible"
-                >
-                  <FontAwesomeIcon icon={faCubes} className="" /> Reducible
-                </a>
+                I am a freelance mathematical animator at
+                <span>
+                  {" "}
+                  <a
+                    className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
+                    href="https://www.youtube.com/c/Reducible"
+                  >
+                    <FontAwesomeIcon icon={faCubes} /> Reducible
+                  </a>
+                </span>
                 .
               </p>
 
