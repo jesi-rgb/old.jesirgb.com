@@ -1,15 +1,25 @@
 import Layout from "../../components/Layout";
 import Head from "next/head";
 
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowRight,
+  faBezierCurve,
+  faBrush,
+  faCompactDisc,
+  faGlobe,
+  faMusic,
+  faPencilAlt,
+  faPenNib,
+  faVideo,
+} from "@fortawesome/free-solid-svg-icons";
 
 import PortfolioItem from "@/components/portfolio/PortfolioItem";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import IndexPortfolioItem from "@/components/portfolio/IndexPortfolioItem";
 
 export default function Blog() {
   let works = [
     {
-      category: "Web Development",
+      category: "Web Design",
       subtitle: "Working on the new internet wave, baby!",
       works: [
         {
@@ -266,6 +276,8 @@ export default function Blog() {
     },
   ];
 
+  let icons = [faGlobe, faPenNib, faVideo, faCompactDisc];
+
   return (
     <>
       <Head>
@@ -285,24 +297,12 @@ export default function Blog() {
             everything is a link.
           </div>
 
-          <div className="text-white font-bold text-3xl font-serif mb-3">
-            Index
-          </div>
-          <div className="flex flex-col space-y-3 text-xl font-body mb-20 pl-5">
-            {works.map((w) => {
+          <div className="text-white font-bold text-3xl font-serif">Index</div>
+          <div className="text-gray-400 mb-6 text-xl mt-5">Quick shortcuts</div>
+          <div className="grid grid-cols-2 gap-4 xl:gap-10 mb-20">
+            {works.map((w, i) => {
               return (
-                <a
-                  href={"#" + w.category.toLowerCase().replace(" ", "-")}
-                  className="group"
-                >
-                  <span className="text-white group-hover:text-accent-1-lighter transition-all">
-                    {w.category}{" "}
-                  </span>{" "}
-                  <FontAwesomeIcon
-                    className="text-white group-hover:text-accent-1-lighter group-hover:translate-x-4 transition-all"
-                    icon={faArrowRight}
-                  />
-                </a>
+                <IndexPortfolioItem category={w.category} icon={icons[i]} />
               );
             })}
           </div>

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "host": "next dev -H 172.20.10.3",
     "build": "next build",
     "start": "next start"
   },

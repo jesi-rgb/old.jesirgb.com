@@ -18,9 +18,9 @@ config.autoAddCss = false; /* eslint-disable import/first */
 export default function Footer() {
   return (
     <footer className="border-t border-gray-200 text-gray-300 mt-32">
-      <div className="py-8 space-y-9 md:space-y-0 md:py-10 flex flex-col md:flex-row items-center">
+      <div className="py-8 space-y-9 lg:space-y-0 md:py-10 flex flex-col lg:flex-row items-center">
         <Link href="/">
-          <a className="text-5xl mb-2 md:my-0 md:w-2/6 font-semibold font-display text-left">
+          <a className="text-5xl text-center mb-2 md:my-0 md:w-2/6 font-semibold font-display lg:text-left">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
             </a>
           </Link>
         </div>
-        <div className="text-4xl font-bold font-display my-3 md:w-2/6 md:my-0 text-right">
+        <div className="text-4xl text-center font-bold font-display my-3 lg:w-2/6 lg:my-0 md:text-right">
           {new Date().getFullYear()}
         </div>
       </div>

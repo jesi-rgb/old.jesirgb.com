@@ -19,7 +19,7 @@ export default function Landing() {
           <LandingLinkSection />
         </section>
 
-        <section className="h-screen">
+        <section className="my-10 xl:my-56">
           <ContactSection />
         </section>
       </html>
