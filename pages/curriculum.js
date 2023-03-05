@@ -12,6 +12,10 @@ import {
 import YoutubeViewsCount from "@/components/YoutubeViewsCount";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SectionTitle from "@/components/Curriculum/SectionTitle";
+import DateAndPlace from "@/components/Curriculum/DateAndPlace";
+import EntryDetails from "@/components/Curriculum/EntryDetails";
+import EntryTitle from "@/components/Curriculum/EntryTitle";
 
 export default function Curriculum() {
   return (
@@ -21,374 +25,249 @@ export default function Curriculum() {
       </Head>
 
       <Layout>
-        <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-200">
-          <div className="">
-            <div className="text-5xl mb-3 font-bold font-serif text-green-300">
-              Profile
-            </div>
-            <div className="text-xl text-gray-200 ">
-              <p className="mb-4">
-                Hi! I am Jesús, a video producer, web developer, graphic
-                designer and musician.
-              </p>
-              <p className="mb-4">
-                I really enjoy all things art, but make it digital. That's why I
-                mainly focus on researching about computer graphics or
-                experimenting with blend modes.
-              </p>
-            </div>
+        <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-300">
+          <SectionTitle title="Profile" color="green" />
+          <div className="text-xl">
+            <p className="mb-4">
+              Hi! I am Jesús, a video producer, web developer, graphic designer
+              and musician.
+            </p>
+            <p className="mb-4">
+              I really enjoy all things art, but make it digital. That's why I
+              mainly focus on researching about computer graphics or
+              experimenting with blend modes.
+            </p>
           </div>
 
           <div className="mt-20">
-            <div className="text-4xl mb-3 font-bold font-serif text-purple-300">
-              Experience
-            </div>
-            <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
-                Google's Summer of Code Contributor, Processing Foundation
+            <SectionTitle title={"Experience"} color="purple" />
+            <EntryTitle
+              title={
+                "Google's Summer of Code Contributor, Processing Foundation"
+              }
+            />
+            <DateAndPlace period={"July 2022 — September 2022"} />
+            <EntryDetails>
+              <li>
+                Successful contributor for the{" "}
+                <a
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  href="https://processingfoundation.org/"
+                >
+                  {" "}
+                  Processing Foundation
+                </a>
+                , building a native an easy implementation to save GIFs right
+                from the{" "}
+                <a
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  href="https://p5js.org/"
+                >
+                  p5.js
+                </a>{" "}
+                library
               </li>
-              <div className="flex flex-row space-x-5">
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    July 2022 - September 2022
-                  </span>
-                </div>
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">Remote</span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4">
-                <li>
-                  Successful contributor for the{" "}
-                  <a
-                    className="font-bold text-purple-300"
-                    href="https://processingfoundation.org/"
-                  >
-                    {" "}
-                    Processing Foundation
-                  </a>
-                  , building a native an easy implementation to save GIFs right
-                  from the{" "}
-                  <a
-                    className="font-bold text-purple-300"
-                    href="https://p5js.org/"
-                  >
-                    p5.js
-                  </a>{" "}
-                  library
-                </li>
-                <li>
-                  Implemented custom logic to save the GIFs in the most
-                  efficient way possible. You can{" "}
-                  <a
-                    className="font-bold text-purple-300"
-                    href="https://www.jesirgb.com/blog/gif-encoding"
-                  >
-                    read more here
-                  </a>
-                </li>
-                <li>
-                  Huge focus on teamwork, communication and iterative
-                  development through Github
-                </li>
-                <li>
-                  Check the merged{" "}
-                  <a
-                    className="font-bold text-purple-300"
-                    href="https://github.com/processing/p5.js/pull/5709"
-                  >
-                    {" "}
-                    pull request here
-                  </a>
-                </li>
-              </ul>
-            </ul>
-            <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
-                Art director and mathematical animator at Reducible
+              <li>
+                Implemented custom logic to save the GIFs in the most efficient
+                way possible. You can{" "}
+                <a
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  href="https://www.jesirgb.com/blog/gif-encoding"
+                >
+                  read more here
+                </a>
               </li>
-              <div className="flex flex-row space-x-5">
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    November 2021 - Present
-                  </span>
-                </div>
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">Remote</span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4">
-                <li>
-                  Creation and production of insightful, computer science based
-                  animations and designs as part of{" "}
-                  <a
-                    href="https://www.youtube.com/c/reducible"
-                    className="font-bold text-purple-300"
-                  >
-                    Reducible
-                  </a>
-                  's team
-                </li>
-                <li>
-                  Using{" "}
-                  <a
-                    href="https://www.manim.community"
-                    className="font-bold text-purple-300"
-                  >
-                    Manim
-                  </a>{" "}
-                  to develop incredibly powerful and detailed explanations about
-                  CS concepts in an attractive visual way
-                </li>
-              </ul>
-            </ul>
-            <ul className="list-inside">
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
-                Freelance mathematical animator
+              <li>
+                Huge focus on teamwork, communication and iterative development
+                through Github
+              </li>
+              <li>
+                Check the merged{" "}
+                <a
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  href="https://github.com/processing/p5.js/pull/5709"
+                >
+                  {" "}
+                  pull request here
+                </a>
+              </li>
+            </EntryDetails>
+
+            <EntryTitle
+              title={"Art director and mathematical animator at Reducible"}
+            />
+            <DateAndPlace period={"November 2021 — Present"} />
+
+            <EntryDetails>
+              <li>
+                Creation and production of insightful, computer science based
+                animations and designs as part of{" "}
+                <a
+                  href="https://www.youtube.com/c/reducible"
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                >
+                  Reducible
+                </a>
+                's team
+              </li>
+              <li>
+                Using{" "}
+                <a
+                  href="https://www.manim.community"
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                >
+                  Manim
+                </a>{" "}
+                to develop incredibly powerful and detailed explanations about
+                CS concepts in an attractive visual way
+              </li>
+            </EntryDetails>
+
+            <EntryTitle
+              title={"Freelance mathematical animator at Veritasium"}
+            />
+
+            <DateAndPlace period={"Total of 3 videos"} />
+            <EntryDetails>
+              <li>
+                Created engaging animations earning{" "}
+                <strong>
+                  <YoutubeViewsCount />
+                </strong>{" "}
+                views as part of the{" "}
+                <a
+                  href="https://www.youtube.com/c/veritasium"
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                >
+                  Veritasium
+                </a>{" "}
+                Creative team
+              </li>
+              <li>
+                Using{" "}
+                <a
+                  href="https://www.manim.community"
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                >
+                  Manim
+                </a>{" "}
+                to create beautiful, captivating animations about mathematical
+                concepts
               </li>
 
-              <div className="flex flex-row space-x-5">
-                {/* <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    July 2021 - Present
-                  </span>
-                </div> */}
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">Remote</span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4 ">
-                <li>
-                  Created engaging animations earning{" "}
-                  <strong>
-                    <YoutubeViewsCount />
-                  </strong>{" "}
-                  views as part of the{" "}
-                  <a
-                    href="https://www.youtube.com/c/veritasium"
-                    className="font-bold text-purple-300"
-                  >
-                    Veritasium
-                  </a>{" "}
-                  Creative team
-                </li>
-                <li>
-                  Using{" "}
-                  <a
-                    href="https://www.manim.community"
-                    className="font-bold text-purple-300"
-                  >
-                    Manim
-                  </a>{" "}
-                  to create beautiful, captivating animations about mathematical
-                  concepts
-                </li>
-
-                <li>
-                  Worked closely with the team developing a great sense of
-                  teamwork and learning how to apply feedback to the work
-                </li>
-
-                <li>
-                  More of the work I've done as a freelancer can be found in my{" "}
-                  <a href="/portfolio" className="font-bold text-purple-300">
-                    Portfolio
-                  </a>{" "}
-                  as well as my{" "}
-                  <a href="/blog" className="font-bold text-purple-300">
-                    Blog
-                  </a>
-                  , for a deeper dive on some concepts
-                </li>
-              </ul>
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
-                Data analyst and engineer
+              <li>
+                Worked closely with the team developing a great sense of
+                teamwork and learning how to apply feedback to the work
               </li>
-              <div className="flex flex-row space-x-5">
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    January 2021 - May 2021
-                  </span>
-                </div>
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    Universidad de Jaén
-                  </span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4 ">
-                <li>
-                  Helped shedding a light on how the concept of biodiversity is
-                  understood in social media
-                </li>
-                <li>Pre-processing and engineering of NLP based datasets.</li>
-                <li>
-                  Helped supporting management's decision making regarding sales
-                  using ggplot2 in R
-                </li>
-                <li>
-                  Data labeling through machine learning based clustering
-                  algorithms, using Python, Spacy and NLTK
-                </li>
-              </ul>
 
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faChevronRight} className="mr-3" />
-                Intern data engineer
+              <li>
+                More of the work I've done as a freelancer can be found in my{" "}
+                <a
+                  href="/portfolio"
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                >
+                  Portfolio
+                </a>{" "}
+                as well as my{" "}
+                <a
+                  href="/blog"
+                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                >
+                  Blog
+                </a>
+                , for a deeper dive on some concepts
               </li>
-              <div className="flex flex-row space-x-5">
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    September 2019 - May 2020
-                  </span>
-                </div>
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-purple-200"
-                  />
-                  <span className="font-normal text-purple-200">
-                    Universidad de Jaén
-                  </span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4 ">
-                <li>
-                  Assisting and learning in the process of gathering and
-                  arranging data
-                </li>
-                <li>Built tools for client tracking and management</li>
-              </ul>
-            </ul>
+            </EntryDetails>
+
+            <EntryTitle title={"Data analyst and engineer"} />
+            <DateAndPlace
+              period={"January 2021 — May 2021"}
+              place="Universidad de Jaén"
+            />
+            <EntryDetails>
+              <li>
+                Helped shedding a light on how the concept of biodiversity is
+                understood in social media
+              </li>
+              <li>Pre-processing and engineering of NLP based datasets.</li>
+              <li>
+                Helped supporting management's decision making regarding sales
+                using ggplot2 in R
+              </li>
+              <li>
+                Data labeling through machine learning based clustering
+                algorithms, using Python, Spacy and NLTK
+              </li>
+            </EntryDetails>
+
+            <EntryTitle title={"Intern data engineer"} />
+            <DateAndPlace
+              period={"September 2019 — May 2020"}
+              place="Universidad de Jaén"
+            />
+            <EntryDetails>
+              <li>
+                Assisting and learning in the process of gathering and arranging
+                data
+              </li>
+              <li>Built tools for client tracking and management</li>
+            </EntryDetails>
           </div>
 
           <div className="mt-20">
-            <div className="text-4xl mb-4 font-bold font-serif text-blue-400">
-              Education
+            <SectionTitle title={"Education"} color="blue" />
+            <div className="mt-10 text-2xl font-serif font-bold">
+              <FontAwesomeIcon icon={faChartPie} className="mr-3" />
+              MSc in Data Science
             </div>
+            <DateAndPlace
+              period={"September 2020 — Jun 2021"}
+              place="Universidad de Granada"
+              color="blue"
+            />
 
-            <ul>
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faChartPie} className="mr-3" />
-                MSc in Data Science
+            <EntryDetails>
+              <li>
+                Thesis in NLP based transformer to generate medical comments and
+                evaluate the performance of state of the art medical-text
+                classifiers
               </li>
-              <div className="flex flex-row space-x-5">
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-blue-400"
-                  />
-                  <span className="font-normal text-blue-400">
-                    September 2020 - Jun 2021
-                  </span>
-                </div>
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-blue-400"
-                  />
-                  <span className="font-normal text-blue-400">
-                    Universidad de Granada
-                  </span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4 ">
-                <li>
-                  Thesis in NLP based transformer to generate medical comments
-                  and evaluate the performance of state of the art medical-text
-                  classifiers
-                </li>
-                <li>GPA 8.5/10</li>
-                <li>
-                  Coding of advanced data mining algorithms using Python and R
-                </li>
-                <li>Tidyverse, ggplot2, Spacy, Keras/Tensorflow</li>
-                <li>
-                  Statistical models, regression, fuzzy logic, data mining
-                  algorithms, clustering and classification
-                </li>
-              </ul>
+              <li>GPA 8.5/10</li>
+              <li>
+                Coding of advanced data mining algorithms using Python and R
+              </li>
+              <li>Tidyverse, ggplot2, Spacy, Keras/Tensorflow</li>
+              <li>
+                Statistical models, regression, fuzzy logic, data mining
+                algorithms, clustering and classification
+              </li>
+            </EntryDetails>
 
-              <li className="list-item mt-10 text-2xl font-serif">
-                <FontAwesomeIcon icon={faDesktop} className="mr-3" />
-                BSc in Computer Science
+            <div className="mt-10 text-2xl font-serif font-bold">
+              <FontAwesomeIcon icon={faDesktop} className="mr-3" />
+              BSc in Computer Science
+            </div>
+            <DateAndPlace
+              period={"September 2016 — Jun 2020"}
+              place="Universidad de Jaén"
+              color="blue"
+            />
+
+            <EntryDetails>
+              <li>
+                Maximum grade in bachelor's thesis building a convolutional
+                autoencoder to detect anomalies in images for the WWF using
+                Tensorflow and OpenCV
               </li>
-              <div className="flex flex-row space-x-5">
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faCalendar}
-                    className="mr-2 text-blue-400"
-                  />
-                  <span className="font-normal text-blue-400">
-                    September 2016 - Jun 2020
-                  </span>
-                </div>
-                <div className="flex flex-row ml-5 items-center">
-                  <FontAwesomeIcon
-                    icon={faLocationArrow}
-                    className="mr-1 text-blue-400"
-                  />
-                  <span className="font-normal text-blue-400">
-                    Universidad de Jaén
-                  </span>
-                </div>
-              </div>
-              <ul className="list-inside list-disc mt-4 ml-4 ">
-                <li>
-                  Maximum grade in bachelor's thesis building a convolutional
-                  autoencoder to detect anomalies in images for the WWF using
-                  Tensorflow and OpenCV
-                </li>
-                <li>
-                  GPA of 7.5/10 and passed with honors Image Processing and Data
-                  Engineering
-                </li>
-                <li>
-                  Data structures and Algorithms using C++ and Python,
-                  Artificial Intelligence, Operating Systems
-                </li>
-              </ul>
-            </ul>
+              <li>
+                GPA of 7.5/10 and passed with honors Image Processing and Data
+                Engineering
+              </li>
+              <li>
+                Data structures and Algorithms using C++ and Python, Artificial
+                Intelligence, Operating Systems
+              </li>
+            </EntryDetails>
           </div>
         </div>
       </Layout>
