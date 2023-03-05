@@ -19,7 +19,7 @@ export default function Landing() {
           <LandingLinkSection />
         </section>
 
-        <section className="my-10 xl:my-56">
+        <section className="my-40 xl:my-64">
           <ContactSection />
         </section>
       </html>

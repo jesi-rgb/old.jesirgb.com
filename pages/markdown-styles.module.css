@@ -108,6 +108,7 @@
 
 .markdown em {
   color: #d2e4ff;
+  @apply font-mono;
 }
 
 .markdown strong {
@@ -151,11 +152,11 @@
   text-decoration: none;
 }
 
-.markdown *>code {
+.markdown * > code {
   @apply font-mono font-bold;
   color: #9cdcfe;
 }
 
-.markdown pre>code {
+.markdown pre > code {
   @apply scrollbar-hide font-mono font-bold;
 }
