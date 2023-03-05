@@ -40,7 +40,7 @@ export default function Curriculum() {
           </div>
 
           <div className="mt-20">
-            <SectionTitle title={"Experience"} color="purple" />
+            <SectionTitle title={"Experience"} />
             <EntryTitle
               title={
                 "Google's Summer of Code Contributor, Processing Foundation"
