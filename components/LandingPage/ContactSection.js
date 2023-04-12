@@ -16,9 +16,9 @@ export default function ContactSection() {
       >
         Contact
       </div>
-      <div className="font-sans w-96 mx-auto text-accent-1-lighter text-xl text-center mb-10 xl:mb-20">
+      <div className="font-sans font-thin w-96 mx-auto text-accent-1-lighter text-xl text-center mb-10 xl:mb-20">
         Find me at these places. Unfortunately, I am an extremely online person,
-        so you'll probably get quick response.
+        so you'll get quick response.
       </div>
       <div className="flex flex-col md:flex-row md:mx-40 xl:mx-96 text-center text-white text-6xl space-y-3 md:space-y-0 md:text-7xl justify-evenly">
         <ContactLink link={"https://github.com/jesi-rgb"} icon={faGithub} />

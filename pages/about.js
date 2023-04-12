@@ -1,8 +1,6 @@
 import Layout from "../components/Layout";
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import TopTracks from "@/components/TopTracks";
 import LastTrack from "components/LastTrack";
 import Head from "next/head";
 import Link from "next/link";
@@ -45,8 +43,8 @@ export default function About() {
               </span>{" "}
               I like to explore all kinds of new disciplines and search for
               relationships between them. I am deeply fascinated by the process
-              of learning and my main goal in life is to become renowned a
-              science communicator.
+              of learning and my main goal in life is to return to the internet
+              what the internet gave me.
             </p>
 
             <p>
@@ -58,9 +56,7 @@ export default function About() {
               <span className="text-accent-1-lighter font-bold">
                 Master's in Data Science by the University of Granada
               </span>
-              {""}. Telling stories and spreading knowledge has always flowed
-              through my veins, so it's only natural that I aim for doing the
-              same, but on a bigger scale.
+              {""}.
             </p>
 
             <p>
@@ -83,8 +79,7 @@ export default function About() {
                 music production.
               </span>{" "}
               I have given lots of concerts with many bands, sang lots of happy
-              and sad songs and even made an album on October 2020! You can
-              check me out{" "}
+              and sad songs and even made an album! You can check me out{" "}
               <a
                 href="https://open.spotify.com/artist/2vTS6RaNCyjiF0FkQDujjy?si=YNN6ZVQSRNyTdGdrqgm5SA"
                 className="text-accent-1-lighter hover:text-accent-1-hover font-bold"

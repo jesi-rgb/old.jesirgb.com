@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function PortfolioItem({ workInfo }) {
   return (
     <>
@@ -7,10 +5,10 @@ export default function PortfolioItem({ workInfo }) {
         <a href={workInfo.link} className="space-y-3 group">
           <img src={workInfo.thumbnail} />
           <div>
-            <div className="font-bold font-serif text-white group-hover:text-accent-1-lighter transition-colors">
+            <div className="font-medium font-serif text-white group-hover:text-accent-1-lighter transition-colors">
               {workInfo.title}
             </div>
-            <div className="font-sans text-gray-400">
+            <div className="font-sans text-gray-400 font-thin">
               {workInfo.subtitle}
             </div>
           </div>

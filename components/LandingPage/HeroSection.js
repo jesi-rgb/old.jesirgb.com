@@ -19,16 +19,32 @@ export default function HeroSection() {
         >
           Jesús Enrique Rascón
         </h1>
-        <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans w-full">
+        <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans font-thin w-full">
           <p>
-            I am a freelance mathematical animator at
+            I am a freelance animator at
             <span>
               {" "}
               <a
                 className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
                 href="https://www.youtube.com/c/Reducible"
               >
-                <FontAwesomeIcon icon={faCubes} /> Reducible
+                <FontAwesomeIcon icon={faCubes} /> Reducible{" "}
+              </a>
+            </span>
+            and{" "}
+            <span>
+              <a
+                className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
+                href="https://www.youtube.com/@Design_bits"
+              >
+                <span className="inline-block align-bottom mr-1 group">
+                  <img
+                    className="transform group-hover:rotate-12 transition-transform duration-300"
+                    src="/assets/design-bits-no-ring.svg"
+                    width={"30px"}
+                  ></img>
+                </span>
+                Design Bits
               </a>
             </span>
             .

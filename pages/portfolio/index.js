@@ -2,13 +2,8 @@ import Layout from "../../components/Layout";
 import Head from "next/head";
 
 import {
-  faArrowRight,
-  faBezierCurve,
-  faBrush,
   faCompactDisc,
   faGlobe,
-  faMusic,
-  faPencilAlt,
   faPenNib,
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
@@ -44,6 +39,27 @@ export default function Blog() {
       category: "Graphic design",
       subtitle: "Some of my adventures pretending I'm a graphic designer",
       works: [
+        {
+          title: "AMPLITUDE",
+          subtitle: "Powerful signals for you",
+          thumbnail: "/thumbnails-portfolio/amplitude.jpg",
+          link: "/thumbnails-portfolio/amplitude.jpg",
+          spanDoubleCol: true,
+        },
+        {
+          title: "Bloom",
+          subtitle: "Grow together, Bloom together",
+          thumbnail: "/thumbnails-portfolio/bloom.jpg",
+          link: "/thumbnails-portfolio/bloom.jpg",
+          spanDoubleCol: false,
+        },
+        {
+          title: "Joyful",
+          subtitle: "happy blues",
+          thumbnail: "/thumbnails-portfolio/joyful.jpg",
+          link: "/thumbnails-portfolio/joyful.jpg",
+          spanDoubleCol: false,
+        },
         {
           title: "LIMIT",
           subtitle: "simulating event horizons in p5.js",
@@ -179,6 +195,29 @@ export default function Blog() {
       subtitle:
         "This category includes all the video work I've participated on, either co-producing from scratch or adding some small details",
       works: [
+        {
+          title: "Implementing GIF saving in p5.js",
+          subtitle:
+            "A talk for CCFest 2023 about adding GIF export functionality to the p5.js ecosystem!",
+          thumbnail:
+            "https://i.ytimg.com/vi/WG3ZAydSN4Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxU9eQw0O3I2ljg2M32BPYpDd1fA",
+          link: "https://youtu.be/WG3ZAydSN4Q",
+        },
+        {
+          title:
+            "Create a minimal, clean design with Cavalry, Affinity Photo & Designer",
+          subtitle: "More tutorials!",
+          thumbnail:
+            "https://i.ytimg.com/vi/rvqAad4iswA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgEMoCwKqKMDvzE8lEi18bHsg1Og",
+          link: "https://youtu.be/rvqAad4iswA",
+        },
+        {
+          title: "Abstract Poster Design using Cavalry and Affinity Designer",
+          subtitle: "First video on my channel! Niche tutorials.",
+          thumbnail:
+            "https://i.ytimg.com/vi/lG88LGGxMvE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBDtHFjQd0l8ho0HpRWlyCPd6rCg",
+          link: "https://youtu.be/lG88LGGxMvE",
+        },
         {
           title:
             "The Discrete Fourier Transform: Most Important Algorithm Ever?",
@@ -319,7 +358,7 @@ export default function Blog() {
                     >
                       {c.category}
                     </a>
-                    <div className="text-xl mt-5 text-gray-400 font-sans font-thin">
+                    <div className="text-xl mt-5 text-gray-200 font-sans font-thin">
                       {c.subtitle}
                     </div>
                   </div>
