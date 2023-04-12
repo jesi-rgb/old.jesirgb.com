@@ -15,7 +15,9 @@ export default function TopTracks() {
   return (
     <>
       <p class="text-white mt-10">
-        <FontAwesomeIcon icon={faSpotify} />{" "}
+        <span className="align-baseline">
+          <FontAwesomeIcon icon={faSpotify} />
+        </span>{" "}
         <a
           href={data.tracks[0].songUrl}
           class="transition-colors hover:text-accent-1-lighter font-thin"

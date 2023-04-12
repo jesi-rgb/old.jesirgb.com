@@ -27,7 +27,7 @@ export default function Curriculum() {
       <Layout>
         <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-300">
           <SectionTitle title="Profile" color="green" />
-          <div className="text-xl">
+          <div className="text-xl font-thin">
             <p className="mb-4">
               Hi! I am Jesús, a video producer, web developer, graphic designer
               and musician.
@@ -51,7 +51,7 @@ export default function Curriculum() {
               <li>
                 Successful contributor for the{" "}
                 <a
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                   href="https://processingfoundation.org/"
                 >
                   {" "}
@@ -60,7 +60,7 @@ export default function Curriculum() {
                 , building a native an easy implementation to save GIFs right
                 from the{" "}
                 <a
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                   href="https://p5js.org/"
                 >
                   p5.js
@@ -71,7 +71,7 @@ export default function Curriculum() {
                 Implemented custom logic to save the GIFs in the most efficient
                 way possible. You can{" "}
                 <a
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                   href="https://www.jesirgb.com/blog/gif-encoding"
                 >
                   read more here
@@ -84,7 +84,7 @@ export default function Curriculum() {
               <li>
                 Check the merged{" "}
                 <a
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                   href="https://github.com/processing/p5.js/pull/5709"
                 >
                   {" "}
@@ -104,7 +104,7 @@ export default function Curriculum() {
                 animations and designs as part of{" "}
                 <a
                   href="https://www.youtube.com/c/reducible"
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                 >
                   Reducible
                 </a>
@@ -114,7 +114,7 @@ export default function Curriculum() {
                 Using{" "}
                 <a
                   href="https://www.manim.community"
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                 >
                   Manim
                 </a>{" "}
@@ -137,7 +137,7 @@ export default function Curriculum() {
                 views as part of the{" "}
                 <a
                   href="https://www.youtube.com/c/veritasium"
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                 >
                   Veritasium
                 </a>{" "}
@@ -147,7 +147,7 @@ export default function Curriculum() {
                 Using{" "}
                 <a
                   href="https://www.manim.community"
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                 >
                   Manim
                 </a>{" "}
@@ -164,14 +164,14 @@ export default function Curriculum() {
                 More of the work I've done as a freelancer can be found in my{" "}
                 <a
                   href="/portfolio"
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                 >
                   Portfolio
                 </a>{" "}
                 as well as my{" "}
                 <a
                   href="/blog"
-                  className="font-bold text-purple-200 hover:text-purple-50 transition-all"
+                  className="underline font-bold text-accent-1-lighter hover:text-purple-50 transition-all"
                 >
                   Blog
                 </a>
@@ -216,7 +216,7 @@ export default function Curriculum() {
 
           <div className="mt-20">
             <SectionTitle title={"Education"} color="blue" />
-            <div className="mt-10 text-2xl font-serif font-bold">
+            <div className="mt-10 text-2xl font-serif font-semibold">
               <FontAwesomeIcon icon={faChartPie} className="mr-3" />
               MSc in Data Science
             </div>
@@ -243,7 +243,7 @@ export default function Curriculum() {
               </li>
             </EntryDetails>
 
-            <div className="mt-10 text-2xl font-serif font-bold">
+            <div className="mt-10 text-2xl font-serif font-semibold">
               <FontAwesomeIcon icon={faDesktop} className="mr-3" />
               BSc in Computer Science
             </div>
