@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ContactLink from "./ContactLink";
+import Image from "next/image";
 
 export default function ContactSection() {
   return (
@@ -29,6 +30,13 @@ export default function ContactSection() {
           link={"https://www.linkedin.com/in/jesi-rgb/"}
           icon={faLinkedin}
         />
+      </div>
+
+      <div className="text-center max-w-xl mx-auto text-accent-1-lighter opacity-40 text-xl mt-52 mx-auto mt-20 items-center">
+        Actividad subvencionada por la Diputación Provincial de Jaén
+        <div className="ml-5 mt-5">
+          <Image src="/assets/logo-dipujaen.svg" width={100} height={100} />
+        </div>
       </div>
     </>
   );
