@@ -196,6 +196,20 @@ export default function Blog() {
         "This category includes all the video work I've participated on, either co-producing from scratch or adding some small details",
       works: [
         {
+          title: "The Science Behind Blurring Tools",
+          subtitle: "How can a computer really make things blurry?",
+          thumbnail:
+            "https://i.ytimg.com/vi/xEyUcp4tbTI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgesnO_00WyzpT7Fx-lWyUc3yI2Q",
+          link: "https://youtu.be/xEyUcp4tbTI",
+        },
+        {
+          title: "but what are Blend Modes?",
+          subtitle: "A deeper look into this seemingly random tool.",
+          thumbnail:
+            "https://i.ytimg.com/vi/D7Yg4H8e7uw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCb8ST-7GAFU3eZRLNyM8hKmR0wvA",
+          link: "https://youtu.be/D7Yg4H8e7uw",
+        },
+        {
           title: "Implementing GIF saving in p5.js",
           subtitle:
             "A talk for CCFest 2023 about adding GIF export functionality to the p5.js ecosystem!",
