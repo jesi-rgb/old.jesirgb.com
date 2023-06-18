@@ -7,9 +7,9 @@
 
 @font-face {
   font-family: Bueno;
-  src: url("/fonts/Bueno-Regular.ttf") format("ttf"),
-    url("/fonts/Bueno-Bold.ttf") format("ttf"),
-    url("/fonts/Bueno-Light.ttf") format("ttf");
+  src: url("/static/fonts/Bueno-Regular.ttf") format("ttf"),
+    url("/static/fonts/Bueno-Bold.ttf") format("ttf"),
+    url("/static/fonts/Bueno-Light.ttf") format("ttf");
 }
 
 #index {
