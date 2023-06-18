@@ -16,7 +16,7 @@ export default function IndexPortfolioItem({ category, icon }) {
             icon={icon}
           />
         </span>
-        <span className="text-gray-100 leading-none font-display font-bold text-4xl md:text-6xl text-center group-hover:text-accent-1-lighter transition-all mt-5">
+        <span className="text-gray-100 leading-none font-display text-3xl md:text-6xl text-center group-hover:text-accent-1-lighter transition-all mt-5">
           {category}
         </span>
       </div>

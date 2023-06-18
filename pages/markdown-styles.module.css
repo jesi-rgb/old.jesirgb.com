@@ -108,7 +108,7 @@
 
 .markdown em {
   color: #d2e4ff;
-  @apply font-mono;
+  letter-spacing: 0.05em;
 }
 
 .markdown strong {

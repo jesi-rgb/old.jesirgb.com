@@ -15,7 +15,7 @@ export default function HeroSection() {
         />
         <h1
           style={{ textShadow: "0 0 10px #AEF7D088" }}
-          className="text-8xl shadow-co md:text-9xl text-left leading-none tracking-wide mb-4 font-display font-extrabold text-white"
+          className="text-7xl md:text-8xl shadow-co xl:text-9xl text-left leading-none tracking-wide mb-4 font-display font-extrabold text-white"
         >
           Jesús Enrique Rascón
         </h1>

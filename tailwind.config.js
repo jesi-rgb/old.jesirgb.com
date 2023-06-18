@@ -51,7 +51,7 @@ module.exports = {
       fontFamily: {
         sans: ["Hind", "system-ui", "sans"],
         serif: ["Zodiak", "serif"],
-        display: ["New Title"],
+        display: ["Bueno"],
         mono: ["IBM Plex Mono", "monospaced"],
       },
     },

@@ -18,6 +18,14 @@ export default function Blog() {
       subtitle: "Working on the new internet wave, baby!",
       works: [
         {
+          title: "2023's Processing Fellowship Proposal",
+          subtitle:
+            "Proposal for Mathemagical.js, a new mathematical engine built on the shoulders of p5.js",
+          thumbnail: "/thumbnails-portfolio/fellowship-proposal.png",
+          link: "https://fellowship-proposal.vercel.app/",
+          spanDoubleCol: true,
+        },
+        {
           title: "elmetro",
           subtitle:
             "a tiny little app to check tram timings in my city. made with svelte and my city's API!",
