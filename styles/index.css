@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Bueno;
+  src: url("/fonts/Bueno-Regular.ttf") format("ttf"),
+    url("/fonts/Bueno-Bold.ttf") format("ttf"),
+    url("/fonts/Bueno-Light.ttf") format("ttf");
+}
+
 #index {
   /* background: #0c0c0c; */
   min-height: 100%;
