@@ -6,7 +6,7 @@ import BigTitle from "@/components/LandingPage/BigTitle";
 export default function LandingLink({ text, link, description }) {
   return (
     <a href={link}>
-      <div className="text-left text-7xl xl:text-8xl md:w-1/2 mx-10 md:mx-auto my-20">
+      <div className="text-left text-6xl md:text-7xl xl:text-8xl md:w-1/2 mx-10 md:mx-auto my-20">
         <div className="group w-[50%] flex space-x-2 xl:space-x-10 items-center transition-all duration-500">
           <div className="transform w-3/4 xl:w-[40%] group-hover:text-accent-1-lighter group-hover:translate-x-10 transition-all duration-500">
             <BigTitle title={text} />

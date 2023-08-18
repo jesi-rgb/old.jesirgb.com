@@ -18,14 +18,14 @@ config.autoAddCss = false; /* eslint-disable import/first */
 export default function Footer() {
   return (
     <footer className="border-t border-gray-200 text-gray-300 mt-32">
-      <div className="py-8 space-y-9 lg:space-y-0 md:py-10 flex flex-col lg:flex-row items-center">
+      <div className="py-8 space-y-9 xl:space-y-0 flex flex-col xl:flex-row items-center justify-between">
         <Link href="/">
-          <a className="text-3xl xl:text-5xl text-center mb-2 md:my-0 md:w-2/6 font-display lg:text-left">
+          <a className="text-xl font-bold tracking-tighter text-center mb-2 md:my-0 w-full md:w-1/3 font-sans lg:text-left">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
 
-        <div className="flex flex-row justify-between space-x-8 xl:space-x-5 items-center my-2 md:my-0 md:w-2/6">
+        <div className="flex flex-row justify-between space-x-8 xl:space-x-5 items-center w-full md:w-1/3">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon
@@ -78,7 +78,7 @@ export default function Footer() {
             </a>
           </Link>
         </div>
-        <div className="text-3xl text-center font-regular tracking-wide font-display my-3 lg:w-2/6 lg:my-0 md:text-right">
+        <div className="text-xl font-bold text-center tabular-nums w-full md:w-1/3 md:text-right">
           {new Date().getFullYear()}
         </div>
       </div>
