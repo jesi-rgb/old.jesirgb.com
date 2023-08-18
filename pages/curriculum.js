@@ -16,6 +16,7 @@ import SectionTitle from "@/components/Curriculum/SectionTitle";
 import DateAndPlace from "@/components/Curriculum/DateAndPlace";
 import EntryDetails from "@/components/Curriculum/EntryDetails";
 import EntryTitle from "@/components/Curriculum/EntryTitle";
+import BigTitle from "@/components/LandingPage/BigTitle";
 
 export default function Curriculum() {
   return (
@@ -27,7 +28,7 @@ export default function Curriculum() {
       <Layout>
         <div className="mx-2 xl:mx-auto xl:max-w-2xl text-gray-300">
           <SectionTitle title="Profile" color="green" />
-          <div className="text-xl font-thin">
+          <div className="text-xl">
             <p className="mb-4">
               Hi! I am Jesús, a video producer, web developer, graphic designer
               and musician.

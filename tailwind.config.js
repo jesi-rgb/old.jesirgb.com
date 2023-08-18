@@ -49,10 +49,10 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ["Hind", "system-ui", "sans"],
+        sans: ["Supreme", "system-ui", "sans"],
         serif: ["Zodiak", "serif"],
         display: ["Bueno", "New Title"],
-        mono: ["IBM Plex Mono", "monospaced"],
+        mono: ["Recursive", "monospaced"],
       },
     },
   },

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { faCubes, faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import BigTitle from "@/components/LandingPage/BigTitle";
 
 export default function HeroSection() {
   return (
@@ -13,13 +14,10 @@ export default function HeroSection() {
           height={32}
           className="opacity-40 hover:mix-blend-screen hover:opacity-100 duration-500 mix-blend-hard-light"
         />
-        <h1
-          style={{ textShadow: "0 0 10px #AEF7D088" }}
-          className="text-7xl md:text-8xl shadow-co xl:text-9xl text-left leading-none tracking-wide mb-4 font-display font-extrabold text-white"
-        >
-          Jesús Enrique Rascón
-        </h1>
-        <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans font-thin w-full">
+        <div className="text-7xl xl:text-9xl">
+          <BigTitle title={"Jesús Rascón"} />
+        </div>
+        <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans w-full">
           <p>
             I am a freelance animator at
             <span>

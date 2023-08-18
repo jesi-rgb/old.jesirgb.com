@@ -108,7 +108,6 @@
 
 .markdown em {
   color: #d2e4ff;
-  letter-spacing: 0.05em;
 }
 
 .markdown strong {
@@ -153,7 +152,8 @@
 }
 
 .markdown * > code {
-  @apply font-mono font-bold;
+  @apply font-mono;
+  font-variation-settings: "MONO" 1, "CASL" 0.4, "wght" 650;
   color: #9cdcfe;
 }
 

@@ -10,6 +10,7 @@ import {
 
 import PortfolioItem from "@/components/portfolio/PortfolioItem";
 import IndexPortfolioItem from "@/components/portfolio/IndexPortfolioItem";
+import BigTitle from "@/components/LandingPage/BigTitle";
 
 export default function Blog() {
   let works = [
@@ -44,7 +45,7 @@ export default function Blog() {
       ],
     },
     {
-      category: "Graphic design",
+      category: "Graphic Design",
       subtitle: "Some of my adventures pretending I'm a graphic designer",
       works: [
         {
@@ -199,7 +200,7 @@ export default function Blog() {
     },
 
     {
-      category: "Video production",
+      category: "Video Production",
       subtitle:
         "This category includes all the video work I've participated on, either co-producing from scratch or adding some small details",
       works: [
@@ -304,7 +305,7 @@ export default function Blog() {
     },
 
     {
-      category: "Music production",
+      category: "Music Production",
 
       subtitle:
         "This category includes all my solo projects publicly available on the main streaming platforms. I've also made some commissions for background music for Youtube channels, but that won't appear here.",
@@ -346,11 +347,8 @@ export default function Blog() {
       </Head>
       <Layout>
         <div>
-          <div
-            id="portfolio"
-            className="text-8xl font-display text-white font-bold"
-          >
-            Portfolio
+          <div className="text-7xl mb-5 xl:text-8xl">
+            <BigTitle title={"Portfolio"} />
           </div>
 
           <div className="text-white text-xl font-sans text-left mb-20">

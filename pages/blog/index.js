@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import Head from "next/head";
 import matter from "gray-matter";
 import BlogItem from "@/components/BlogItem";
+import BigTitle from "@/components/LandingPage/BigTitle";
 
 export default function Blog({ slugs }) {
   return (
@@ -11,9 +12,10 @@ export default function Blog({ slugs }) {
         <title>Blogpost</title>
       </Head>
       <Layout>
-        <div className="text-8xl font-bold font-display text-white">
-          Blog
+        <div className="text-8xl">
+          <BigTitle title={"Blog"} />
         </div>
+
         <div className="text-white text-xl font-blogpost text-left my-4 mb-20">
           Developing ideas and exploring my inner self.
         </div>
