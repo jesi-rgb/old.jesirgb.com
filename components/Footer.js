@@ -20,12 +20,12 @@ export default function Footer() {
     <footer className="border-t border-gray-200 text-gray-300 mt-32">
       <div className="py-8 space-y-9 xl:space-y-0 flex flex-col xl:flex-row items-center justify-between">
         <Link href="/">
-          <a className="text-xl font-bold tracking-tighter text-center mb-2 md:my-0 w-full md:w-1/3 font-sans lg:text-left">
+          <a className="text-3xl xl:text-xl font-bold tracking-tighter text-center mb-2 md:my-0 w-full xl:w-1/3 font-sans xl:text-left">
             <h3>Jesús Rascón</h3>
           </a>
         </Link>
 
-        <div className="flex flex-row justify-between space-x-8 xl:space-x-5 items-center w-full md:w-1/3">
+        <div className="flex flex-row justify-around space-x-8 xl:space-x-5 items-center w-[90%] md:w-1/3">
           <Link href="https://www.instagram.com/jrascon_">
             <a>
               <FontAwesomeIcon
@@ -78,7 +78,7 @@ export default function Footer() {
             </a>
           </Link>
         </div>
-        <div className="text-xl font-bold text-center tabular-nums w-full md:w-1/3 md:text-right">
+        <div className="text-xl font-bold text-center tabular-nums w-full md:w-1/3 xl:text-right">
           {new Date().getFullYear()}
         </div>
       </div>
