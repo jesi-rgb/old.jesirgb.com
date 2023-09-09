@@ -6,7 +6,7 @@ import BigTitle from "@/components/LandingPage/BigTitle";
 export default function HeroSection() {
   return (
     <>
-      <div className="xl:w-1/2 mx-10 xl:mx-auto mt-80">
+      <div className="xl:w-1/2 mx-10 xl:mx-auto mt-52">
         <Image
           src="/jesi.svg"
           alt="logo for jesús rascón"
@@ -20,16 +20,6 @@ export default function HeroSection() {
         <div className="mb-8 mt-10 text-left leading-relaxed text-xl xl:text-2xl font-sans w-full">
           <p>
             I am a freelance animator at
-            <span>
-              {" "}
-              <a
-                className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
-                href="https://www.youtube.com/c/Reducible"
-              >
-                <FontAwesomeIcon icon={faCubes} /> Reducible{" "}
-              </a>
-            </span>
-            and{" "}
             <span>
               <a
                 className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
@@ -55,8 +45,14 @@ export default function HeroSection() {
               href="https://www.youtube.com/c/Veritasium"
             >
               Veritasium
+            </a>{" "}
+            and{" "}
+            <a
+              className="font-bold text-accent-1-lighter hover:text-accent-1 transition-all"
+              href="https://www.youtube.com/c/Reducible"
+            >
+              <FontAwesomeIcon icon={faCubes} /> Reducible.
             </a>
-            .
           </p>
           <p>I am also a web developer and designer.</p>
         </div>

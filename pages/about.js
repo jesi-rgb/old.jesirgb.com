@@ -82,7 +82,7 @@ export default function About() {
               and sad songs and even made an album! You can check me out{" "}
               <a
                 href="https://open.spotify.com/artist/2vTS6RaNCyjiF0FkQDujjy?si=YNN6ZVQSRNyTdGdrqgm5SA"
-                className="text-accent-1-lighter hover:text-accent-1-hover font-bold"
+                className="text-accent-1-lighter underline hover:text-accent-1-hover font-bold"
               >
                 here
               </a>
