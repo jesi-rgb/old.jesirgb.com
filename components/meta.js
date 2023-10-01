@@ -23,7 +23,7 @@ export default function Meta() {
       <link rel="manifest" href="/site.webmanifest" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#AEF7D0" />
       <meta name="msapplication-TileColor" content="#AEF7D0" />
-      <meta name="theme-color" content="#AEF7D0" />
+      <meta name="theme-color" content="#021713" />
     </Head>
   );
 }
